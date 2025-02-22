@@ -17,10 +17,6 @@
 <p><a href="/"><button>Go to <b>droid.gemdation.com</b></button></a></p>
 </div>
 
-<script>
-    var fullUrl = window.location.href;
-    var urlWithoutProtocol = fullUrl.replace(/^https?:\/\//, '');
-    document.getElementById('requested-url').textContent = urlWithoutProtocol;
-</script>
+<script>var fullUrl = window.location.href; var urlHeader = fullUrl.replace(/^https?:\/\//, ''); document.getElementById('requested-url').textContent = urlHeader;</script>
 </body>
 </html>
