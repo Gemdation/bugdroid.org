@@ -14,11 +14,15 @@ div.block {border-color: #4F4E4F; border-width: 1px;overflow:hidden;  border-sty
 div.image {background-color: none;}
 table, th, tr, td {text-align: center;}
 
-div.dialog {padding: 0;border-color: #4F4E4F; border-width: 1px;overflow:hidden;  border-style: solid; box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); background-color: black;}
+div.dialog {text-align: left;padding: 0;border-color: #4F4E4F; border-width: 1px;overflow:hidden;  border-style: solid; box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); background-color: black;}
+div.dialog p {margin-left: 9px;}
 h2.dialog {text-align: left;margin-left: 9px;margin-top: 12px;margin-bottom: 5px;}
 hr.dialog {margin-left: 5px;margin-right: 5px;border-color:grey}
 header.dialog {padding: 10px;margin-top: 5px;}
 header.buttons {padding: 10px;text-align: center;}
+img.slides {width: 100%;}
+img.f {width: 100%;}
+
 
 img.stack {position: absolute; top: 0; left: 0;}
 a {text-decoration: none; color: white;color:#a4c639}
