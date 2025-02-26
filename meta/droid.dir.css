@@ -5,5 +5,6 @@ body {background-color:#A4C639; color:white;font-family:'Droid Sans',sans-serif;
 table, th, td {border:1px solid white;border-collapse: collapse;}
 th, td {padding: 2px;}
 a {text-decoration: none;color:#ffffff;}
+a:hover {color:white}
 
 @media (max-width: 768px) {div {width: 100%;}}

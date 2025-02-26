@@ -23,9 +23,10 @@ header.buttons {padding: 10px;text-align: center;}
 img.slides {width: 100%;}
 img.f {width: 100%;}
 
-
+ul {list-style-type: none;text-align: left;}
+li {text-align: left;}
 img.stack {position: absolute; top: 0; left: 0;}
-a {text-decoration: none; color: white;color:#a4c639}
+a {text-decoration: none; color:#a4c639}
 mark {color:#ffe600;background-color: rgba(0, 0, 0, 0);font-weight: bold;}
 
 @media (max-width: 768px) {div {width: 100%;}}
