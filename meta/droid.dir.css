@@ -7,4 +7,6 @@ th, td {padding: 2px;}
 a {text-decoration: none;color:#ffffff;}
 a:hover {color:white}
 
+/* This CSS is borrowed mostly from The Q */
+/* See it at http://q.gemdation.com/q.css */
 @media (max-width: 768px) {div {width: 100%;}}
