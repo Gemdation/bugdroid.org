@@ -5,8 +5,9 @@ body {background-color: black; color: white; text-align: center; font-family: "D
 header {color:white;background: linear-gradient(to bottom, #9c9c9c, #878787); width: 100%; padding: 2px; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px rgba(0,0,0,0.61);}
 header a {color:white}
 header a:hover {color:#a4c639}
-button {margin-bottom: 4px;background: linear-gradient(to bottom, #f1f1f1, #b8b8b8); padding: 9px; color: black; cursor: pointer; border:none; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
-button:active {background: linear-gradient(to bottom, #ff9e00, #fba622);}
+button {font-family: 'Droid Sans', sans-serif;margin-bottom: 4px;background: linear-gradient(to bottom, #f1f1f1, #b8b8b8); padding: 9px; color: black; cursor: pointer; border:none; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+button:hover {background: linear-gradient(to bottom, #ffb769, #ec6100);}
+button:active {background: linear-gradient(to bottom, #ffd554, #e99d00);}
 button:disabled {cursor: not-allowed;background: linear-gradient(to bottom, #535353, #636363);}
 
 div {box-sizing: border-box; margin: auto; margin-top: 10px; margin-bottom: 10px; padding: 6px; width: 40%; overflow: auto;}
