@@ -13,7 +13,9 @@ button:disabled {cursor: not-allowed;background: linear-gradient(to bottom, #535
 div {box-sizing: border-box; margin: auto; margin-top: 10px; margin-bottom: 10px; padding: 6px; width: 40%; overflow: auto;}
 div.block {border-color: #4F4E4F; border-width: 1px;overflow:hidden;  border-style: solid; box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); background-color: black;}
 div.image {background-color: none;}
-table, th, tr, td {text-align: center;}
+table, th, td {text-align: center;border:1px solid white;border-collapse: collapse;}
+td.g {width: 150px; height: 150px; vertical-align: middle;}
+
 
 div.dialog {text-align: left;padding: 0;border-color: #4F4E4F; border-width: 1px;overflow:hidden;  border-style: solid; box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); background-color: black;}
 div.dialog p {margin-left: 9px;margin-right: 9px;}
