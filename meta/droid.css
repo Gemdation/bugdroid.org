@@ -4,13 +4,13 @@
 body {background-color: black; color: white; text-align: center; font-family: "Droid Sans", sans-serif; font-weight: 400; font-style: normal;}
 header {color:white;background: linear-gradient(to bottom, #9c9c9c, #878787); width: 100%; padding: 2px; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px rgba(0,0,0,0.61);}
 header a {color:white}
-header a:hover {color:#a4c639}
+header a:hover {color:#A4C639}
 button {font-family: 'Droid Sans', sans-serif;margin-bottom: 4px;background: linear-gradient(to bottom, #f1f1f1, #b8b8b8); padding: 9px; color: black; cursor: pointer; border:none; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
 button:hover {background: linear-gradient(to bottom, #ffb769, #ec6100);}
 button:active {background: linear-gradient(to bottom, #ffd554, #e99d00);}
 button:disabled {cursor: not-allowed;background: linear-gradient(to bottom, #535353, #636363);}
 
-div {box-sizing: border-box; margin: auto; margin-top: 10px; margin-bottom: 10px; padding: 6px; width: 40%; overflow: auto;}
+div {box-sizing: border-box; margin: auto; margin-top: 10px; margin-bottom: 10px; padding: 6px; width: 30%; overflow: auto;}
 div.block {border-color: #4F4E4F; border-width: 1px;overflow:hidden;  border-style: solid; box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); background-color: black;}
 div.image {background-color: none;}
 table, th, td {text-align: center;border:1px solid white;border-collapse: collapse;}
@@ -26,7 +26,6 @@ header.buttons {padding: 10px;text-align: center;}
 img.slides {width: 100%;}
 img.f {width: 100%;}
 
-img.stack {position: absolute; top: 0; left: 0;}
 a {text-decoration: none; color:#a4c639}
 mark {color:#ffe600;background-color: rgba(0, 0, 0, 0);font-weight: bold;}
 mark.green {color:#a4c639}
