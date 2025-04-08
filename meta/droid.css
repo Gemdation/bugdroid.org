@@ -1,33 +1,41 @@
 @font-face {font-family: 'Droid Sans'; src: url('droid-sans.ttf') format('truetype'), url('droid-sans-bold.ttf') format('truetype'); font-weight: normal; font-style: normal;}
 @font-face {font-family: 'Droid Sans'; src: url('droid-sans-bold.ttf') format('truetype'); font-weight: bold; font-style: normal;}
 
-body {background-color: black; color: white; text-align: center; font-family: "Droid Sans", sans-serif; font-weight: 400; font-style: normal;}
-header {color:white;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; padding: 2px; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px #0000009c;}
+body {margin:0;padding-top: 30px;background-color: black;color:white;text-align:center;font-family:"Droid Sans",sans-serif;font-weight:400;font-style: normal;}
+header {padding-top: 3px;padding-bottom:3px;color:white;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px #0000009c;}
 header a {color:white}
 header a:hover {color:#A4C639}
-button {font-family: 'Droid Sans', sans-serif;margin-bottom: 4px;background: linear-gradient(to bottom, #F1F1F1, #B8B8B8); padding: 9px; color: black; cursor: pointer; border:none; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px #0000003b;}
+header.nav {position:fixed;z-index: 1000;top: 0}
+button {font-family:'Droid Sans', sans-serif;margin-bottom: 4px;background: linear-gradient(to bottom, #F1F1F1, #B8B8B8); padding: 9px; color: black; cursor: pointer; border:none; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px #0000003b;}
 button:hover {background: linear-gradient(to bottom, #FFB769, #EC6100);}
 button:active {background: linear-gradient(to bottom, #ffd554, #E99D00);}
 button:disabled {cursor: not-allowed;background: linear-gradient(to bottom, #535353, #636363);}
 
-div {box-sizing: border-box; margin: auto; margin-top: 10px; margin-bottom: 10px; padding: 6px; width: 30%; overflow: auto;}
-div.block {border-color: #4F4E4F; border-width: 1px;overflow:hidden;  border-style: solid; background-color: black;}
+
+div {margin:auto;width:50%;box-sizing: border-box;padding: 6px;margin-top:10px;margin-bottom:10px;border-color:#4F4E4F; border-width:1px;overflow:hidden;border-style:solid;}
+div.dir {padding: 0;overflow:hidden;border-style: solid; background-color: black;}
+div.dir:hover {-webkit-box-shadow: 0px 0px 11px 4px #A4C639;-moz-box-shadow: 0px 0px 11px 4px #A4C639;box-shadow: 0px 0px 11px 4px #A4C639;}
+div.dir:active {-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+div.dir:hover header {color:#A4C639}
+
+
 div.image {background-color: none;}
+div.dialog {text-align: left;padding: 0;border-color: #4F4E4F; border-width: 1px;overflow:hidden;border-style: solid; background-color: black;}
+div.slide {background-color: white;padding:0;border: #4F4E4F 1px solid;overflow:hidden; box-shadow: 10px 10px 5px 0px #000000BF;-webkit-box-shadow: 10px 10px 5px 0px #000000BF; -moz-box-shadow: 10px 10px 5px 0px #000000BF;}
+div.dialog p {margin-left: 9px;margin-right: 9px;}
+div.clear {padding:0;border:none}
+div#Synopsis {font-style:italic;}
+
+
 table, th, td {text-align: center;border:1px solid white;border-collapse: collapse;}
 td.g {width: 150px; height: 150px; vertical-align: middle;}
-
-
-div.dialog {text-align: left;padding: 0;border-color: #4F4E4F; border-width: 1px;overflow:hidden;  border-style: solid; background-color: black;}
-div.slide {background-color: white;padding:0;border: #4F4E4F 1px solid;overflow:hidden; box-shadow: 10px 10px 5px 0px #000000BF; -webkit-box-shadow: 10px 10px 5px 0px #000000BF; -moz-box-shadow: 10px 10px 5px 0px #000000BF;}
-div.dialog p {margin-left: 9px;margin-right: 9px;}
 h2.dialog {text-align: left;margin-left: 9px;margin-top: 12px;margin-bottom: 5px;}
 hr.dialog {margin-left: 5px;margin-right: 5px;border-color:grey}
 header.dialog {padding: 10px;margin-top: 5px;}
 header.buttons {padding: 10px;text-align: center;}
 img.slides {width: 100%;}
 img.f {width: 100%;}
-div#Synopsis {font-style:italic;}
 
-a {text-decoration: none; color:#a4c639}
+a {text-decoration: none; color:#A4C639}
 mark {color:#FFE600;background-color:#00000000;font-weight:bold}
 mark.green {color:#A4C639}
