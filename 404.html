@@ -20,30 +20,24 @@
 </div>
 
 <script>
-    // Get the full URL
     var fullUrl = window.location.href;
     var urlHeader = fullUrl.replace(/^https?:\/\//, '');
     document.getElementById('requested-url').textContent = urlHeader;
 
-    // Create breadcrumb navigation
     var pathSegments = window.location.pathname.split('/').filter(segment => segment);
     var baseUrl = window.location.origin;
     var breadcrumbNav = document.getElementById('breadcrumb-nav');
 
-    // Start with the base URL
     var breadcrumbHtml = `<a href="/">bugdroid.org</a>`;
 
-    // Build the breadcrumb links
     var currentPath = '';
     for (var i = 0; i < pathSegments.length; i++) {
         currentPath += '/' + pathSegments[i];
         breadcrumbHtml += ` / <a href="${currentPath}">${pathSegments[i]}</a>`;
     }
 
-    // Add the current page (not a link)
     breadcrumbHtml += ` / ${pathSegments[pathSegments.length - 1]}`;
 
-    // Set the breadcrumb HTML
     breadcrumbNav.innerHTML = breadcrumbHtml;
 </script>
 
