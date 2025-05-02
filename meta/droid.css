@@ -48,3 +48,4 @@ a {text-decoration: none; color:#A4C639}
 mark {color:#FFE600;background-color:#00000000;font-weight:bold}
 mark.green {color:#A4C639}
 mark.red {color:#df2d2d}
+::selection{background: #A4C639}
