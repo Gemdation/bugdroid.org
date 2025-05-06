@@ -14,16 +14,18 @@
     <link rel="icon" type="image/x-icon" href="meta/package.ico">
 </head>
 <body>
-<header class="nav">bugdroid.org</header>
+<nav>bugdroid.org</nav>
 
-<div class="clear"><a href="designs"><img src="media/images/generic/af-shopsmall.png"></a></div>
+<div class="clear"><img src="media/images/generic/af-shopsmall.png" id="droidImg"><audio id="droidSound" src="media/audio/droid.mp3"></audio></div>
+
+<script>const clickableImage = document.getElementById('droidImg'); const sound = document.getElementById('droidSound'); clickableImage.addEventListener('click', function() {const newSound = new Audio(sound.src); newSound.play();});</script>
 
 <div>
     <h1>Droid Pack</h1>
     <p>This website is dedicated to the iconic Bugdroid, mascot of Android. Here you will find figurines, wallpapers,
        merchandise, and what not. <mark class="green">All revolving around the cute green robot!</mark></p>
     <a href="about"><button>About</button></a>
-    <p>Click a directory below to start exploring, use the <span style="color:white;background:linear-gradient(to bottom,#9C9C9C,#878787);text-shadow: 0px 0px 11px #0000009c;padding:2px"><b>header</b></span> to navigate back through directories.</p>
+    <p>Click a directory below to start exploring, use the <span style="color:white;background:linear-gradient(to bottom,#9C9C9C,#878787);text-shadow: 0px 0px 11px #0000009c;padding:2px"><b>header</b></span> to headerigate back through directories.</p>
 </div>
 
 <div class="block" style="border-color: #FFE600">
@@ -31,7 +33,7 @@
     <p>There are a few <mark>Buy</mark> buttons on the site, some of them link to stores that
        <a href="decorations/android-progress/encrypt-your-bits">don't support HTTPS</a>, notably
        <a href="http://www.androidfiguren.de">AndroidFiguren.de</a>. Before you enter your card details,
-       make sure you <i>really</i> trust the website...and your router's security.</p>
+       make sure you <em>really</em> trust the website...and your router's security.</p>
 </div>
 
 <div class="dir"><a href="accessories"><header>/accessories</header><img src="meta/subpage-accessories.png" class="f"></a></div>

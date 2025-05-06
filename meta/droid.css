@@ -2,15 +2,17 @@
 @font-face {font-family: 'Droid Sans'; src: url('droid-sans-bold.ttf') format('truetype'); font-weight: bold; font-style: normal;}
 
 body {margin:0;padding-top: 30px;background-color: black;color:white;text-align:center;font-family:"Droid Sans",sans-serif;font-weight:400;font-style: normal;}
-header {padding-top: 2px;padding-bottom:2px;padding-left: 2px;color:white;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px #0000009c;}
+header {padding-top: 2px;padding-bottom:2px;padding-left: 2px;color:white;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px black}
 header a {color:white}
 header a:hover {color:#A4C639}
-header.nav {position:fixed;z-index: 1000;top: 0}
+nav {position:fixed;z-index: 1000;top: 0;padding-top: 2px;padding-bottom:2px;padding-left: 2px;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px black}
+nav a {color:white}
+nav a:hover {color:#A4C639}
+
 button {font-family:'Droid Sans', sans-serif;margin-bottom: 4px;background: linear-gradient(to bottom, #F1F1F1, #B8B8B8); padding: 9px; color: black; cursor: pointer; border:none; box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003B}
 button:hover {background: linear-gradient(to bottom, #FFB769, #EC6100);}
 button:active {background: linear-gradient(to bottom, #ffd554, #E99D00);}
 button:disabled {cursor: not-allowed;background: linear-gradient(to bottom, #535353, #636363);}
-
 
 div {margin:auto;width:40%;box-sizing: border-box;padding: 6px;margin-top:10px;margin-bottom:10px;border-color:#4F4E4F; border-width:1px;overflow:hidden;border-style:solid;}
 div.dir {padding: 0;overflow:hidden;border-style: solid; background-color: black;}
