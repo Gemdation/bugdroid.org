@@ -29,6 +29,7 @@ div#Product {color:white;padding-bottom: 8px;}
 #Gallery, #About, #Info, #Product {text-align:left;padding:0;overflow:hidden}
 #Gallery h2, #About h2, #Info h2 {text-align: left;margin-left: 9px;margin-top: 12px;margin-bottom: 5px;}
 div.block p, #Product p {margin-left: 9px;margin-right: 9px;margin-bottom: 5px;}
+div.browse {box-sizing: content-box;padding: 0;border: none;width: 95%;}
 div.clear {padding:0;border:none}
 
 details {text-align: center;padding-top: 0;padding-bottom: 8px;font-style: italic;}
