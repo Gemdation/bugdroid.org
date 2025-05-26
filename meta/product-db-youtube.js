@@ -8,9 +8,9 @@ const productData = {
     price: "$21.99",
     synopsis: "This YouTube Trucker Hat keeps you ventilated and looking good at the same time!",
     images: [
-      "media/images/products/GGOEYHPA003510.jpg",
-      "media/images/products/GGOEYHPA003510-2.jpg",
-      "media/images/products/GGOEYHPA003510-3.jpg" // 4th image exists but can't be shown
+      "media/products/GGOEYHPA003510.jpg",
+      "media/products/GGOEYHPA003510-2.jpg",
+      "media/products/GGOEYHPA003510-3.jpg" // 4th image exists but can't be shown
     ]
   },
   "bottle-infuser": {
@@ -21,9 +21,9 @@ const productData = {
     price: "$4.99",
     synopsis: "Convenience in a mini bottle. This 22 oz. water bottle features an infuser basket for your fav fruit infused beverage.",
     images: [
-      "media/images/products/GGOEYDHJ056099.jpg",
-      "media/images/products/GGOEYDHJ056099-2.jpg",
-      "media/images/products/GGOEYDHJ056099-3.jpg"
+      "media/products/GGOEYDHJ056099.jpg",
+      "media/products/GGOEYDHJ056099-2.jpg",
+      "media/products/GGOEYDHJ056099-3.jpg"
     ]
   },
   "heather-cap": {
@@ -34,9 +34,9 @@ const productData = {
     price: "$24.99",
     synopsis: "This YouTube Cap is a hat with a twist. Made of a wool-poly blend, this hat works as a baseball cap or a fashion accessory. Heather with a black brim.",
     images: [
-      "media/images/products/GGOEYHPA003610.jpg",
-      "media/images/products/GGOEYHPA003610-2.jpg",
-      "media/images/products/GGOEYHPA003610-3.jpg"
+      "media/products/GGOEYHPA003610.jpg",
+      "media/products/GGOEYHPA003610-2.jpg",
+      "media/products/GGOEYHPA003610-3.jpg"
     ]
   },
   "leatherette-notebook": {
@@ -47,9 +47,9 @@ const productData = {
     price: "$6.99",
     synopsis: "This YouTube notebook combo is slim and compact for travel or elegant enough for any desk!",
     images: [
-      "media/images/products/GGOEYOLR018699.jpg",
-      "media/images/products/GGOEYOLR018699-2.jpg",
-      "media/images/products/GGOEYOLR018699-3.jpg"
+      "media/products/GGOEYOLR018699.jpg",
+      "media/products/GGOEYOLR018699-2.jpg",
+      "media/products/GGOEYOLR018699-3.jpg"
     ]
   },
   "custom-decals": {
@@ -60,9 +60,9 @@ const productData = {
     price: "$1.99",
     synopsis: "Stick this YouTube vinyl stickers to your belongings to show your YouTube love!",
     images: [
-      "media/images/products/GGOEYFKQ020699.jpg",
-      "media/images/products/GGOEYFKQ020699-2.jpg",
-      "media/images/products/GGOEYFKQ020699.jpg", // it has to be 3 images for some reason
+      "media/products/GGOEYFKQ020699.jpg",
+      "media/products/GGOEYFKQ020699-2.jpg",
+      "media/products/GGOEYFKQ020699.jpg", // it has to be 3 images for some reason
     ]
   },
   "twill-cap": {
@@ -73,9 +73,9 @@ const productData = {
     price: "$10.99",
     synopsis: "Classic urban styling distinguishes this YouTube cap. Retains its shape, even when not being worn.",
     images: [
-      "media/images/products/GGOEYHPB072210.jpg",
-      "media/images/products/GGOEYHPB072210-2.jpg",
-      "media/images/products/GGOEYHPB072210-3.jpg"
+      "media/products/GGOEYHPB072210.jpg",
+      "media/products/GGOEYHPB072210-2.jpg",
+      "media/products/GGOEYHPB072210-3.jpg"
     ]
   },
   "sergeant-bottle": {
@@ -87,9 +87,9 @@ const productData = {
     about: "It is a red leather notebook with the YouTube logo on it. It has a pouch inside and is sealed entirely with a zipper.",
     synopsis: "Sip on your durable YouTube water bottle while watching your favorite YouTube videos!",
     images: [
-      "media/images/products/GGOEYDHJ019399.jpg",
-      "media/images/products/GGOEYDHJ019399-2.jpg",
-      "media/images/products/GGOEYDHJ019399-3.jpg"
+      "media/products/GGOEYDHJ019399.jpg",
+      "media/products/GGOEYDHJ019399-2.jpg",
+      "media/products/GGOEYDHJ019399-3.jpg"
     ]
   },
   "rfid-journal": {
@@ -100,9 +100,9 @@ const productData = {
     price: "$19.99",
     synopsis: "Google promotes data security, and this YouTube journal is another way you can keep your data safe from remote RFID scanning.",
     images: [
-      "media/images/products/GGOEYOCR077399.jpg",
-      "media/images/products/GGOEYOCR077399-2.jpg",
-      "media/images/products/GGOEYOCR077399-3.jpg"
+      "media/products/GGOEYOCR077399.jpg",
+      "media/products/GGOEYOCR077399-2.jpg",
+      "media/products/GGOEYOCR077399-3.jpg"
     ]
   },
   "hard-cover-journal": {
@@ -113,9 +113,9 @@ const productData = {
     price: "$14.99",
     synopsis: "Store anything form business cards in the interior pocket to your wildest imagination on the 192 pages this YouTube Hard Cover Journal has to offer.",
     images: [
-      "media/images/products/GGOEYOCR077799.jpg",
-      "media/images/products/GGOEYOCR077799-2.jpg",
-      "media/images/products/GGOEYOCR077799-3.jpg"
+      "media/products/GGOEYOCR077799.jpg",
+      "media/products/GGOEYOCR077799-2.jpg",
+      "media/products/GGOEYOCR077799-3.jpg"
     ]
   },
   "spiral-journal": {
@@ -126,9 +126,9 @@ const productData = {
     price: "$12.99",
     synopsis: "Let your thoughts run wild in this YouTube Spiral Journal with Pen set. Easily find your favorite thought with the elastic closure as a bookmark.",
     images: [
-      "media/images/products/GGOEYOCR078099.jpg",
-      "media/images/products/GGOEYOCR078099-2.jpg",
-      "media/images/products/GGOEYOCR078099-3.jpg"
+      "media/products/GGOEYOCR078099.jpg",
+      "media/products/GGOEYOCR078099-2.jpg",
+      "media/products/GGOEYOCR078099-3.jpg"
     ]
   },
   "luggage-tag": {
@@ -139,9 +139,9 @@ const productData = {
     price: "$8.99",
     synopsis: "This stylish YouTube luggage tag is the perfect addition to your suitcase or bag when traveling, also doubling as a business card holder.",
     images: [
-      "media/images/products/GGOEYOBR078599.jpg",
-      "media/images/products/GGOEYOBR078599-2.jpg",
-      "media/images/products/GGOEYOBR078599-3.jpg"
+      "media/products/GGOEYOBR078599.jpg",
+      "media/products/GGOEYOBR078599-2.jpg",
+      "media/products/GGOEYOBR078599-3.jpg"
     ]
   },
   "notebook-aps": {
@@ -152,9 +152,9 @@ const productData = {
     price: "$7.99",
     synopsis: "This small YouTube Notebook is the perfect size for any desk or while traveling. Included is a pen to write down notes or thoughts.",
     images: [
-      "media/images/products/GGOEYOLR080599.jpg",
-      "media/images/products/GGOEYOLR080599-2.jpg",
-      "media/images/products/GGOEYOLR080599-3.jpg",
+      "media/products/GGOEYOLR080599.jpg",
+      "media/products/GGOEYOLR080599-2.jpg",
+      "media/products/GGOEYOLR080599-3.jpg",
     ]
   }
 };
