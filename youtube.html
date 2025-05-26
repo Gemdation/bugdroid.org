@@ -21,6 +21,7 @@
         div#prod {width: 100%;display: none;}
         #Gallery, #About, #Info {display: block;}
         ::selection{background: #CE3732}
+        #prod-images {display: block;}
     </style>
 </head>
 <body>
@@ -31,6 +32,15 @@
 <span class="browse">
     <h1>YouTube Merchandise</h1>
 
+    <img src="media/products/GGOEGAAX0290.jpg" class="prev" id="hero-tee-charcoal-womens">
+
+    <img src="media/products/GGOEGAAX0330.jpg" class="prev" id="long-tee-charcoal">
+    <img src="media/products/GGOEGAAX0325.jpg" class="prev" id="hero-tee-charcoal">
+    <img src="media/products/GGOEGAAX0317.jpg" class="prev" id="hero-tee-white">
+    <img src="media/products/GGOEGAAX0318.jpg" class="prev" id="hero-tee-black">
+    <img src="media/products/GGOEGAAX0284.jpg" class="prev" id="hero-tee-black-womens">
+    <img src="media/products/GGOEGAAX0356.jpg" class="prev" id="vintage-tank">
+    <img src="media/products/GGOEGAAX0351.jpg" class="prev" id="vintage-henley">
     <img src="media/products/GGOEYHPA003510.jpg" class="prev" id="trucker-hat">
     <img src="media/products/GGOEYDHJ056099.jpg" class="prev" id="bottle-infuser">
     <img src="media/products/GGOEYHPA003610.jpg" class="prev" id="heather-cap">
@@ -52,16 +62,13 @@
     <button onclick="returnToBrowse()">Close</button>
     
     <div class="block" id="Gallery">
-        <img id="prod-img-1" class="slides">
-        <img id="prod-img-2" class="slides">
-        <img id="prod-img-3" class="slides">
-
+        <img id="prod-images" style="width:100%">
         <header class="buttons"><button onclick="prevSlide()">◀</button> <button onclick="nextSlide()">▶</button></header>
     </div>
 
     <div class="block" id="About">
         <h2><span id="prod-name"></span></h2>
-        <p style="font-style: italic;"><span id="prod-descrip"></span></p>
+        <p style="font-style:italic"><span id="prod-descrip"></span></p>
         <ul>
             <li><mark>Manufacturer:</mark> <span id="prod-maker"></span></li>
             <li><mark>Release Year:</mark> <span id="prod-year"></span></li>
