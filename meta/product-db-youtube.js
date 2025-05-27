@@ -1,5 +1,239 @@
 // Used for the YouTube merch archives.
 const productData = {
+  "marled-tee": {
+    name: "YouTube Marled Black Tee",
+    maker: "Robertson Marketing",
+    year: "2023",
+    id: "GGOEYXXX2046",
+    price: "$30.00",
+    synopsis: "24-hours comfortable, this heathered YouTube tee makes a great companion for busy work days or leisure weekends.",
+    images: [
+      "media/products/GGOEYXXX2046.jpg",
+      "media/products/GGOEYXXX2046-2.jpg",
+      "media/products/GGOEYXXX2046-3.jpg"
+    ]
+  },
+  "traveller-tumbler": {
+    name: "YouTube Traveller Tumbler",
+    maker: "Robertson Marketing",
+    year: "2023",
+    id: "GGOEYDNB210999",
+    price: "$32.00",
+    synopsis: "It's called the traveller for a reason & this YouTube tumbler is perfect to take just about anywhere! Store your favorite hot or cold beverages in a vessel that also doubles as a super soup container.",
+    images: [
+      "media/products/GGOEYDNB210999.jpg",
+      "media/products/GGOEYDNB210999-2.jpg",
+      "media/products/GGOEYDNB210999-3.jpg"
+    ]
+  },
+  "icon-mug": {
+    name: "YouTube Icon Mug",
+    maker: "Robertson Marketing",
+    year: "2023",
+    id: "GGOEYDWB210799",
+    price: "$14.00",
+    synopsis: "When you just want to kick-back, get cozy and watch YouTube, our Icon mug will be your tried and true partner",
+    images: [
+      "media/products/GGOEYDWB210799.jpg",
+      "media/products/GGOEYDWB210799-2.jpg",
+      "media/products/GGOEYDWB210799-3.jpg"
+    ]
+  },
+  "eco-wood-magnet": {
+    name: "YouTube Icon Eco Wood Magnet",
+    maker: "Robertson Marketing",
+    year: "2023",
+    id: "GGOEYOBA215899",
+    price: "$7.00",
+    synopsis: "YouTube enthusiast?  Definitely add this repurposed wood magnet to your collection.  It's bound to make you and your fridge happy.",
+    images: [
+      "media/products/GGOEYOBA215899.jpg",
+      "media/products/GGOEYOBA215899-2.jpg",
+      "media/products/GGOEYOBA215899-3.jpg"
+    ]
+  },
+  "far-out-sweatshirt": {
+    name: "YouTube Far Out Tie-Dye Sweatshirt",
+    maker: "Robertson Marketing",
+    year: "~2022",
+    id: "GGOEYXXX2043",
+    price: "$69.00",
+    synopsis: "Your wardrobe will thank you after you add this one-of-a-kind, inky finish tie-dye YouTube sweatshirt.  Truly far out!",
+    images: [
+      "media/products/GGOEYXXX2043.jpg",
+      "media/products/GGOEYXXX2043-2.jpg",
+      "media/products/GGOEYXXX2043-3.jpg"
+    ]
+  },
+  "black-le-pen": {
+    name: "YouTube Black Le Pen",
+    maker: "Robertson Marketing",
+    year: "~2022",
+    id: "GGOEYOAB200699",
+    price: "$4.00",
+    synopsis: "Once you've tried these smooth micro-fine YouTube Le Pen pens, you may never want to use anything else again! Don't say we didn't warn you....", // has four dots on purpose
+    images: [
+      "media/products/GGOEYOAB200699.jpg",
+      "media/products/GGOEYOAB200699-2.jpg",
+      "media/products/GGOEYOAB200699-3.jpg"
+    ]
+  },
+  "icon-patch": {
+    name: "YouTube Icon Patch",
+    maker: "Robertson Marketing",
+    year: "~2022",
+    id: "GGOEYCBA198999",
+    price: "$4.50",
+    synopsis: "Embroidered patches are a fab way to personalise a piece of your clothing. Give your favorite jacket, hat or bag a makeover with this fun and colorful YouTube Icon patch.",
+    images: [
+      "media/products/GGOEYCBA198999.jpg",
+      "media/products/GGOEYCBA198999-2.jpg",
+      "media/products/GGOEYCBA198999-3.jpg"
+    ]
+  },
+  "lake-blue-tee": {
+    name: "YouTube Lake Blue Tee",
+    maker: "Robertson Marketing",
+    year: "~2022",
+    id: "GGOEYXXX1796",
+    price: "$25.00",
+    synopsis: "No synopsis found.",
+    images: [
+      "media/products/GGOEYXXX1796.jpg",
+      "media/products/GGOEYXXX1796-2.jpg",
+      "media/products/GGOEYXXX1796-3.jpg"
+    ]
+  },
+  "zipper-pull": {
+    name: "YouTube Zipper Pull",
+    maker: "Robertson Marketing",
+    year: "~2022",
+    id: "GGOEYCBA180799",
+    price: "$5.00",
+    synopsis: "Upgrade your gear with this YouTube zipper pull.  This tab is the perfect way to show brand love on your bag, backpack or jacket!",
+    images: [
+      "media/products/GGOEYCBA180799.jpg",
+      "media/products/GGOEYCBA180799-2.jpg",
+      "media/products/GGOEYCBA180799-3.jpg"
+    ]
+  },
+  "tie-dye-socks": {
+    name: "YouTube Tie-Dye Woven Socks",
+    maker: "Robertson Marketing",
+    year: "~2022",
+    id: "GGOEYAKA179210",
+    price: "$18.00",
+    synopsis: "Your feet are in for a surprise!  These YouTube Tie-Dye woven socks will definitely add some pep to your step and make your sock drawer happy.",
+    images: [
+      "media/products/GGOEYAKA179210.jpg",
+      "media/products/GGOEYAKA179210-2.jpg",
+      "media/products/GGOEYAKA179210-3.jpg"
+    ]
+  },
+  "black-zip-hoodie": {
+    name: "YouTube Black Zip Hoodie",
+    maker: "Robertson Marketing",
+    year: "~2022",
+    id: "GGOEYXXX1801",
+    price: "$69.00",
+    synopsis: "Our new embroidered YouTube hoodie is butter washed, making it so irresistibly soft. This zip-up is sure to become your go-to wardrobe hero!",
+    images: [
+      "media/products/GGOEYXXX1801.jpg",
+      "media/products/GGOEYXXX1801-2.jpg",
+      "media/products/GGOEYXXX1801-3.jpg"
+    ]
+  },
+  "express-sweatshirt": {
+    name: "YouTube Expressive Sweatshirt",
+    maker: "Robertson Marketing",
+    year: "~2021",
+    id: "GGOEYXXX1799",
+    price: "$63.00",
+    synopsis: "Express yourself while wearing this awesome limited-edition graphic YouTube Sweatshirt! Even better, it’s made from eco-friendly fabric.",
+    images: [
+      "media/products/GGOEYXXX1799.jpg",
+      "media/products/GGOEYXXX1799-2.jpg",
+      "media/products/GGOEYXXX1799-3.jpg"
+    ]
+  },
+  "tie-dye-tee": {
+    name: "YouTube Tie-Dye Tee",
+    maker: "Robertson Marketing",
+    year: "~2021",
+    id: "GGOEYXXX1795",
+    price: "$32.00",
+    synopsis: "We know you love tie-dye and so do we! Get groovy in this laidback YouTube Tie-Dye t-shirt. What’s even better, each shirt is unique, just like you.",
+    images: [
+      "media/products/GGOEYXXX1795.jpg",
+      "media/products/GGOEYXXX1795-2.jpg",
+      "media/products/GGOEYXXX1795-3.jpg"
+    ]
+  },
+  "ultralight-sweatshirt": {
+    name: "YouTube Shadow Tumbler",
+    maker: "Robertson Marketing",
+    year: "~2021",
+    id: "GGOEYXXX1734",
+    price: "$53.00",
+    synopsis: "We’ve done it again with one of our treasured ultralight sweatshirts!  This time, we have the iconic YouTube logo embroidered for the world to see.",
+    images: [
+      "media/products/GGOEYXXX1734.jpg",
+      "media/products/GGOEYXXX1734-2.jpg",
+      "media/products/GGOEYXXX1734-3.jpg"
+    ]
+  },
+  "eco-duffel": {
+    name: "YouTube Lake Blue Tee",
+    maker: "Robertson Marketing",
+    year: "2021",
+    id: "GGOEYBMB177599",
+    price: "$25.00",
+    synopsis: "Delightful duffel bag alert!  This convenient size makes it a no-brainer to take for lighter hauls. It's got great features like a removable shoulder strap and most importantly, an embroidered YouTube logo!",
+    images: [
+      "media/products/GGOEYBMB177599.jpg",
+      "media/products/GGOEYBMB177599-2.jpg",
+      "media/products/GGOEYBMB177599-3.jpg"
+    ]
+  },
+  "shadow-tumbler": {
+    name: "YouTube Shadow Tumbler",
+    maker: "Robertson Marketing",
+    year: "~2021",
+    id: "GGOEYDNA175399",
+    price: "$28.00",
+    synopsis: "Savor that morning brew a little bit longer with this insulated YouTube Tumbler. Your commute by car or foot will be nice and easy with this tumbler, that fits perfectly in the palm of your hands.",
+    images: [
+      "media/products/GGOEYDNA175399.jpg",
+      "media/products/GGOEYDNA175399-2.jpg",
+      "media/products/GGOEYDNA175399-3.jpg"
+    ]
+  },
+  "metal-loop-bottle": {
+    name: "YouTube Metal Loop Bottle",
+    maker: "Robertson Marketing",
+    year: "~2020",
+    id: "GGOEYDHB174899",
+    price: "$13.00",
+    synopsis: "Keep your drink secure while filming your next vlog with this YouTube Metal Loop bottle. You’ll need to stay hydrated while creating that new content!",
+    images: [
+      "media/products/GGOEYDHB174899.jpg",
+      "media/products/GGOEYDHB174899-2.jpg",
+      "media/products/GGOEYDHB174899-3.jpg"
+    ]
+  },
+  "black-sunglasses": {
+    name: "YouTube Black Sunglasses",
+    maker: "Robertson Marketing",
+    year: "~2021",
+    id: "GGOEYHGB174299",
+    price: "$5.00",
+    synopsis: "With its iconic shape and retro design, these black YouTube sunglasses are guaranteed to be a timeless silhouette.",
+    images: [
+      "media/products/GGOEYHGB174299.jpg",
+      "media/products/GGOEYHGB174299-2.jpg",
+      "media/products/GGOEYHGB174299-3.jpg"
+    ]
+  },
   "jotter-pad": {
     name: "YouTube Jotter Task Pad",
     maker: "Robertson Marketing",
