@@ -61,8 +61,7 @@ const productData = {
     synopsis: "Wear this pin to show you're a player.", // lmfao
     images: [
       "media/products/GGOEYCBR138999.jpg",
-      "media/products/GGOEYCBR138999-2.jpg",
-      "media/products/GGOEYCBR138999-3.jpg"
+      "media/products/GGOEYCBR138999-2.jpg"
     ]
   },
   "icon-bundle": {
