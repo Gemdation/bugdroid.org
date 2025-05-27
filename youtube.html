@@ -13,24 +13,30 @@
     <link rel="stylesheet" href="meta/row-single.css">
     <link rel="icon" type="image/x-icon" href="meta/package.ico">
     <style>
+        div, img.prev {border-radius: 5px}
         img.prev {width:150px;border: solid 3px black;outline: solid 1px #4F4E4F}
         img.prev:hover {box-shadow: 0px 0px 11px 4px red;cursor:pointer}
         img.prev:active {box-shadow: none}
-        nav a:hover {color:red}
-        a {color:red}
+        a, mark, nav a:hover {color:red}
         div#prod {width: 100%;display: none;}
         #Gallery, #About, #Info {display: block;}
-        ::selection{background: #CE3732}
-        #prod-images {display: block;}
+        ::selection {background: #CE3732}
+        #prod-images {display: block}
+        button {color:white;background: linear-gradient(to bottom, #505050, #000000);outline: solid 1px #4F4E4F;border-radius: 5px;}
+        header.buttons {background: linear-gradient(to bottom, #000000, #000000);}
     </style>
 </head>
 <body>
 
-<nav style="background: linear-gradient(to right, #801814, #CE3732);"><a href="/">bugdroid.org</a>/youtube</nav>
+<nav style="background: linear-gradient(to bottom, #505050, #000000);border-bottom: solid 1px grey"><a href="/">bugdroid.org</a>/youtube</nav>
 
 
 <span class="browse">
-    <h1>YouTube Merchandise</h1>
+    <h1><img src="meta/logo-youtube.png" id="tubeImg" style="width: 200px;cursor:help"><audio id="tubeSound" src="media/audio/youtube.mp3"></audio></h1>
+
+    <script>const clickableImage = document.getElementById('tubeImg'); const sound = document.getElementById('tubeSound'); let isPlaying = false; clickableImage.addEventListener('click', function() {if (isPlaying) return; const newSound = new Audio(sound.src); isPlaying = true; newSound.play(); newSound.addEventListener('ended', function() {isPlaying = false;});});</script>
+    <!--it can't overlap on purpose, gets loud-->
+
     <!--
 
     finally, go from the present website
@@ -116,6 +122,11 @@
     <img src="media/products/GGOEYOCR078099.jpg" class="prev" id="spiral-journal">
     <img src="media/products/GGOEYOBR078599.jpg" class="prev" id="luggage-tag">
     <img src="media/products/GGOEYOLR080599.jpg" class="prev" id="notebook-aps">
+
+    <br><br><div class="clear">
+        <a href="https://gemdation.com"><img src="meta/button-gemdation.com.gif" class="i"></a>
+        <a href="https://github.com/Gemdation/bugdroid.org"><img src="meta/button-youtube.gif" class="i"></a>
+    </div>
 </span>
 
 
