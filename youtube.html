@@ -13,17 +13,16 @@
     <link rel="stylesheet" href="meta/row-single.css">
     <link rel="icon" type="image/x-icon" href="meta/package.ico">
     <style>
-        div, img.prev {border-radius: 5px}
-        img.prev {width:150px;border: solid 3px black;outline: solid 1px #4F4E4F}
+        div, img.prev {border-radius:5px}
+        img.prev {width:150px;border:solid 3px black;outline: solid 1px #4F4E4F;margin: 3px;}
         img.prev:hover {box-shadow: 0px 0px 11px 4px red;cursor:pointer}
-        img.prev:active {box-shadow: none}
-        a, mark, nav a:hover {color:red}
-        div#prod {width: 100%;display: none;}
-        #Gallery, #About, #Info {display: block;}
+        img.prev:active {box-shadow:none}
+        a, mark, nav a:hover {color:#CE3732}
+        div#prod {width: 100%;display:none}
         ::selection {background: #CE3732}
         #prod-images {display: block}
-        button {color:white;background: linear-gradient(to bottom, #505050, #000000);outline: solid 1px #4F4E4F;border-radius: 5px;}
-        header.buttons {background: linear-gradient(to bottom, #000000, #000000);}
+        button, img.i {color:white;background: linear-gradient(to bottom, #505050, #000000);outline:solid 1px #4F4E4F;border-radius: 5px}
+        header.buttons {background: linear-gradient(to bottom, #000000, #000000)}
     </style>
 </head>
 <body>
@@ -33,94 +32,92 @@
 
 <span class="browse">
     <h1><img src="meta/logo-youtube.png" id="tubeImg" style="width: 200px;cursor:help"><audio id="tubeSound" src="media/audio/youtube.mp3"></audio></h1>
-
     <script>const clickableImage = document.getElementById('tubeImg'); const sound = document.getElementById('tubeSound'); let isPlaying = false; clickableImage.addEventListener('click', function() {if (isPlaying) return; const newSound = new Audio(sound.src); isPlaying = true; newSound.play(); newSound.addEventListener('ended', function() {isPlaying = false;});});</script>
     <!--it can't overlap on purpose, gets loud-->
 
-    <!--
-    3, finally, go from the present website
-    go from https://merch.google.com
+    <img src="media/products/youtube/GGOEYOBA242499.jpg" class="prev" id="kids-coloring-book">
+    <img src="media/products/youtube/GGOEYBMB211099.jpg" class="prev" id="retro-duffel">
+    <img src="media/products/youtube/GGOEYDNB210499.jpg" class="prev" id="straw-tumbler">
+    <img src="media/products/youtube/GGOEYCBB219599.jpg" class="prev" id="phone-lanyard">
+    <img src="media/products/youtube/GGOEYHPB217010.jpg" class="prev" id="beanie">
+    <img src="media/products/youtube/GGOEYCBR221099.jpg" class="prev" id="wood-zipper-pull">
+    <img src="media/products/youtube/GGOEYOAB216899.jpg" class="prev" id="floating-pen">
+    <img src="media/products/youtube/GGOEYXXX2218.jpg" class="prev" id="icon-windbreaker">
+    <img src="media/products/youtube/GGOEYDNB210999.jpg" class="prev" id="traveller-tumbler">
+    <img src="media/products/youtube/GGOEYDWB210799.jpg" class="prev" id="icon-mug">
+    <img src="media/products/youtube/GGOEYOBA215899.jpg" class="prev" id="eco-wood-magnet">
+    <img src="media/products/youtube/GGOEYOAB200699.jpg" class="prev" id="black-le-pen">
+    <img src="media/products/youtube/GGOEYCBA198999.jpg" class="prev" id="icon-patch">
+    <img src="media/products/youtube/GGOEYAXA197410.jpg" class="prev" id="express-socks">
+    <img src="media/products/youtube/GGOEYFKA194999.jpg" class="prev" id="keyboard-sticker">
+    <img src="media/products/youtube/GGOEYCKA182799.jpg" class="prev" id="kids-sticker-sheet">
+    <img src="media/products/youtube/GGOEYCBA182399.jpg" class="prev" id="kids-toast-keychain">
+    <img src="media/products/youtube/GGOEYKBA182199.jpg" class="prev" id="kids-coloring-pencils">
+    <img src="media/products/youtube/GGOEYDHA182099.jpg" class="prev" id="kids-eco-bottle">
+    <img src="media/products/youtube/GGOEYOCB181099.jpg" class="prev" id="journal">
+    <img src="media/products/youtube/GGOEYCBA180799.jpg" class="prev" id="zipper-pull">
+    <img src="media/products/youtube/GGOEYAKA179210.jpg" class="prev" id="tie-dye-socks">
+    <img src="media/products/youtube/GGOEYBMB177599.jpg" class="prev" id="eco-duffel">
+    <img src="media/products/youtube/GGOEYDNA175399.jpg" class="prev" id="shadow-tumbler">
+    <img src="media/products/youtube/GGOEYDHB174899.jpg" class="prev" id="metal-loop-bottle">
+    <img src="media/products/youtube/GGOEYHGB174299.jpg" class="prev" id="black-sunglasses">
+    <img src="media/products/youtube/GGOEYOLB151999.jpg" class="prev" id="jotter-pad">
+    <img src="media/products/youtube/GGOEYCBR138999.jpg" class="prev" id="iconic-pin">
+    <img src="media/products/youtube/GGOEYCBA128999.jpg" class="prev" id="icon-bundle">
+    <img src="media/products/youtube/GGOEYOCR125599.jpg" class="prev" id="transmission-journal-red">
+    <img src="media/products/youtube/GGOEYDWB123299.jpg" class="prev" id="play-mug">
+    <img src="media/products/youtube/GGOEYHPB121110.jpg" class="prev" id="strap-hat">
+    <img src="media/products/youtube/GGOEYDHR117299.jpg" class="prev" id="buoy-bottle">
+    <img src="media/products/youtube/GGOEYFKQ105899.jpg" class="prev" id="small-sticker-sheet">
+    <img src="media/products/youtube/GGOEYAEA105610.jpg" class="prev" id="crew-socks-summer">
+    <img src="media/products/youtube/GGOEYDHJ104099.jpg" class="prev" id="tritan-sport-bottle">
+    <img src="media/products/youtube/GGOEYHBB102199.jpg" class="prev" id="twill-sandwich-cap">
+    <img src="media/products/youtube/GGOEYOAA101499.jpg" class="prev" id="pen-two-pack">
+    <img src="media/products/youtube/GGOEYOCB100499.jpg" class="prev" id="flex-journal">
+    <img src="media/products/youtube/GGOEYDHB098499.jpg" class="prev" id="gear-cap-bottle">
+    <img src="media/products/youtube/GGOEYOCB092699.jpg" class="prev" id="transmission-journal">
+    <img src="media/products/youtube/GGOEYDHB086099.jpg" class="prev" id="transmission-bottle">
+    <img src="media/products/youtube/GGOEYXXX2046.jpg" class="prev" id="marled-tee">
+    <img src="media/products/youtube/GGOEYXXX2043.jpg" class="prev" id="far-out-sweatshirt">
+    <img src="media/products/youtube/GGOEYXXX1801.jpg" class="prev" id="black-zip-hoodie">
+    <img src="media/products/youtube/GGOEYXXX1799.jpg" class="prev" id="express-sweatshirt">
+    <img src="media/products/youtube/GGOEYXXX1796.jpg" class="prev" id="lake-blue-tee">
+    <img src="media/products/youtube/GGOEYXXX1795.jpg" class="prev" id="tie-dye-tee">
+    <img src="media/products/youtube/GGOEYXXX1734.jpg" class="prev" id="ultralight-sweatshirt">
+    <img src="media/products/youtube/GGOEYXXX1207.jpg" class="prev" id="zip-hoodie">
+    <img src="media/products/youtube/GGOEYXXX1203.jpg" class="prev" id="icon-tee-grey">
+    <img src="media/products/youtube/GGOEYXXX0938.jpg" class="prev" id="icon-pullover">
+    <img src="media/products/youtube/GGOEYXXX0937.jpg" class="prev" id="wordmark-crew-grey">
+    <img src="media/products/youtube/GGOEGXXX0921.jpg" class="prev" id="three-lines-tee">
+    <img src="media/products/youtube/GGOEGXXX0919.jpg" class="prev" id="favorite-tee-white">
+    <img src="media/products/youtube/GGOEGXXX0918.jpg" class="prev" id="tee-black">
+    <img src="media/products/youtube/GGOEYXXX0897.jpg" class="prev" id="kids-onesie-white">
+    <img src="media/products/youtube/GGOEYXXX0896.jpg" class="prev" id="kids-tee-black">
+    <img src="media/products/youtube/GGOEYXXX0895.jpg" class="prev" id="kids-tee-white">
+    <img src="media/products/youtube/GGOEGAAX0732.jpg" class="prev" id="fleece-hoodie-womens">
+    <img src="media/products/youtube/GGOEGAAX0295.jpg" class="prev" id="badge-tee-charcoal-womens">
+    <img src="media/products/youtube/GGOEGAAX0290.jpg" class="prev" id="hero-tee-charcoal-womens">
+    <img src="media/products/youtube/GGOEGAAX0330.jpg" class="prev" id="long-tee-charcoal">
+    <img src="media/products/youtube/GGOEGAAX0325.jpg" class="prev" id="hero-tee-charcoal">
+    <img src="media/products/youtube/GGOEGAAX0317.jpg" class="prev" id="hero-tee-white">
+    <img src="media/products/youtube/GGOEGAAX0318.jpg" class="prev" id="hero-tee-black">
+    <img src="media/products/youtube/GGOEGAAX0284.jpg" class="prev" id="hero-tee-black-womens">
+    <img src="media/products/youtube/GGOEGAAX0356.jpg" class="prev" id="vintage-tank">
+    <img src="media/products/youtube/GGOEGAAX0351.jpg" class="prev" id="vintage-henley">
+    <img src="media/products/youtube/GGOEYHPA003510.jpg" class="prev" id="trucker-hat">
+    <img src="media/products/youtube/GGOEYDHJ056099.jpg" class="prev" id="bottle-infuser">
+    <img src="media/products/youtube/GGOEYHPA003610.jpg" class="prev" id="heather-cap">
+    <img src="media/products/youtube/GGOEYOLR018699.jpg" class="prev" id="leatherette-notebook">
+    <img src="media/products/youtube/GGOEYFKQ020699.jpg" class="prev" id="custom-decals">
+    <img src="media/products/youtube/GGOEYHPB072210.jpg" class="prev" id="twill-cap">
+    <img src="media/products/youtube/GGOEYDHJ019399.jpg" class="prev" id="sergeant-bottle">
+    <img src="media/products/youtube/GGOEYOCR077399.jpg" class="prev" id="rfid-journal">
+    <img src="media/products/youtube/GGOEYOCR077799.jpg" class="prev" id="hard-cover-journal">
+    <img src="media/products/youtube/GGOEYOCR078099.jpg" class="prev" id="spiral-journal">
+    <img src="media/products/youtube/GGOEYOBR078599.jpg" class="prev" id="luggage-tag">
+    <img src="media/products/youtube/GGOEYOLR080599.jpg" class="prev" id="notebook-aps">
 
-    2, seven items to get
-    go from https://web.archive.org/web/20231129031108/https://shop.googlemerchandisestore.com/Google+Redesign/Shop+by+Brand/YouTube
-    -->
-
-
-    <img src="media/products/GGOEYDNB210999.jpg" class="prev" id="traveller-tumbler">
-    <img src="media/products/GGOEYDWB210799.jpg" class="prev" id="icon-mug">
-    <img src="media/products/GGOEYOBA215899.jpg" class="prev" id="eco-wood-magnet">
-    <img src="media/products/GGOEYOAB200699.jpg" class="prev" id="black-le-pen">
-    <img src="media/products/GGOEYCBA198999.jpg" class="prev" id="icon-patch">
-    <img src="media/products/GGOEYAXA197410.jpg" class="prev" id="express-socks">
-    <img src="media/products/GGOEYFKA194999.jpg" class="prev" id="keyboard-sticker">
-    <img src="media/products/GGOEYCKA182799.jpg" class="prev" id="kids-sticker-sheet">
-    <img src="media/products/GGOEYCBA182399.jpg" class="prev" id="kids-toast-keychain">
-    <img src="media/products/GGOEYKBA182199.jpg" class="prev" id="kids-coloring-pencils">
-    <img src="media/products/GGOEYDHA182099.jpg" class="prev" id="kids-eco-bottle">
-    <img src="media/products/GGOEYOCB181099.jpg" class="prev" id="journal">
-    <img src="media/products/GGOEYCBA180799.jpg" class="prev" id="zipper-pull">
-    <img src="media/products/GGOEYAKA179210.jpg" class="prev" id="tie-dye-socks">
-    <img src="media/products/GGOEYBMB177599.jpg" class="prev" id="eco-duffel">
-    <img src="media/products/GGOEYDNA175399.jpg" class="prev" id="shadow-tumbler">
-    <img src="media/products/GGOEYDHB174899.jpg" class="prev" id="metal-loop-bottle">
-    <img src="media/products/GGOEYHGB174299.jpg" class="prev" id="black-sunglasses">
-    <img src="media/products/GGOEYOLB151999.jpg" class="prev" id="jotter-pad">
-    <img src="media/products/GGOEYCBR138999.jpg" class="prev" id="iconic-pin">
-    <img src="media/products/GGOEYCBA128999.jpg" class="prev" id="icon-bundle">
-    <img src="media/products/GGOEYOCR125599.jpg" class="prev" id="transmission-journal-red">
-    <img src="media/products/GGOEYDWB123299.jpg" class="prev" id="play-mug">
-    <img src="media/products/GGOEYHPB121110.jpg" class="prev" id="strap-hat">
-    <img src="media/products/GGOEYDHR117299.jpg" class="prev" id="buoy-bottle">
-    <img src="media/products/GGOEYFKQ105899.jpg" class="prev" id="small-sticker-sheet">
-    <img src="media/products/GGOEYAEA105610.jpg" class="prev" id="crew-socks-summer">
-    <img src="media/products/GGOEYDHJ104099.jpg" class="prev" id="tritan-sport-bottle">
-    <img src="media/products/GGOEYHBB102199.jpg" class="prev" id="twill-sandwich-cap">
-    <img src="media/products/GGOEYOAA101499.jpg" class="prev" id="pen-two-pack">
-    <img src="media/products/GGOEYOCB100499.jpg" class="prev" id="flex-journal">
-    <img src="media/products/GGOEYDHB098499.jpg" class="prev" id="gear-cap-bottle">
-    <img src="media/products/GGOEYOCB092699.jpg" class="prev" id="transmission-journal">
-    <img src="media/products/GGOEYDHB086099.jpg" class="prev" id="transmission-bottle">
-    <img src="media/products/GGOEYXXX2046.jpg" class="prev" id="marled-tee">
-    <img src="media/products/GGOEYXXX2043.jpg" class="prev" id="far-out-sweatshirt">
-    <img src="media/products/GGOEYXXX1801.jpg" class="prev" id="black-zip-hoodie">
-    <img src="media/products/GGOEYXXX1799.jpg" class="prev" id="express-sweatshirt">
-    <img src="media/products/GGOEYXXX1796.jpg" class="prev" id="lake-blue-tee">
-    <img src="media/products/GGOEYXXX1795.jpg" class="prev" id="tie-dye-tee">
-    <img src="media/products/GGOEYXXX1734.jpg" class="prev" id="ultralight-sweatshirt">
-    <img src="media/products/GGOEYXXX1207.jpg" class="prev" id="zip-hoodie">
-    <img src="media/products/GGOEYXXX1203.jpg" class="prev" id="icon-tee-grey">
-    <img src="media/products/GGOEYXXX0938.jpg" class="prev" id="icon-pullover">
-    <img src="media/products/GGOEYXXX0937.jpg" class="prev" id="wordmark-crew-grey">
-    <img src="media/products/GGOEGXXX0921.jpg" class="prev" id="three-lines-tee">
-    <img src="media/products/GGOEGXXX0919.jpg" class="prev" id="favorite-tee-white">
-    <img src="media/products/GGOEGXXX0918.jpg" class="prev" id="tee-black">
-    <img src="media/products/GGOEYXXX0897.jpg" class="prev" id="kids-onesie-white">
-    <img src="media/products/GGOEYXXX0896.jpg" class="prev" id="kids-tee-black">
-    <img src="media/products/GGOEYXXX0895.jpg" class="prev" id="kids-tee-white">
-    <img src="media/products/GGOEGAAX0732.jpg" class="prev" id="fleece-hoodie-womens">
-    <img src="media/products/GGOEGAAX0295.jpg" class="prev" id="badge-tee-charcoal-womens">
-    <img src="media/products/GGOEGAAX0290.jpg" class="prev" id="hero-tee-charcoal-womens">
-    <img src="media/products/GGOEGAAX0330.jpg" class="prev" id="long-tee-charcoal">
-    <img src="media/products/GGOEGAAX0325.jpg" class="prev" id="hero-tee-charcoal">
-    <img src="media/products/GGOEGAAX0317.jpg" class="prev" id="hero-tee-white">
-    <img src="media/products/GGOEGAAX0318.jpg" class="prev" id="hero-tee-black">
-    <img src="media/products/GGOEGAAX0284.jpg" class="prev" id="hero-tee-black-womens">
-    <img src="media/products/GGOEGAAX0356.jpg" class="prev" id="vintage-tank">
-    <img src="media/products/GGOEGAAX0351.jpg" class="prev" id="vintage-henley">
-    <img src="media/products/GGOEYHPA003510.jpg" class="prev" id="trucker-hat">
-    <img src="media/products/GGOEYDHJ056099.jpg" class="prev" id="bottle-infuser">
-    <img src="media/products/GGOEYHPA003610.jpg" class="prev" id="heather-cap">
-    <img src="media/products/GGOEYOLR018699.jpg" class="prev" id="leatherette-notebook">
-    <img src="media/products/GGOEYFKQ020699.jpg" class="prev" id="custom-decals">
-    <img src="media/products/GGOEYHPB072210.jpg" class="prev" id="twill-cap">
-    <img src="media/products/GGOEYDHJ019399.jpg" class="prev" id="sergeant-bottle">
-    <img src="media/products/GGOEYOCR077399.jpg" class="prev" id="rfid-journal">
-    <img src="media/products/GGOEYOCR077799.jpg" class="prev" id="hard-cover-journal">
-    <img src="media/products/GGOEYOCR078099.jpg" class="prev" id="spiral-journal">
-    <img src="media/products/GGOEYOBR078599.jpg" class="prev" id="luggage-tag">
-    <img src="media/products/GGOEYOLR080599.jpg" class="prev" id="notebook-aps">
-
-    <br><br><div class="clear">
+    <div class="clear">
         <a href="https://gemdation.com"><img src="meta/button-gemdation.com.gif" class="i"></a>
         <a href="https://github.com/Gemdation/bugdroid.org"><img src="meta/button-youtube.gif" class="i"></a>
     </div>
