@@ -1,18 +1,7 @@
 // Used for the YouTube merch archives.
+// It tries to be chronologicial by following the
+// SKU numbers, however is it not going so well.
 const productData = {
-  "marled-tee": {
-    name: "YouTube Marled Black Tee",
-    maker: "Robertson Marketing",
-    year: "2023",
-    id: "GGOEYXXX2046",
-    price: "$30.00",
-    synopsis: "24-hours comfortable, this heathered YouTube tee makes a great companion for busy work days or leisure weekends.",
-    images: [
-      "media/products/GGOEYXXX2046.jpg",
-      "media/products/GGOEYXXX2046-2.jpg",
-      "media/products/GGOEYXXX2046-3.jpg"
-    ]
-  },
   "traveller-tumbler": {
     name: "YouTube Traveller Tumbler",
     maker: "Robertson Marketing",
@@ -52,19 +41,6 @@ const productData = {
       "media/products/GGOEYOBA215899-3.jpg"
     ]
   },
-  "far-out-sweatshirt": {
-    name: "YouTube Far Out Tie-Dye Sweatshirt",
-    maker: "Robertson Marketing",
-    year: "~2022",
-    id: "GGOEYXXX2043",
-    price: "$69.00",
-    synopsis: "Your wardrobe will thank you after you add this one-of-a-kind, inky finish tie-dye YouTube sweatshirt.  Truly far out!",
-    images: [
-      "media/products/GGOEYXXX2043.jpg",
-      "media/products/GGOEYXXX2043-2.jpg",
-      "media/products/GGOEYXXX2043-3.jpg"
-    ]
-  },
   "black-le-pen": {
     name: "YouTube Black Le Pen",
     maker: "Robertson Marketing",
@@ -91,17 +67,95 @@ const productData = {
       "media/products/GGOEYCBA198999-3.jpg"
     ]
   },
-  "lake-blue-tee": {
-    name: "YouTube Lake Blue Tee",
+  "express-socks": {
+    name: "YouTube Expressive Socks",
     maker: "Robertson Marketing",
-    year: "~2022",
-    id: "GGOEYXXX1796",
-    price: "$25.00",
-    synopsis: "No synopsis found.",
+    year: "2022",
+    id: "GGOEYAXA197410",
+    price: "$18.00",
+    synopsis: "Put some swing in your step with these expressive YouTube socks. They'll give your outfit that little something extra you didn't know you needed.",
     images: [
-      "media/products/GGOEYXXX1796.jpg",
-      "media/products/GGOEYXXX1796-2.jpg",
-      "media/products/GGOEYXXX1796-3.jpg"
+      "media/products/GGOEYAXA197410.jpg",
+      "media/products/GGOEYAXA197410-2.jpg",
+      "media/products/GGOEYAXA197410-3.jpg"
+    ]
+  },
+  "keyboard-sticker": {
+    name: "YouTube Keyboard Sticker",
+    maker: "Robertson Marketing",
+    year: "2022",
+    id: "GGOEYFKA194999",
+    price: "$2.00",
+    synopsis: "Add some character to your keyboard! This small YouTube sticker will be sure to bring some joy next time you're at your computer.",
+    images: [
+      "media/products/GGOEYFKA194999.jpg",
+      "media/products/GGOEYFKA194999-2.jpg",
+      "media/products/GGOEYFKA194999-3.jpg"
+    ]
+  },
+  "kids-sticker-sheet": {
+    name: "YouTube Kids Character Sticker Sheet",
+    maker: "Robertson Marketing",
+    year: "2022",
+    id: "GGOEYCKA182799",
+    price: "$8.00",
+    synopsis: "Folks of all ages will go nuts for this awesome YouTube Kids sticker sheet!  Featuring the coolest characters in action.",
+    images: [
+      "media/products/GGOEYCKA182799.jpg",
+      "media/products/GGOEYCKA182799-2.jpg",
+      "media/products/GGOEYCKA182799-3.jpg"
+    ]
+  },
+  "kids-toast-keychain": {
+    name: "YouTube Kids Sprinkle Toast Keychain",
+    maker: "Robertson Marketing",
+    year: "2022",
+    id: "GGOEYCBA182399",
+    price: "$8.00",
+    synopsis: "Take your creativity to go! Grab this handy travel-sized YouTube Kids colored pencil set and get ready to unleash your inner artist.",
+    images: [
+      "media/products/GGOEYCBA182399.jpg",
+      "media/products/GGOEYCBA182399-2.jpg",
+      "media/products/GGOEYCBA182399-3.jpg"
+    ]
+  },
+  "kids-coloring-pencils": {
+    name: "YouTube Kids Coloring Pencils",
+    maker: "Robertson Marketing",
+    year: "2022",
+    id: "GGOEYKBA182199",
+    price: "$4.00",
+    synopsis: "Take your creativity to go! Grab this handy travel-sized YouTube Kids colored pencil set and get ready to unleash your inner artist.",
+    images: [
+      "media/products/GGOEYKBA182199.jpg",
+      "media/products/GGOEYKBA182199-2.jpg",
+      "media/products/GGOEYKBA182199-3.jpg"
+    ]
+  },
+  "kids-eco-bottle": {
+    name: "YouTube Kids Eco Water Bottle",
+    maker: "Robertson Marketing",
+    year: "2022",
+    id: "GGOEYDHA182099",
+    price: "$9.00",
+    synopsis: "It might be kid-sized, but we won't blame the adults for loving this one too!  With it's convenient size, eco-friendly materials and super cool imagery, it's perfect for everyone in the family.",
+    images: [
+      "media/products/GGOEYDHA182099.jpg",
+      "media/products/GGOEYDHA182099-2.jpg",
+      "media/products/GGOEYDHA182099-3.jpg"
+    ]
+  },
+  "journal": {
+    name: "YouTube Journal",
+    maker: "Robertson Marketing",
+    year: "2022",
+    id: "GGOEYOCB181099",
+    price: "$20.00",
+    synopsis: "It's time to start your storytelling journey with this YouTube notebook.  Great ideas, thoughts and inspiration will never be forgotten again.",
+    images: [
+      "media/products/GGOEYOCB181099.jpg",
+      "media/products/GGOEYOCB181099-2.jpg",
+      "media/products/GGOEYOCB181099-3.jpg"
     ]
   },
   "zipper-pull": {
@@ -130,6 +184,32 @@ const productData = {
       "media/products/GGOEYAKA179210-3.jpg"
     ]
   },
+  "marled-tee": {
+    name: "YouTube Marled Black Tee",
+    maker: "Robertson Marketing",
+    year: "~2022",
+    id: "GGOEYXXX2046",
+    price: "$30.00",
+    synopsis: "24-hours comfortable, this heathered YouTube tee makes a great companion for busy work days or leisure weekends.",
+    images: [
+      "media/products/GGOEYXXX2046.jpg",
+      "media/products/GGOEYXXX2046-2.jpg",
+      "media/products/GGOEYXXX2046-3.jpg"
+    ]
+  },
+  "far-out-sweatshirt": {
+    name: "YouTube Far Out Tie-Dye Sweatshirt",
+    maker: "Robertson Marketing",
+    year: "~2022",
+    id: "GGOEYXXX2043",
+    price: "$69.00",
+    synopsis: "Your wardrobe will thank you after you add this one-of-a-kind, inky finish tie-dye YouTube sweatshirt.  Truly far out!",
+    images: [
+      "media/products/GGOEYXXX2043.jpg",
+      "media/products/GGOEYXXX2043-2.jpg",
+      "media/products/GGOEYXXX2043-3.jpg"
+    ]
+  },
   "black-zip-hoodie": {
     name: "YouTube Black Zip Hoodie",
     maker: "Robertson Marketing",
@@ -143,17 +223,17 @@ const productData = {
       "media/products/GGOEYXXX1801-3.jpg"
     ]
   },
-  "express-sweatshirt": {
-    name: "YouTube Expressive Sweatshirt",
+  "lake-blue-tee": {
+    name: "YouTube Lake Blue Tee",
     maker: "Robertson Marketing",
-    year: "~2021",
-    id: "GGOEYXXX1799",
-    price: "$63.00",
-    synopsis: "Express yourself while wearing this awesome limited-edition graphic YouTube Sweatshirt! Even better, it’s made from eco-friendly fabric.",
+    year: "~2022",
+    id: "GGOEYXXX1796",
+    price: "$25.00",
+    synopsis: "No synopsis found.",
     images: [
-      "media/products/GGOEYXXX1799.jpg",
-      "media/products/GGOEYXXX1799-2.jpg",
-      "media/products/GGOEYXXX1799-3.jpg"
+      "media/products/GGOEYXXX1796.jpg",
+      "media/products/GGOEYXXX1796-2.jpg",
+      "media/products/GGOEYXXX1796-3.jpg"
     ]
   },
   "tie-dye-tee": {
@@ -167,6 +247,19 @@ const productData = {
       "media/products/GGOEYXXX1795.jpg",
       "media/products/GGOEYXXX1795-2.jpg",
       "media/products/GGOEYXXX1795-3.jpg"
+    ]
+  },
+  "express-sweatshirt": {
+    name: "YouTube Expressive Sweatshirt",
+    maker: "Robertson Marketing",
+    year: "~2021",
+    id: "GGOEYXXX1799",
+    price: "$63.00",
+    synopsis: "Express yourself while wearing this awesome limited-edition graphic YouTube Sweatshirt! Even better, it’s made from eco-friendly fabric.",
+    images: [
+      "media/products/GGOEYXXX1799.jpg",
+      "media/products/GGOEYXXX1799-2.jpg",
+      "media/products/GGOEYXXX1799-3.jpg"
     ]
   },
   "ultralight-sweatshirt": {
@@ -208,19 +301,6 @@ const productData = {
       "media/products/GGOEYDNA175399-3.jpg"
     ]
   },
-  "metal-loop-bottle": {
-    name: "YouTube Metal Loop Bottle",
-    maker: "Robertson Marketing",
-    year: "~2020",
-    id: "GGOEYDHB174899",
-    price: "$13.00",
-    synopsis: "Keep your drink secure while filming your next vlog with this YouTube Metal Loop bottle. You’ll need to stay hydrated while creating that new content!",
-    images: [
-      "media/products/GGOEYDHB174899.jpg",
-      "media/products/GGOEYDHB174899-2.jpg",
-      "media/products/GGOEYDHB174899-3.jpg"
-    ]
-  },
   "black-sunglasses": {
     name: "YouTube Black Sunglasses",
     maker: "Robertson Marketing",
@@ -232,6 +312,19 @@ const productData = {
       "media/products/GGOEYHGB174299.jpg",
       "media/products/GGOEYHGB174299-2.jpg",
       "media/products/GGOEYHGB174299-3.jpg"
+    ]
+  },
+  "metal-loop-bottle": {
+    name: "YouTube Metal Loop Bottle",
+    maker: "Robertson Marketing",
+    year: "~2020",
+    id: "GGOEYDHB174899",
+    price: "$13.00",
+    synopsis: "Keep your drink secure while filming your next vlog with this YouTube Metal Loop bottle. You’ll need to stay hydrated while creating that new content!",
+    images: [
+      "media/products/GGOEYDHB174899.jpg",
+      "media/products/GGOEYDHB174899-2.jpg",
+      "media/products/GGOEYDHB174899-3.jpg"
     ]
   },
   "jotter-pad": {
@@ -432,7 +525,7 @@ const productData = {
     year: "2018",
     id: "GGOEYOCB100499",
     price: "$7.99",
-    synopsis: " This YouTube Flex Journal has 50 lined sheets waiting for you to write down your imaginations and doodles.",
+    synopsis: "This YouTube Flex Journal has 50 lined sheets waiting for you to write down your imaginations and doodles.",
     images: [
       "media/products/GGOEYOCB100499.jpg",
       "media/products/GGOEYOCB100499-2.jpg",
