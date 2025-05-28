@@ -162,8 +162,8 @@ const productData = {
     name: "YouTube Black Le Pen",
     maker: "Robertson Marketing",
     year: "~2022",
-    id: "GGOEYOAB200699",
-    price: "$4.00",
+    id: "GGOEYOAB200699 (US), GGCNYOAB104299 (CA)",
+    price: "US$4.00, CA$5.50",
     synopsis: "Once you've tried these smooth micro-fine YouTube Le Pen pens, you may never want to use anything else again! Don't say we didn't warn you....", // has a repeated word and four dots on purpose
     images: [
       "media/products/youtube/GGOEYOAB200699.jpg",

@@ -13,8 +13,11 @@
     <link rel="stylesheet" href="meta/row-multiple.css">
     <link rel="icon" type="image/x-icon" href="meta/package.ico">
     <style>
-        div.yt:hover {box-shadow: 0px 0px 11px 4px red}
-        div.yt:active {box-shadow:none}
+        a.yt div {border-radius:5px}
+        a.yt:hover div {box-shadow: 0px 0px 11px 4px red;}
+        a.yt:active div {box-shadow: none}
+        a.yt header {background: linear-gradient(to bottom, #505050, #000000);border-bottom: solid 1px grey;padding-bottom: 1px;}
+        a.yt:hover header {color: red}
     </style>
 </head>
 <body>
@@ -57,12 +60,7 @@
 <a href="stickers"><div class="dir"><header>/stickers</header><img src="meta/subpage-stickers.png" class="f"></div></a>
 <a href="toys"><div class="dir"><header>/toys</header><img src="meta/subpage-toys.png" class="f"></div></a>
 <a href="wallpapers"><div class="dir"><header>/wallpapers</header><img src="meta/subpage-wallpapers.png" class="f"></div></a>
-
-
-<a href="youtube"><div class="yt">
-    <img src="meta/logo-youtube.png" style="width: 300px;padding: 10px;">
-</div></a>
-
+<a href="youtube" class="yt"><div class="dir"><header>/youtube</header><img src="meta/subpage-youtube.png" class="f"></div></a>
 <div class="clear"></div>
 
 
