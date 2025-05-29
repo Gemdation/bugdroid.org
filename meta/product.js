@@ -1,8 +1,18 @@
 let currentSlide = 0;
 let currentImages = [];
 
+const prodImages = document.getElementById('prod-images');
+const prodName = document.getElementById('prod-name');
+const prodMaker = document.getElementById('prod-maker');
+const prodYear = document.getElementById('prod-year');
+const prodId = document.getElementById('prod-id');
+const prodPrice = document.getElementById('prod-price');
+const prodDescrip = document.getElementById('prod-descrip');
+const browseSpan = document.querySelector('span.browse');
+const prodContainer = document.getElementById('prod');
+
 document.querySelectorAll('img.prev').forEach(img => {
-    img.addEventListener('click', () => showProduct(img.id));
+    img.addEventListener('click', (event) => showProduct(event.currentTarget.id));
 });
 
 function showProduct(id) {
@@ -12,34 +22,45 @@ function showProduct(id) {
     currentImages = data.images;
     currentSlide = 0;
 
-    document.getElementById('prod-images').src = currentImages[currentSlide];
+    updateProductDisplay(data);
+    browseSpan?.style.setProperty('display', 'none');
+    prodContainer.style.display = 'block';
+}
 
-    document.getElementById('prod-name').textContent = data.name;
-    document.getElementById('prod-maker').textContent = data.maker;
-    document.getElementById('prod-year').textContent = data.year;
-    document.getElementById('prod-id').textContent = data.id;
-    document.getElementById('prod-price').textContent = data.price;
-    document.getElementById('prod-descrip').textContent = data.synopsis;
+function updateProductDisplay(data) {
+    prodImages.src = currentImages[currentSlide];
+    prodName.textContent = data.name;
+    prodMaker.textContent = data.maker;
+    prodYear.textContent = data.year;
+    prodId.textContent = data.id;
+    prodPrice.textContent = data.price;
+    prodDescrip.textContent = data.synopsis;
 
-    document.querySelector('span.browse')?.style.setProperty('display', 'none');
-    document.getElementById('prod').style.display = 'block';
+    const prevButton = document.getElementById('prev-button');
+    const nextButton = document.getElementById('next-button');
+
+    const singleImage = currentImages.length <= 1;
+    prevButton.disabled = singleImage;
+    nextButton.disabled = singleImage;
+}
+
+
+function changeSlide(direction) {
+    if (currentImages.length === 0) return;
+
+    currentSlide = (currentSlide + direction + currentImages.length) % currentImages.length;
+    prodImages.src = currentImages[currentSlide];
 }
 
 function nextSlide() {
-    if (currentImages.length === 0) return;
-
-    currentSlide = (currentSlide + 1) % currentImages.length;
-    document.getElementById('prod-images').src = currentImages[currentSlide];
+    changeSlide(1);
 }
 
 function prevSlide() {
-    if (currentImages.length === 0) return;
-
-    currentSlide = (currentSlide - 1 + currentImages.length) % currentImages.length;
-    document.getElementById('prod-images').src = currentImages[currentSlide];
+    changeSlide(-1);
 }
 
 function returnToBrowse() {
-    document.querySelector('span.browse')?.style.setProperty('display', 'block');
-    document.getElementById('prod').style.display = 'none';
+    browseSpan?.style.setProperty('display', 'block');
+    prodContainer.style.display = 'none';
 }

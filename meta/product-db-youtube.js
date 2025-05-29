@@ -2,6 +2,70 @@
 // It tries to be chronologicial by following the
 // SKU numbers, however is it not going so well.
 const productData = {
+  "journal-ca": {
+    name: "YouTube Journal",
+    maker: "Robertson Marketing",
+    year: "~2025",
+    id: "GGCNGOLB105299",
+    price: "CA$11.00",
+    synopsis: "Whether you're an aspiring writer or artist, or simply an expert note-taker, this black YouTube journal offers a versatile and enduring companion for your thoughts and creative ideas.",
+    images: [
+      "media/products/youtube/GGCNGOLB105299.jpg",
+      "media/products/youtube/GGCNGOLB105299-2.jpg",
+      "media/products/youtube/GGCNGOLB105299-3.jpg"
+    ]
+  },
+  "insulated-mug": {
+    name: "YouTube Insulated Mug",
+    maker: "Robertson Marketing",
+    year: "~2025",
+    id: "GGCNGDWB105399",
+    price: "CA$36.00",
+    synopsis: "This sustainable YouTube mug is crafted from recycled materials, reducing your environmental footprint. The lid keeps your drink hot or cold, making it ideal for any occasion.",
+    images: [
+      "media/products/youtube/GGCNGDWB105399.jpg",
+      "media/products/youtube/GGCNGDWB105399-2.jpg",
+      "media/products/youtube/GGCNGDWB105399-3.jpg"
+    ]
+  },
+  "jotter-pen": {
+    name: "YouTube Jotter Pen",
+    maker: "Robertson Marketing",
+    year: "~2025",
+    id: "GGCNGOAB105499",
+    price: "CA$2.50",
+    synopsis: "This YouTube pen is sleek, reliable, and always ready to capture your thoughts! Whether you're taking notes or making to-do lists, this pen has got you covered.",
+    images: [
+      "media/products/youtube/GGCNGOAB105499.jpg",
+      "media/products/youtube/GGCNGOAB105499-2.jpg",
+      "media/products/youtube/GGCNGOAB105499-3.jpg"
+    ]
+  },
+  "icon-sticker": {
+    name: "YouTube Icon Sticker",
+    maker: "Robertson Marketing",
+    year: "~2025",
+    id: "GGCNYOKR105899",
+    price: "CA$2.00",
+    synopsis: "Show your love for YouTube with this classic icon sticker. Featuring a clear adhesive backing, it's the perfect way to express yourself.",
+    images: [
+      "media/products/youtube/GGCNYOKR105899.jpg",
+      "media/products/youtube/GGCNYOKR105899-2.jpg"
+    ]
+  },
+  "old-school-socks": {
+    name: "YouTube Old School Socks",
+    maker: "Robertson Marketing",
+    year: "~2025",
+    id: "GGCNYCXQ105999",
+    price: "CA$24.00",
+    synopsis: "These YouTube socks are so retro-chic! With bold stripes and fun details, they’re sure to be a thumbs up! With a comfy cushioned bottom, your feet will be happy all day long.",
+    images: [
+      "media/products/youtube/GGCNYCXQ105999.jpg",
+      "media/products/youtube/GGCNYCXQ105999-2.jpg",
+      "media/products/youtube/GGCNYCXQ105999-3.jpg"
+    ]
+  },
   "kids-coloring-book": {
     name: "YouTube Kids Coloring Book",
     maker: "Robertson Marketing",
