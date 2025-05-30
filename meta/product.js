@@ -8,7 +8,7 @@ const prodYear = document.getElementById('prod-year');
 const prodId = document.getElementById('prod-id');
 const prodPrice = document.getElementById('prod-price');
 const prodDescrip = document.getElementById('prod-descrip');
-const browseSpan = document.querySelector('span.browse');
+const browseSpan = document.querySelector('div.browse');
 const prodContainer = document.getElementById('prod');
 
 document.querySelectorAll('img.prev').forEach(img => {
@@ -29,6 +29,8 @@ function showProduct(id) {
 
 function updateProductDisplay(data) {
     prodImages.src = currentImages[currentSlide];
+    prodImages.alt = data.name.replace(/^YouTube\s+/i, '').trim();
+
     prodName.textContent = data.name;
     prodMaker.textContent = data.maker;
     prodYear.textContent = data.year;
@@ -43,6 +45,7 @@ function updateProductDisplay(data) {
     prevButton.disabled = singleImage;
     nextButton.disabled = singleImage;
 }
+
 
 
 function changeSlide(direction) {

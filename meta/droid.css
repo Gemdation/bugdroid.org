@@ -30,7 +30,7 @@ div.col img {margin-right: 20px; width:100px}
 div.col p {flex: 1;margin-top: 0;margin-bottom:0;padding: 0;}
 
 div#Info a {font-weight: bold;}
-div#Product {color:white;padding-bottom: 8px;}
+div.Product {color:white;padding-bottom: 8px;}
 #Gallery, #About, #Info, #Product {text-align:left;padding:0;overflow:hidden}
 #Gallery h2, #About h2, #Info h2 {text-align: left;margin-left: 9px;margin-top: 12px;margin-bottom: 5px;}
 div.block p, #Product p {margin-left: 9px;margin-right: 9px;margin-bottom: 5px;}
