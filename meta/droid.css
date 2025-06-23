@@ -5,11 +5,11 @@ body {margin:0;padding-top: 30px;background-color: black;color:white;text-align:
 header {padding-top: 2px;padding-bottom:2px;padding-left: 2px;color:white;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px black}
 header a {color:white}
 header a:hover {color:#A4C639}
-nav {position:fixed;z-index: 1000;top: 0;padding-top: 2px;padding-bottom:2px;padding-left: 2px;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px black}
-nav a {color:white}
+nav {position:fixed;z-index: 1000;top: 0;padding:2px;padding-right:0;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px black}
+nav a {color:white;}
 nav a:hover {color:#A4C639}
 
-a.btn {display: inline-block;;font-size: 14px;margin-bottom: 4px;background: linear-gradient(to bottom, #F1F1F1, #B8B8B8); padding: 8px; color: black;}
+a.btn {display: inline-block;font-size: 14px;margin-bottom: 4px;background: linear-gradient(to bottom, #F1F1F1, #B8B8B8); padding: 8px; color: black;}
 a.btn:hover {background: linear-gradient(to bottom, #FFB769, #EC6100);}
 a.btn:active {background: linear-gradient(to bottom, #ffd554, #E99D00);}
 
@@ -21,25 +21,29 @@ button:disabled {cursor: not-allowed;background: linear-gradient(to bottom, #535
 div {margin:auto;width:35%;box-sizing: border-box;padding: 6px;margin-top:10px;margin-bottom:10px;border-color:#4F4E4F; border-width:1px;overflow:hidden;border-style:solid;}
 div.dir {padding: 0;border-style: solid; background-color: black}
 div.dir img {width:100%;display:block;}
-a div:hover {box-shadow: 0px 0px 11px 4px #A4C639}
+
+a div:hover {box-shadow: 0px 0px 11px 4px #A4C639;}
 a div:active {box-shadow:none}
 a div:hover header {color:#A4C639}
 
-div.col {display: flex; align-items: center; justify-content: center; text-align: center; width: 100%;}
-div.col img {margin-right: 20px; width:100px}
-div.col p {flex: 1;margin-top: 0;margin-bottom:0;padding: 0;}
+div.Product {color:white;text-align: center;padding:0;font-weight:bold;padding-bottom: 10px;}
+div.Product img {width:100%}
+div.Product p {margin-top: 10px;margin-bottom: 5px}
+span.year {color:grey;}
+span.price {color:#A4C639;}
 
-div#Info a {font-weight: bold;}
-div.Product {color:white;padding:0;img {width:100%};}
+div#Info a {font-weight:bold}
 #Gallery, #About, #Info, #Product {text-align:left;padding:0;overflow:hidden}
 #Gallery h2, #About h2, #Info h2 {text-align: left;margin-left: 9px;margin-top: 12px;margin-bottom: 5px;}
 div.block p, #Product p {margin-left: 9px;margin-right: 9px;margin-bottom: 5px;}
-div.browse {box-sizing: content-box;padding: 0;border: none;width: 95%;}
+div.browse {box-sizing:content-box;padding:0;border:none;width:95%}
+body.browse div {width:95%}
 div.clear {padding:0;border:none}
 
+article {width: 50%;text-align:center;}
 details {text-align: center;padding-top: 0;padding-bottom: 8px;font-style: italic;}
 summary {list-style-type: none;font-weight: bold;color:grey;cursor: pointer;user-select: none;}
-a {text-decoration: none; color:#A4C639}
+a {color:#A4C639;text-decoration:none}
 hr {margin-left: 5px;margin-right: 5px;border-color:grey}
 table, th, td {text-align: center;border:1px solid white;border-collapse: collapse;}
 td.g {width: 150px; height: 150px; vertical-align: middle;}
@@ -57,10 +61,7 @@ mark.green {color:#A4C639}
 mark.red {color:#df2d2d}
 ::selection{background:#A5C63988}
 
-/*Single*/
-@media (max-width: 768px) {body.doc div {width: 95%}}
-/* Multiple*/
 
-body.browse div {width: 95%;}
-@media (min-width: 769px) and (max-width: 1024px) {body.browse div {width: 48%; display: inline-block; margin: 1%;}}
-@media (min-width: 1025px) {body.browse div {width: 30%; display: inline-block; margin: 1%;}}
+@media (max-width: 768px) {body.doc div {width: 95%}}
+@media (min-width: 769px) and (max-width: 1024px) {body.browse div {width: 40%; display: inline-block; margin: 1%;}}
+@media (min-width: 1025px) {body.browse div {width: 25%; display: inline-block; margin: 1%;}}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Droid Renders</title>
+    <meta content="Droid Renders" property="og:title">
+    <meta content="Renders of Bugdroid, version logos, and app icons." property="og:description">
+    <meta content="https://bugdroid.org/meta/subpage-renders.png" property="og:image">
+    <meta content="https://bugdroid.org/renders" property="og:url">
+    <meta content="#A4C639" data-react-helmet="true" name="theme-color">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="keywords" content="Renders, images, photos, Bugdroid, Droid, Android, Google">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meta/droid.css">
+    <link rel="icon" type="image/x-icon" href="meta/package.ico">
+    <style>
+        /*outline: solid 1px red*/
+        /*Above is code that can be added to IMG so that non-square images can be identified.*/
+        div.browse img {width:150px;}
+        div.browse img:hover {cursor:pointer;filter:drop-shadow(0px 0px 11px #A4C639)}
+        div.browse img:active {filter:none}
+        div#prod {width:100%;display:none}
+        #prod-images {display:block}
+        .full {position:fixed;top:0;left:0;width:100%;height:100%;background-color:#000000b0;display:flex;justify-content:center;border:none;outline:none;align-items:center;visibility:hidden;opacity:0;}
+        .full.visible {visibility:visible;opacity:1;}
+        .full img {max-width:100%;max-height:90%;object-fit:contain;}
+    </style>
+</head>
+<body class="doc">
+
+<nav><a href="/">bugdroid.org</a>/renders</nav>
+
+<h1>Droid Renders</h1>
+
+<div class="browse">
+    <br>
+    <img src="media/generic/bugdroid-2008.svg" class="picture">
+    <img src="media/generic/bugdroid-2008-developer.png" class="picture">
+    <img src="media/icons/apk-2008.png" class="picture">
+    <img src="media/versions/1.0-apple-pie.png" class="picture">
+    <img src="media/versions/1.1-banana-bread.png" class="picture">
+    <img src="media/versions/1.5-cupcake.png" class="picture">
+    <img src="media/versions/1.6-donut.svg" class="picture">
+    <img src="media/icons/android-market.png" class="picture">
+    <img src="media/icons/aosp-messages.png" class="picture">
+    <img src="media/icons/aosp-contacts.png" class="picture">
+    <img src="media/versions/2.0-eclair-sq.svg" class="picture">
+    <img src="media/versions/2.2-froyo.svg" class="picture">
+    <img src="media/versions/2.3-gingerbread.png" class="picture">
+    <img src="media/versions/3.0-honeycomb.png" class="picture">
+    <img src="media/versions/4.0-ice-cream-sandwich.png" class="picture">
+    <img src="media/versions/4.1-jellybean-jar.png" class="picture">
+    <img src="media/versions/4.1-jellybean.png" class="picture">
+    <img src="media/versions/4.4-internal-key-lime-pie.svg" class="picture">
+    <img src="media/versions/4.4-kitkat.png" class="picture">
+    <img src="media/generic/bugdroid-2014.png" class="picture">
+    <img src="media/generic/bugdroid-2014-jetpack.png" class="picture">
+    <img src="media/versions/5.0-lollipop.png" class="picture">
+    <img src="media/versions/6.0-marshmallow.png" class="picture">
+    <img src="media/versions/7.0-nougat.png" class="picture">
+    <img src="media/icons/my-android.png" class="picture">
+    <img src="media/generic/bugdroid-2019.png" class="picture">
+    <img src="media/icons/apk-2019.png" class="picture">
+    <img src="media/versions/8.0-oreo.png" class="picture">
+    <img src="media/versions/9.0-pie.png" class="picture">
+    <img src="media/versions/14.svg" class="picture">
+    <img src="media/generic/bugdroid-2023.png" class="picture">
+    <img src="media/versions/15.svg" class="picture">
+    <img src="media/versions/16.svg" class="picture">
+</div>
+
+<div class="full" id="fullscreenOverlay">
+    <img src="" alt="Fullscreen Image" id="fullscreenImage">
+</div>
+
+<script>
+    const tinyImages = document.querySelectorAll('.picture');
+    const fullscreenOverlay = document.getElementById('fullscreenOverlay');
+    const fullscreenImage = document.getElementById('fullscreenImage');
+
+    tinyImages.forEach(image => {image.addEventListener('click', () => {
+    fullscreenImage.src = image.src; fullscreenOverlay.classList.add('visible');});});
+    fullscreenOverlay.addEventListener('click', () => {fullscreenOverlay.classList.remove('visible');});
+</script>
+
+</body>
+</html>
