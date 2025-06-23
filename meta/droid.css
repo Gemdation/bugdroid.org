@@ -31,6 +31,7 @@ div.Product img {width:100%}
 div.Product p {margin-top: 10px;margin-bottom: 5px}
 span.year {color:grey;}
 span.price {color:#A4C639;}
+img.emo {width: 24px; height: 24px; vertical-align: middle; margin: 0 2px;}
 
 div#Info a {font-weight:bold}
 #Gallery, #About, #Info, #Product {text-align:left;padding:0;overflow:hidden}
@@ -59,7 +60,7 @@ img.d {background: linear-gradient(to bottom, #535353, #636363); padding: 2px;cu
 mark {color:#FFE600;background-color:#00000000;font-weight:bold}
 mark.green {color:#A4C639}
 mark.red {color:#df2d2d}
-::selection{background:#A5C63988}
+::selection{background:#A5C639;color:white}
 
 
 @media (max-width: 768px) {body.doc div {width: 95%}}

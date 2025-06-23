@@ -2,6 +2,45 @@
 // It tries to be chronologicial by following the
 // SKU numbers, however is it not going so well.
 const productData = {
+  "acrylic-pin": {
+    name: "YouTube Acrylic Pin Set",
+    maker: "Robertson Marketing",
+    year: "2025",
+    id: "GGOEYCBR250799",
+    price: "$10.00",
+    synopsis: "Showcase your passion for all things YouTube with this exclusive pin set. Whether you're a trend-spotter, a gaming guru, or a music maven, these pins have got you covered.",
+    images: [
+      "media/products/youtube/GGOEYCBR250799.jpg",
+      "media/products/youtube/GGOEYCBR250799-2.jpg",
+      "media/products/youtube/GGOEYCBR250799-3.jpg"
+    ]
+  },
+  "mini-jotter": {
+    name: "YouTube Mini Jotter",
+    maker: "Robertson Marketing",
+    year: "2025",
+    id: "GGOEYOCB250499",
+    price: "$5.00",
+    synopsis: "Your ideas, amplified. The official YouTube mini jotter notepad is here to help you capture every spark of inspiration. Compact, convenient, and ready for your next viral hit.",
+    images: [
+      "media/products/youtube/GGOEYOCB250499.jpg",
+      "media/products/youtube/GGOEYOCB250499-2.jpg",
+      "media/products/youtube/GGOEYOCB250499-3.jpg"
+    ]
+  },
+  "clicker-pen": {
+    name: "YouTube Recycled Clicker Pen",
+    maker: "Robertson Marketing",
+    year: "2025",
+    id: "GGOEYOAB250599",
+    price: "$2.00",
+    synopsis: "Write green, think big. Our YouTube pen is made from recycled materials and sports a cool red click top. It's the ultimate tool for eco-conscious creators and fans alike. Get yours and start making a difference, one word at a time.",
+    images: [
+      "media/products/youtube/GGOEYOAB250599.jpg",
+      "media/products/youtube/GGOEYOAB250599-2.jpg",
+      "media/products/youtube/GGOEYOAB250599-3.jpg"
+    ]
+  },
   "journal-ca": {
     name: "YouTube Journal",
     maker: "Robertson Marketing",

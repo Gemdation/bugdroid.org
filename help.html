@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="meta/droid.css">
     <link rel="icon" type="image/x-icon" href="meta/package.ico">
     <style>
-        div {padding-bottom: 20px;}
+        a.dir {background-color: #A4C639;color:white;padding:1px;font-weight:bold;outline:solid 1px white}
+        div {padding-bottom:0;}
         details {font-style:normal}
         summary {font-weight:normal;background: linear-gradient(to bottom, #F1F1F1, #B8B8B8);padding:9px;color:black;}
         summary:hover {background: linear-gradient(to bottom, #FFB769, #EC6100);}
@@ -29,30 +30,62 @@
 <h1>Help</h1>
 
 <div>
-    <h2>Contents</h2>
     <details>
-        <summary>Where are items from?</summary>
-        <ul>
-            <li><b>Google Merch Shop</b> (formerly the Google Merchandise Store)</li>
-            <li><b>Dead Zebra Shop</b> and its in-house brand, <b>Android Foundry</b>.</li>
-        </ul>
-    </details>
-    <details>
-        <summary>How are items found?</summary>
+        <summary>How are products found?</summary>
         <p><a href="https://web.archive.org/">Wayback Machine</a>! For Google Merch, I go to archives to
            see any products and their SKUs. I then go to where their product images are stored to browse
            through the images. For Dead Zebra and everything else, I wing it and try getting images
            straight from the archives.</p>
     </details>
-
+    <details>
+        <summary>How are games found?</summary>
+        <p>Using an Android package ID can lead directly to an APK download page. For example, searching
+           <a href="https://www.google.com/search?q=com.electricsheep.edj+apk"><b>"com.electricsheep.edj apk"</b></a> for its APK for download.</p>
+    </details>
+    <details>
+        <summary>How are videos found?</summary>
+        <p>Often searching "android mascot animation" can find tons of neat videos on YouTube. The video is
+           downloaded at original quality.</p>
+    </details>
+    <details>
+        <summary>Can I mass download media?</summary>
+        <p>Sure can! It's not my server being used to host anyway so...  <img src="meta/emotes/tongueout.png" class="emo" alt=""></p>
+        <p>Check out <a href="media/" class="dir">media/</a> and <a href="meta/" class="dir">meta/</a> for
+           anything you need.</p>
+        <p><mark>Note:</mark> The products folder's index file is not updated often. See the <a href="products"><b>products folder</b></a> directly on the repository.</p>
+    </details>
+    <details id="droids">
+        <summary>Why are some Bugdroids referred to differently?</summary>
+        <img src="meta/subpage-renders.png" width="100%">
+        <p>Here is the <b>Renders</b> page thumbnail for example. From left to right:</p>
+        <ul>
+            <li><b>"classic"</b> is the original 2008 mascot.</li>
+            <li><b>"new classic"</b> is the refreshed 2014 mascot.</li>
+            <li><b>"iconic"</b> is the vibrant 2019 mascot.</li>
+            <li><b>"modern"</b> is the latest 2023 mascot.</li>
+        </ul>
+        <p>"Iconic" was a name often given to Android merchandise with the 2019 branding, so I went with that.
+           The 2023 mascot is often in 3D but is using its 2D variant here for continuity.</p>
+    </details>
+    <details>
+        <summary>The robot is called "Bugdroid" or "Android"?</summary>
+        <p>In Android's licensing pages, it is referred to as <a href="https://developer.android.com/distribute/marketing-tools/brand-guidelines#android_robot">"Android bot"</a>.
+           In Google's CES 2024 blog, it was called <a href="https://blog.google/products/android/google-ces-2024-android-experience/">"The Bot"</a>.
+           In Google's 2023 rebrand blog, it was called <a href="https://blog.google/products/android/modern-look/">"bugdroid"</a></p>
+        <p>Basically, it is kinda all over the place. For simplicity, "bugdroid" is used for the robot.</p>
+    </details>
+    <details>
+        <summary>What is the YouTube directory for?</summary>
+        <p>Without creating an entire site, I wanted to archive all YouTube merchandise easily. It is done so here.</p>
+    </details>
+    <details>
+        <summary>I have suggestion or fix for the website.</summary>
+        <p>On GitHub, go to my <a href="https://github.com/Gemdation/bugdroid.org/"><b>bugdroid.org</b></a> repository,
+           you can open an Issue ticket there.</p>
+    </details>
 </div>
 
-
-<div>
-    <h2>Contact</h2>
-    <a href="https://github.com/Gemdation/bugdroid.org" class="btn">GitHub</a>
-    <a href="mailto:gem@techie.com" class="btn">Email</a> 
-</div>
+<p style="line-height:0;color:grey">For a question not on here, send an email to <a href="mailto:gem@techie.com"><b style="color:grey">gem@techie.com</b></a>.</p>
 
 </body>
 </html>
