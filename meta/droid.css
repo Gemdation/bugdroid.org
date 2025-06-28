@@ -26,17 +26,17 @@ a div:hover {box-shadow: 0px 0px 11px 4px #A4C639;}
 a div:active {box-shadow:none}
 a div:hover header {color:#A4C639}
 
-div.Product {color:white;text-align: center;padding:0;font-weight:bold;padding-bottom: 10px;}
-div.Product img {width:100%}
-div.Product p {margin-top: 10px;margin-bottom: 5px}
+div.product {color:white;text-align: center;padding:0;font-weight:bold;padding-bottom: 10px;}
+div.product img {width:100%}
+div.product p {margin-top: 10px;margin-bottom: 5px}
 span.year {color:grey;}
 span.price {color:#A4C639;}
 img.emo {width: 24px; height: 24px; vertical-align: middle; margin: 0 2px;}
 
 div#Info a {font-weight:bold}
-#Gallery, #About, #Info, #Product {text-align:left;padding:0;overflow:hidden}
+#Gallery, #About, #Info, #product {text-align:left;padding:0;overflow:hidden}
 #Gallery h2, #About h2, #Info h2 {text-align: left;margin-left: 9px;margin-top: 12px;margin-bottom: 5px;}
-div.block p, #Product p {margin-left: 9px;margin-right: 9px;margin-bottom: 5px;}
+div.block p, #product p {margin-left: 9px;margin-right: 9px;margin-bottom: 5px;}
 div.browse {box-sizing:content-box;padding:0;border:none;width:95%}
 body.browse div {width:95%}
 div.clear {padding:0;border:none}
