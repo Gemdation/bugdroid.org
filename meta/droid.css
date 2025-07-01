@@ -44,6 +44,7 @@ div.clear {padding:0;border:none}
 article {width: 50%;text-align:center;}
 details {text-align: center;padding-top: 0;padding-bottom: 8px;font-style: italic;}
 summary {list-style-type: none;font-weight: bold;color:grey;cursor: pointer;user-select: none;}
+details li {list-style-type:disc;list-style-position:inside;text-align:left;}
 a {color:#A4C639;text-decoration:none}
 hr {margin-left: 5px;margin-right: 5px;border-color:grey}
 table, th, td {text-align: center;border:1px solid white;border-collapse: collapse;}
