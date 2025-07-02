@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Widget Example</title>
+    <style>
+        .android-widget-container {display: flex; align-items: center; gap: 15px; position: relative; padding: 20px; border-radius: 12px;}
+        .android-widget {border: solid 2px #8C837A;background: linear-gradient(#414141,#202020); padding: 25px; border-radius: 5px; color: white; width: 320px; min-height: 160px; display: flex; flex-direction: column; justify-content: space-between; position: relative; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); cursor: pointer;}
+        .android-widget:hover {border: solid 2px #FFB769}
+        .android-widget:active {border: solid 2px #FFD554}
+        .widget-content {margin-bottom: 20px;}
+        .widget-content p {margin: 0; font-size: 1.2em; line-height: 1.4;}
+        .launcher-icon-wrapper {display: flex; justify-content: flex-end; align-items: flex-end; flex-grow: 1;}
+        .launcher-icon-wrapper img {width: 65px; height: 65px; object-fit: contain; filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.5));}
+        .page-indicator {position: absolute; bottom: 12px; right: 18px; font-size: 0.9em; color: #999;}
+        .android-robot-wrapper img {width: 90px; height: auto; display: block;}
+        .android-widget::after {content: ''; position: absolute; top: 45%; right: -10px; width: 0; height: 0; border-top: 12px solid transparent; border-bottom: 12px solid transparent; border-left: 12px solid #212121; z-index: 2;}
+    </style>
+</head>
+<body>
+
+    <div class="android-widget-container">
+        <div class="android-widget">
+            <div class="widget-content">
+                <p id="main-text">See all your apps.</p>
+                <p id="sub-text">Touch the Launcher icon.</p>
+            </div>
+            <div class="launcher-icon-wrapper">
+                <img id="launcher-icon" src="https://via.placeholder.com/65x65?text=Launcher" alt="Launcher Icon">
+
+                </div>
+            <div class="page-indicator">
+                <span id="current-page">1</span> of <span id="total-pages">6</span>
+            </div>
+        </div>
+        <div class="android-robot-wrapper">
+            <img src="media/generic/bugdroid-2008.png" alt="Android Robot">
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const widget = document.querySelector('.android-widget');
+            const mainText = document.getElementById('main-text');
+            const subText = document.getElementById('sub-text');
+            const launcherIcon = document.getElementById('launcher-icon');
+            const currentPageSpan = document.getElementById('current-page');
+            const totalPagesSpan = document.getElementById('total-pages');
+
+            const pages = [
+                {
+                    main: "See all your apps.",
+                    sub: "Touch the Launcher icon.",
+                    icon: "https://via.placeholder.com/65x65?text=Launcher" // Placeholder image for launcher
+                },
+                {
+                    main: "Organize your widgets.",
+                    sub: "Long press the home screen.",
+                    icon: "https://via.placeholder.com/65x65?text=Widgets" // Placeholder image for widgets
+                },
+                {
+                    main: "Change your wallpaper.",
+                    sub: "Pinch the home screen.",
+                    icon: "https://via.placeholder.com/65x65?text=Wallpaper" // Placeholder image for wallpaper
+                },
+                {
+                    main: "Add new screens.",
+                    sub: "Drag an app to the edge.",
+                    icon: "https://via.placeholder.com/65x65?text=Screens" // Placeholder image for screens
+                },
+                {
+                    main: "Search your phone.",
+                    sub: "Touch the search bar.",
+                    icon: "https://via.placeholder.com/65x65?text=Search" // Placeholder image for search
+                },
+                {
+                    main: "Use Google Now.",
+                    sub: "Swipe right from home.",
+                    icon: "https://via.placeholder.com/65x65?text=Google+Now" // Placeholder image for Google Now
+                }
+            ];
+
+            let currentPageIndex = 0;
+            totalPagesSpan.textContent = pages.length;
+
+            function updateWidgetContent() {
+                const currentPageData = pages[currentPageIndex];
+                mainText.textContent = currentPageData.main;
+                subText.textContent = currentPageData.sub;
+
+                // Update the icon, assuming it's an <img>.
+                // If you use CSS grid for the icon, you might toggle classes instead.
+                launcherIcon.src = currentPageData.icon;
+                launcherIcon.alt = currentPageData.main.split('.')[0] + " Icon"; // Dynamic alt text
+                
+                currentPageSpan.textContent = currentPageIndex + 1;
+            }
+
+            // Event listener for clicking the widget
+            widget.addEventListener('click', () => {
+                currentPageIndex = (currentPageIndex + 1) % pages.length;
+                updateWidgetContent();
+            });
+
+            // Initialize with the first page content
+            updateWidgetContent();
+        });
+    </script>
+</body>
+</html>

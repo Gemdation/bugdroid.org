@@ -15,24 +15,21 @@
         a.yt div {border-radius:5px; header {background: linear-gradient(to bottom, #505050, #000000);border-bottom: solid 1px grey;padding-bottom: 1px;}}
         a.yt:hover div {box-shadow: 0px 0px 11px 4px red;header {color: red}}
         a.yt:active div {box-shadow: none}
+        #droidImg {width:100px;float:right;display:block;}
     </style>
 </head>
 <body class="browse">
 <nav>bugdroid.org</nav>
 
-<img src="media/generic/af-shopsmall.png" id="droidImg" style="cursor:help" alt="Bugdroid in a bag"><audio id="droidSound" src="meta/fx-droid.mp3"></audio>
-
-<script>const clickableImage = document.getElementById('droidImg'); const sound = document.getElementById('droidSound'); clickableImage.addEventListener('click', function() {const newSound = new Audio(sound.src); newSound.play();});</script>
-
-<div>
+<article>
     <h1>Droid Pack</h1>
     <p>This website is dedicated to the iconic Bugdroid, mascot of Android. Here you will find figurines, wallpapers,
        merchandise, and what not. <em>All revolving around the cute green robot!</em> <img src="meta/emotes/heart.png" class="emo" alt=""></p>
-    <a href="about" class="btn">About</a> <a href="help" class="btn">Help</a>
     <p>Click a directory below to start exploring, use the <span style="color:white;background:linear-gradient(to bottom,#9C9C9C,#878787);text-shadow: 0px 0px 11px #0000009c;padding:2px"><b>header</b></span> to navigate back through directories.</p>
-</div>
-
-<br>
+    <span class="btns"><a href="about" class="btn">About</a> <a href="help" class="btn">Help</a></span>
+    <img src="media/generic/bugdroid-2008-peak.png" id="droidImg" style="cursor:help" alt="Bugdroid in a bag"><audio id="droidSound" src="meta/fx-droid.mp3"></audio>
+    <script>const clickableImage = document.getElementById('droidImg'); const sound = document.getElementById('droidSound'); clickableImage.addEventListener('click', function() {const newSound = new Audio(sound.src); newSound.play();});</script>
+</article>
 
 <a href="accessories/"><div class="dir"><header>/accessories</header><img src="meta/subpage-accessories.png" alt="Accessories"></div></a>
 <a href="animations/"><div class="dir"><header>/animations</header><img src="meta/subpage-animations.png" alt="Animated videos"></div></a>

@@ -137,15 +137,14 @@
 <!--begin the JS stuff-->
 
 <div id="prod" class="clear">
-    <button onclick="returnToBrowse()">Close</button>
-    
-    <div class="block" id="Gallery">
+    <p><button onclick="returnToBrowse()">Close</button></p> 
+    <div id="Gallery">
         <img src="" id="prod-images" alt="" style="width:100%">
-        <header class="buttons"><button id="prev-button" onclick="prevSlide()">◀</button> <button id="next-button" onclick="nextSlide()">▶</button></header>
+        <header><button id="prev-button" onclick="prevSlide()">◀</button> <button id="next-button" onclick="nextSlide()">▶</button></header>
     </div>
 
-    <div class="block" id="About">
-        <h2><span id="prod-name"></span></h2>
+    <div id="About">
+        <h2 style="margin-left:10px"><span id="prod-name"></span></h2>
         <p style="font-style:italic"><span id="prod-descrip"></span></p>
         <ul>
             <li><mark>Manufacturer:</mark> <span id="prod-maker"></span></li>

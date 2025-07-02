@@ -1,26 +1,29 @@
-@font-face {font-family: 'Droid Sans'; src: url('droid-sans.ttf') format('truetype'), url('droid-sans-bold.ttf') format('truetype'); font-weight: normal; font-style: normal;}
-@font-face {font-family: 'Droid Sans'; src: url('droid-sans-bold.ttf') format('truetype'); font-weight: bold; font-style: normal;}
+@font-face {font-family:'Droid Sans';src:url('droid-sans.ttf') format('truetype'), url('droid-sans-bold.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+@font-face {font-family:'Droid Sans';src:url('droid-sans-bold.ttf') format('truetype'); font-weight: bold; font-style: normal;}
 
 body {margin:0;padding-top: 30px;background-color: black;color:white;text-align:center;font-family:"Droid Sans",sans-serif;font-weight:400;font-style: normal;background-image: url(meta/droid-peek.png);background-repeat: no-repeat;background-position:right bottom;}
-header {padding-top: 2px;padding-bottom:2px;padding-left: 2px;color:white;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px black}
-header a {color:white}
-header a:hover {color:#A4C639}
 nav {position:fixed;z-index: 1000;top: 0;padding:2px;padding-right:0;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px black}
 nav a {color:white;}
 nav a:hover {color:#A4C639}
+header {padding-top: 2px;padding-bottom:2px;padding-left: 2px;color:white;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px black}
+
+#Gallery header {padding: 10px;text-align: center;}
+#About header, #Info header {background:#191919;color:#BEBEBE;border-bottom:solid 1px #5e5e5e;}
 
 a.btn {display: inline-block;font-size: 14px;margin-bottom: 4px;background: linear-gradient(to bottom, #F1F1F1, #B8B8B8); padding: 8px; color: black;}
 a.btn:hover {background: linear-gradient(to bottom, #FFB769, #EC6100);}
 a.btn:active {background: linear-gradient(to bottom, #ffd554, #E99D00);}
 
-button {font-family:'Droid Sans', sans-serif;margin-bottom: 4px;background: linear-gradient(to bottom, #F1F1F1, #B8B8B8); padding: 9px; color: black; cursor: pointer; border:none; box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003B}
-button:hover {background: linear-gradient(to bottom, #FFB769, #EC6100);}
-button:active {background: linear-gradient(to bottom, #ffd554, #E99D00);}
-button:disabled {cursor: not-allowed;background: linear-gradient(to bottom, #535353, #636363);}
+button {font-family:'Droid Sans',sans-serif;margin-bottom: 4px;background: linear-gradient(to bottom, #F1F1F1, #B8B8B8); padding: 9px; color: black; cursor: pointer; border:none; box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003B}
+button:hover {background:linear-gradient(to bottom, #FFB769, #EC6100);}
+button:active {background:linear-gradient(to bottom, #ffd554, #E99D00);}
+button:disabled {cursor:not-allowed;background:linear-gradient(to bottom, #535353, #636363);}
 
 div {margin:auto;width:35%;box-sizing: border-box;padding: 6px;margin-top:10px;margin-bottom:10px;border-color:#4F4E4F; border-width:1px;overflow:hidden;border-style:solid;}
+div.dir img {width:100%;display:block}
 div.dir {padding: 0;border-style: solid; background-color: black}
-div.dir img {width:100%;display:block;}
+div.dir header {padding-top: 2px;padding-bottom:2px;padding-left: 2px;color:white;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px black}
+div.clear {padding:0;margin:0;border:none;}
 
 a div:hover {box-shadow: 0px 0px 11px 4px #A4C639;}
 a div:active {box-shadow:none}
@@ -29,41 +32,38 @@ a div:hover header {color:#A4C639}
 div.product {color:white;text-align: center;padding:0;font-weight:bold;padding-bottom: 10px;}
 div.product img {width:100%}
 div.product p {margin-top: 10px;margin-bottom: 5px}
-span.year {color:grey;}
-span.price {color:#A4C639;}
-img.emo {width: 24px; height: 24px; vertical-align: middle; margin: 0 2px;}
+span.artist, span.year {color:grey}
+span.price {color:#A4C639}
 
 div#Info a {font-weight:bold}
-#Gallery, #About, #Info, #product {text-align:left;padding:0;overflow:hidden}
-#Gallery h2, #About h2, #Info h2 {text-align: left;margin-left: 9px;margin-top: 12px;margin-bottom: 5px;}
-div.block p, #product p {margin-left: 9px;margin-right: 9px;margin-bottom: 5px;}
+#Gallery, #About, #Info {text-align:left;padding:0;overflow:hidden}
+#About p {margin-left:9px;margin-right:9px;margin-bottom: 5px;}
 div.browse {box-sizing:content-box;padding:0;border:none;width:95%}
 body.browse div {width:95%}
-div.clear {padding:0;border:none}
+#IndivFig img {width:150px}
+#IndivFig {padding-bottom:0}
 
-article {width: 50%;text-align:center;}
+a {color:#A4C639;text-decoration:none}
+article {border:solid 1px grey;border-radius:5px;width: 40%;text-align:center;margin: auto;background: linear-gradient(#414141,#202020);padding:5px;padding-right: 0;padding-bottom:0;overflow:hidden;}
 details {text-align: center;padding-top: 0;padding-bottom: 8px;font-style: italic;}
 summary {list-style-type: none;font-weight: bold;color:grey;cursor: pointer;user-select: none;}
 details li {list-style-type:disc;list-style-position:inside;text-align:left;}
-a {color:#A4C639;text-decoration:none}
+abbr {cursor:help}
 hr {margin-left: 5px;margin-right: 5px;border-color:grey}
-table, th, td {text-align: center;border:1px solid white;border-collapse: collapse;}
-td.g {width: 150px; height: 150px; vertical-align: middle;}
-header.buttons {padding: 10px;text-align: center;}
-img.slides, img.f, video {width: 100%}
 ul {list-style:none;padding-left: 8px;}
+img.slides, img.f, video {width: 100%}
 
 img.i {background: linear-gradient(to bottom, #f1f1f1, #b8b8b8); padding: 2px;}
 img.i:hover {background: linear-gradient(to bottom, #ffb769, #ec6100);}
 img.i:active {background: linear-gradient(to bottom, #ffd554, #e99d00);}
 img.d {background: linear-gradient(to bottom, #535353, #636363); padding: 2px;cursor:not-allowed}
+img.emo {width: 24px; height: 24px; vertical-align: middle; margin: 0 2px;}
 
 mark {color:#FFE600;background-color:#00000000;font-weight:bold}
 mark.green {color:#A4C639}
 mark.red {color:#df2d2d}
 ::selection{background:#A5C639;color:white}
 
-
-@media (max-width: 768px) {body.doc div {width: 95%}}
+@media (max-width: 768px) {body.doc div {width:95%} article {width:93%}}
 @media (min-width: 769px) and (max-width: 1024px) {body.browse div {width: 40%; display: inline-block; margin: 1%;}}
 @media (min-width: 1025px) {body.browse div {width: 25%; display: inline-block; margin: 1%;}}
