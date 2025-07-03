@@ -20,9 +20,9 @@ button:active {background:linear-gradient(to bottom, #ffd554, #E99D00);}
 button:disabled {cursor:not-allowed;background:linear-gradient(to bottom, #535353, #636363);}
 
 div {margin:auto;width:35%;box-sizing: border-box;padding: 6px;margin-top:10px;margin-bottom:10px;border-color:#4F4E4F; border-width:1px;overflow:hidden;border-style:solid;}
-div.dir img {width:100%;display:block}
 div.dir {padding: 0;border-style: solid; background-color: black}
 div.dir header {padding-top: 2px;padding-bottom:2px;padding-left: 2px;color:white;background: linear-gradient(to bottom, #9C9C9C, #878787); width:100%; text-align: left; font-weight: bold; text-shadow: 0px 0px 11px black}
+div.dir img {width:100%;display:block}
 div.clear {padding:0;margin:0;border:none;}
 
 a div:hover {box-shadow: 0px 0px 11px 4px #A4C639;}
