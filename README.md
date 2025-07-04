@@ -13,5 +13,5 @@ Droid Pack is a collection of (primarily) merchandise, fan games, wallpapers, an
 
 ## Non-collection folders
 
-* `media/` Media content used on the website (including APKs) **NOTE: The index of the /products folder is not updated often.**
+* `media/` Media content used on the website (including APKs)
 * `meta/` Files used for CSS or navigation.

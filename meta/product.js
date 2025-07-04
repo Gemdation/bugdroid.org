@@ -8,7 +8,7 @@ const prodYear = document.getElementById('prod-year');
 const prodId = document.getElementById('prod-id');
 const prodPrice = document.getElementById('prod-price');
 const prodDescrip = document.getElementById('prod-descrip');
-const browseSpan = document.querySelector('div.browse');
+const browseSpan = document.querySelector('div.gallery');
 const prodContainer = document.getElementById('prod');
 
 document.querySelectorAll('img.prev').forEach(img => {

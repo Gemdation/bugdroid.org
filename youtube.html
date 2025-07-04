@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="meta/droid.css">
     <link rel="icon" type="image/x-icon" href="meta/package.ico">
     <style>
-        div, img.prev {border-radius:5px}
+        div.box, img.prev {border-radius:5px}
+        div.individual div.box#Gallery header {background:black}
         img.prev {width:150px;border:solid 3px black;outline: solid 1px #4F4E4F;margin:3px;margin-top:0px}
         img.prev:hover {box-shadow: 0px 0px 11px 4px red;cursor:pointer}
         img.prev:active {box-shadow:none}
@@ -26,12 +27,12 @@
         header.buttons {background: linear-gradient(to bottom, #000000, #000000)}
     </style>
 </head>
-<body class="doc">
+<body>
 
-<nav style="background: linear-gradient(to bottom, #505050, #000000);border-bottom: solid 1px grey"><a href="/">bugdroid.org</a>/youtube</nav>
+<nav><header style="background: linear-gradient(to bottom, #505050, #000000);border-bottom: solid 1px grey"><a href="/">bugdroid.org</a>/youtube</header></nav>
 
 
-<div class="browse">
+<div class="gallery">
     <h1><img src="meta/logo-youtube.png" id="tubeImg" style="width: 200px;cursor:help"><audio id="tubeSound" src="meta/fx-youtube.mp3"></audio></h1>
     <script>const clickableImage = document.getElementById('tubeImg'); const sound = document.getElementById('tubeSound'); let isPlaying = false; clickableImage.addEventListener('click', function() {if (isPlaying) return; const newSound = new Audio(sound.src); isPlaying = true; newSound.play(); newSound.addEventListener('ended', function() {isPlaying = false;});});</script>
     <!--it can't overlap on purpose, gets loud-->
@@ -136,14 +137,15 @@
 
 <!--begin the JS stuff-->
 
-<div id="prod" class="clear">
-    <p><button onclick="returnToBrowse()">Close</button></p> 
-    <div id="Gallery">
+<div id="prod">
+    <button onclick="returnToBrowse()" style="margin-top:15px;">Close</button>
+    <div class="individual">
+    <div class="box" id="Gallery">
         <img src="" id="prod-images" alt="" style="width:100%">
         <header><button id="prev-button" onclick="prevSlide()">◀</button> <button id="next-button" onclick="nextSlide()">▶</button></header>
     </div>
 
-    <div id="About">
+    <div class="box" id="About">
         <h2 style="margin-left:10px"><span id="prod-name"></span></h2>
         <p style="font-style:italic"><span id="prod-descrip"></span></p>
         <ul>
@@ -152,6 +154,7 @@
             <li><mark>ID:</mark> <span id="prod-id"></span></li>
             <li><mark>Price:</mark> <span id="prod-price"></span></li>
         </ul>
+    </div>
     </div>
 </div>
 

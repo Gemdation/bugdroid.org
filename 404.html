@@ -4,42 +4,15 @@
     <title>404</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/meta/droid.css">
-    <link rel="stylesheet" href="/meta/row-single.css">
     <link rel="icon" type="image/x-icon" href="/meta/package.ico">
 </head>
-<body class="doc">
+<body>
 
-<nav id="requested-url"></nav>
-
-<div>
+<article>
     <h1>404</h1>
     <p>Not Found  <img src="meta/emotes/fim.png" class="emo" alt=""></p>
-    <img src="/media/random/android-recovery-warning.png" alt="Image of a Bugdroid robot opened, with a red warning sign">
-
     <p><a href="/" class="btn">Go to <b>bugdroid.org</b></a></p>
-</div>
-
-<script>
-    var fullUrl = window.location.href;
-    var urlHeader = fullUrl.replace(/^https?:\/\//, '');
-    document.getElementById('requested-url').textContent = urlHeader;
-
-    var pathSegments = window.location.pathname.split('/').filter(segment => segment);
-    var baseUrl = window.location.origin;
-    var breadcrumbNav = document.getElementById('breadcrumb-nav');
-
-    var breadcrumbHtml = `<a href="/">bugdroid.org</a>`;
-
-    var currentPath = '';
-    for (var i = 0; i < pathSegments.length; i++) {
-        currentPath += '/' + pathSegments[i];
-        breadcrumbHtml += ` / <a href="${currentPath}">${pathSegments[i]}</a>`;
-    }
-
-    breadcrumbHtml += ` / ${pathSegments[pathSegments.length - 1]}`;
-
-    breadcrumbNav.innerHTML = breadcrumbHtml;
-</script>
+</article>
 
 </body>
 </html>

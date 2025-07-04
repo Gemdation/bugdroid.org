@@ -12,18 +12,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../meta/droid.css">
     <link rel="icon" type="image/x-icon" href="../meta/package.ico">
-    <style>p {font-size: larger;} div:hover {background: linear-gradient(to bottom, #ffb769, #ec6100)} a:hover div {box-shadow: none;} div:active {background: linear-gradient(to bottom, #ffd554, #e99d00);} a {color:white} a:hover {color:white} img {float:left} img.ss {width:100%} img.nss {width: 20%;margin-left: 4px;align-items: center;}</style>
+    <style>
+        div.box {padding:10px;display: flex;align-items: center;}
+        div.browse div.box img {width: 100px;height: auto;margin-right: 10px;float: left;}
+        div.box p {font-size:larger;font-weight:normal;text-align: left;flex-grow: 1;}
+    </style>
 </head>
-<body class="browse">
+<body>
 
-<nav><a href="/">bugdroid.org</a>/games</nav>
+<nav><header><a href="/">bugdroid.org</a>/games</header></nav>
 <h1>Droid Games</h1>
 
-<a href="android-kitkat-challenge"><div><img src="../media/icons/kitkat-challenge.png" width="50px"><p>Android KitKat Challenge</p><br><img src="../media/games/screenshots/android-kitkat-challenge-gameplay-draw-path.png" class="ss"></div></a>
-<a href="androidify"><div><img src="../media/icons/androidify.png" width="50px"><p>Androidify</p><br><img src="../media/games/screenshots/androidify-editor-default.png" class="nss"> <img src="../media/games/screenshots/androidify-editor-google.png" class="nss"> <img src="../media/games/screenshots/androidify-editor-lgbt-shirt.png" class="nss"></div></a>
-<a href="bugdroid-buddy"><div><img src="../media/icons/bugdroid-buddy.png" width="50px"><p>Bugdroid Buddy</p><br><img src="../media/games/screenshots/bugdroid-buddy-1.png" class="ss"></div></a>
-<a href="droid-jump"><div><img src="../media/icons/droid-jump.png" width="50px"><p>Droid Jump</p><br><img src="../media/games/screenshots/droid-jump.png" class="ss"></div></a>
-<a href="extreme-droid-jump"><div><img src="../media/icons/extreme-droid-jump.png" width="50px"><p>Extreme Droid Jump</p><br><img src="../media/games/screenshots/extreme-droid-jump-title-screen.png" class="nss"><img src="../media/games/screenshots/extreme-droid-jump-gameplay-classic.png" class="nss"><img src="../media/games/screenshots/extreme-droid-jump-game-over.png" class="nss"></div></a>
+<div class="browse">
+<a href="android-kitkat-challenge"><div class="box"><img src="../media/icons/kitkat-challenge.png" width="50px"><p>Android KitKat Challenge</p><br></div></a>
+<a href="androidify"><div class="box"><img src="../media/icons/androidify.png" width="50px"><p>Androidify</p></div></a>
+<a href="bugdroid-buddy"><div class="box"><img src="../media/icons/bugdroid-buddy.png" width="50px"><p>Bugdroid Buddy</p></div></a>
+<a href="droid-jump"><div class="box"><img src="../media/icons/droid-jump.png" width="50px"><p>Droid Jump</p></div></a>
+<a href="extreme-droid-jump"><div class="box"><img src="../media/icons/extreme-droid-jump.png" width="50px"><p>Extreme Droid Jump</p></div></a>
+</div>
+
 
 </body>
 </html>
