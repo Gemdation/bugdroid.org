@@ -28,7 +28,7 @@ div.individual div.box {width:35%;text-align:left;}
 div.individual div.box#Gallery img {width:100%}
 div.individual div.box#Gallery header {padding:10px;text-align:center}
 div.individual div.box p {margin-left:9px;margin-right:9px;margin-bottom:5px;}
-div.individual div.box#About header, div.individual div.box#Info header, div.individual div.box#Related header {background:#191919;color:#BEBEBE;border-bottom:solid 1px #5e5e5e;}
+div.individual div.texts header {background:#191919;color:#BEBEBE;border-bottom:solid 1px #5e5e5e;}
 div.individual div.box#IndivFig {padding-top:5px}
 div.individual div.box#IndivFig img {width:150px}
 div.box#Video video {width:100%;display:block;}
@@ -57,5 +57,5 @@ mark.red {color:#DF2D2D}
 ::selection{background:#A5C639;color:white}
 
 @media (max-width: 768px) {div.individual div.box {width:95%} article {width:93%}}
-@media (min-width: 769px) and (max-width: 1024px) {div.browse div.box {width: 40%; display: inline-block; margin: 1%;}}
-@media (min-width: 1025px) {div.browse div.box {width: 25%; display: inline-block; margin: 1%;}}
+@media (min-width: 769px) and (max-width: 1200px) {div.browse div.box {width: 40%; display: inline-block; margin: 1%;} div.individual div.box {width:60%}}
+@media (min-width: 1200px) {div.browse div.box {width: 25%; display: inline-block; margin: 1%;} div.individual {box-sizing: border-box;grid-template-columns: 1fr 1fr;gap:10px; align-items: start;display:flex; width: 80%;margin: auto;} div.individual div.box#Gallery {grid-column:1/2;width:100%;max-width:600px;} div.individual div.texts {grid-column:2/3;display:flex;flex-direction:column;gap:10px;width:90%;} div.individual div.box {width: 100%;margin-bottom:0;margin-top:0;}}
