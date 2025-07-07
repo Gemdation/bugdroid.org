@@ -22,7 +22,7 @@ div.browse a {text-decoration:none;}
 div.browse div.box {width:95%;color:white;font-weight:bold;padding-bottom:10px;width:95%;margin-bottom:10px;}
 div.browse div.box p {margin-top:0;margin-bottom:5px;}
 div.browse div.box img {width:100%;padding-bottom:5px;}
-div.gallery {box-sizing:content-box;padding:0;border:none;width:95%}
+div.gallery {margin:auto}
 div.individual {padding:10px;}
 div.individual div.box {width:35%;text-align:left;}
 div.individual div.box#Gallery img {width:100%}
