@@ -31,7 +31,6 @@
 
 <nav><header style="background: linear-gradient(to bottom, #505050, #000000);border-bottom: solid 1px grey"><a href="/">bugdroid.org</a>/youtube</header></nav>
 
-
 <div class="gallery">
     <h1><img src="meta/logo-youtube.png" id="tubeImg" style="width: 200px;cursor:help"><audio id="tubeSound" src="meta/fx-youtube.mp3"></audio></h1>
     <script>const clickableImage = document.getElementById('tubeImg'); const sound = document.getElementById('tubeSound'); let isPlaying = false; clickableImage.addEventListener('click', function() {if (isPlaying) return; const newSound = new Audio(sound.src); isPlaying = true; newSound.play(); newSound.addEventListener('ended', function() {isPlaying = false;});});</script>
