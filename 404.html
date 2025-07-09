@@ -3,16 +3,41 @@
 <head>
     <title>404</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/meta/droid.css">
     <link rel="icon" type="image/x-icon" href="/meta/package.ico">
+    <style>
+        @font-face {font-family:'Droid Sans';src:url('droid-sans.ttf') format('truetype'), url('droid-sans-bold.ttf') format('truetype');font-weight:normal;font-style:normal;}
+        body {font-family:'Droid Sans',sans-serif;margin:0}
+        h2 {font-size:large}
+        article {width:250px;padding-left:6px}
+        summary {color:grey;list-style:none;cursor:pointer;font-weight:bold;font-style:italic}
+    </style>
 </head>
 <body>
 
 <article>
-    <h1>404</h1>
-    <p>Not Found  <img src="/meta/emotes/fim.png" class="emo" alt=""></p>
-    <p><a href="/" class="btn">Go to <b>bugdroid.org</b></a></p>
+    <img src="/meta/404-peek.svg" width="50px">
+    <h1>Webpage not found</h1>
+    <p>The webpage at <b id="URI">about:blank</b> could not be loaded because:</p>
+    <p>net::ERR_FILE_NOT_FOUND</p>
+    <h2>Suggestions</h2>
+    <ul>
+        <li>Reload this webpage later</li>
+        <li>Check the address you entered</li>
+        <li>View a cached copy of the page from Google</li>
+    </ul>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <details>
+        <summary>View more</summary>
+        <p>This is a joke page for the most part. In case there is an actual 404, try:</p>
+        <ul>
+            <li>Checking <a href="https://github.com/Gemdation/bugdroid.org/">this repository</a></li>
+            <li>Seeing an older snapshot on the <a id="wayback-machine-link" href="#" style="display: none;">Wayback Machine</a></li>
+            <li>Contacting me at <a href="mailto:gem@techie.com">gem@techie.com</a></li>
+        </ul>
+    </details>
 </article>
+<br>
+<script>document.addEventListener('DOMContentLoaded', function() {const fullUrl = window.location.href;const dynamicUrlElement = document.getElementById('URI');if (dynamicUrlElement) {dynamicUrlElement.textContent = fullUrl;}const waybackLink = document.getElementById('wayback-machine-link'); if (waybackLink) {const waybackUrl = `https://web.archive.org/web/*/${fullUrl}`; waybackLink.href = waybackUrl; waybackLink.textContent = 'Wayback Machine'; waybackLink.style.display = 'inline';}});</script>
 
 </body>
 </html>
