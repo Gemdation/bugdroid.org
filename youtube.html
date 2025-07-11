@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="meta/droid.css">
     <link rel="icon" type="image/x-icon" href="meta/package.ico">
+    <script src="/meta/site-board.js" defer></script>
     <style>
         div.box, img.prev {border-radius:5px}
         div.individual div.box#Gallery header {background:black}
@@ -31,7 +32,7 @@
 
 <nav><header style="background: linear-gradient(to bottom, #505050, #000000);border-bottom: solid 1px grey"><a href="/">bugdroid.org</a>/youtube</header></nav>
 
-<div class="gallery">
+<div class="board">
     <h1><img src="meta/logo-youtube.png" id="tubeImg" style="width: 200px;cursor:help"><audio id="tubeSound" src="meta/fx-youtube.mp3"></audio></h1>
     <script>const clickableImage = document.getElementById('tubeImg'); const sound = document.getElementById('tubeSound'); let isPlaying = false; clickableImage.addEventListener('click', function() {if (isPlaying) return; const newSound = new Audio(sound.src); isPlaying = true; newSound.play(); newSound.addEventListener('ended', function() {isPlaying = false;});});</script>
     <!--it can't overlap on purpose, gets loud-->
@@ -157,8 +158,7 @@
     </div>
 </div>
 
-<script src="meta/product-db-youtube.js"></script>
-<script src="meta/product.js"></script>
+<script src="meta/site-database-youtube.js"></script>
 
 </body>
 </html>

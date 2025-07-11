@@ -1,7 +1,7 @@
 @font-face {font-family:'Droid Sans';src:url('droid-sans.ttf') format('truetype'), url('droid-sans-bold.ttf') format('truetype');font-weight:normal;font-style:normal;}
 @font-face {font-family:'Droid Sans';src:url('droid-sans-bold.ttf') format('truetype');font-weight:bold;font-style:normal;}
 
-body {margin:0;padding-top:30px;background-color:black;color:white;text-align:center;font-family:"Droid Sans",sans-serif;font-weight:400;font-style:normal;}
+body {margin:0;padding-top:30px;background-color:black;color:white;text-align:center;font-family:"Droid Sans",sans-serif;}
 nav {position:fixed;z-index:1000;top:0;width:100%;}
 header {padding:2px;padding-right:0;color:white;background:linear-gradient(to bottom, #9C9C9C, #878787);background-color:#9C9C9C;width:100%;text-align:left;font-weight:bold;text-shadow:0px 0px 11px black}
 header a {color:white;text-decoration:none;}
@@ -22,7 +22,7 @@ div.browse a {text-decoration:none;}
 div.browse div.box {width:95%;color:white;font-weight:bold;padding-bottom:10px;width:95%;margin-bottom:10px;}
 div.browse div.box p {margin-top:0;margin-bottom:5px;}
 div.browse div.box img {width:100%;padding-bottom:5px;}
-div.gallery {margin:auto}
+div.board {margin:auto}
 div.individual {padding-top:10px}
 div.individual div.box {width:35%;text-align:left;margin-top:0;}
 div.individual div.box#Gallery img {width:100%}
@@ -51,6 +51,12 @@ img.i {background:linear-gradient(to bottom,#F1F1F1,#B8B8B8);padding:2px;}
 img.i:hover {background:linear-gradient(to bottom,#FFB769,#EC6100);}
 img.i:active {background:linear-gradient(to bottom,#FFD554,#E99D00);}
 img.d {background:linear-gradient(to bottom,#535353,#636363);padding:2px;cursor:not-allowed}
+
+body.dir {background:black;color:white;font-family:"Droid Sans",sans-serif;text-align:left;padding-top:0}
+body.dir h1 {padding-left:15px}
+body.dir li {justify-content:center;vertical-align:middle;border-top:solid 1px #5e5e5e;}
+body.dir img {vertical-align:middle;width:30px}
+body.dir a {text-decoration:none}
 
 mark {color:#FFE600;background-color:#00000000;font-weight:bold}
 mark.green {color:#A4C639}
