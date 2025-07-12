@@ -13,9 +13,9 @@ button:disabled {cursor:not-allowed;background:linear-gradient(to bottom, #53535
 
 a {color:#A4C639}
 a div.box:hover {border:solid 1px #E99D00}
+a div.box:hover header {color:#A4C639}
 a div.box:active {background:linear-gradient(to bottom, #FFD554, #E99D00);color:black}
 a div.box:active span.year, a div.box:active span.price, a div.box:active p {color:black}
-a div.box:hover header {color:#A4C639}
 
 div.box {margin:auto;box-sizing:border-box;margin-top:10px;margin-bottom:10px;border:solid 1px #4F4E4F;overflow:hidden;}
 div.browse a {text-decoration:none;}
@@ -52,7 +52,7 @@ img.i:hover {background:linear-gradient(to bottom,#FFB769,#EC6100);}
 img.i:active {background:linear-gradient(to bottom,#FFD554,#E99D00);}
 img.d {background:linear-gradient(to bottom,#535353,#636363);padding:2px;cursor:not-allowed}
 
-body.dir {background:black;color:white;font-family:"Droid Sans",sans-serif;text-align:left;padding-top:0}
+body.dir {background:black;color:white;font-family:"Droid Sans",sans-serif;text-align:left;padding-top:0;max-width:550px}
 body.dir h1 {padding-left:15px}
 body.dir li {justify-content:center;vertical-align:middle;border-top:solid 1px #5e5e5e;}
 body.dir img {vertical-align:middle;width:30px}
