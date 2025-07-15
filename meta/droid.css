@@ -19,12 +19,12 @@ a div.box:active span.year, a div.box:active span.price, a div.box:active p {col
 
 div.box {margin:auto;box-sizing:border-box;margin-top:10px;margin-bottom:10px;border:solid 1px #4F4E4F;overflow:hidden;}
 div.browse a {text-decoration:none;}
-div.browse div.box {width:95%;color:white;font-weight:bold;padding-bottom:10px;width:95%;margin-bottom:10px;}
+div.browse div.box {color:white;font-weight:bold;padding-bottom:10px;width:95%;margin-bottom:10px;}
 div.browse div.box p {margin-top:0;margin-bottom:5px;}
-div.browse div.box img {width:100%;padding-bottom:5px;}
+div.browse div.box img {width:100%;margin-bottom:10px;display:block}
 div.board {margin:auto}
 div.individual {padding-top:10px}
-div.individual div.box {width:35%;text-align:left;margin-top:0;}
+div.individual div.box {width:95%;text-align:left;margin-top:0}
 div.individual div.box#Gallery img {width:100%}
 div.individual div.box#Gallery header {padding:10px;text-align:center}
 div.individual div.box p {margin-left:9px;margin-right:9px;margin-bottom:5px;}
@@ -36,7 +36,7 @@ div.box#Video video {width:100%;display:block}
 span.artist, span.year {color:grey}
 span.price {color:#A4C639}
 
-article {border:solid 1px grey;border-radius:5px;width:40%;text-align:center;margin:auto;background:linear-gradient(#414141,#202020);padding:5px;padding-right:0;padding-bottom:0;overflow:hidden;}
+article {border:solid 1px grey;border-radius:5px;width:90%;text-align:center;margin:auto;background:linear-gradient(#414141,#202020);padding:5px;padding-right:0;padding-bottom:0;overflow:hidden;}
 details {text-align:center;padding-top:0;padding-bottom:8px;font-style:italic}
 details li {list-style-type:disc;list-style-position:inside;text-align:left}
 summary {list-style-type:none;font-weight:bold;color:grey;cursor:pointer;user-select:none;}
@@ -63,7 +63,6 @@ mark.green {color:#A4C639}
 mark.red {color:#DF2D2D}
 ::selection{background:#A5C639;color:white}
 
-@media (max-width:768px) {div.individual div.box {width:95%} article {width:93%}}
-@media (min-width:769px) and (max-width:1200px) {div.browse div.box {width:40%;display:inline-block;margin:1%;} div.individual div.box {width:60%}}
+@media (min-width:769px)  {div.browse div.box {width:40%;display:inline-block;margin:1%;} div.individual div.box {width:60%} article {width:40%}}
 @media (min-width:1200px) {div.browse div.box {width:25%;display:inline-block;margin:1%;} div.individual {box-sizing:border-box;display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:start;width:80%;margin:auto;} div.individual div.box#Gallery {grid-column:1/2;width:100%;max-width:600px;} div.individual div.texts {grid-column:2/3;display:grid;flex-direction:column;gap:10px;width:90%;} div.individual div.box {width:100%;margin-bottom:0;margin-top:0;}}
 @media (min-width:1700px) {div.browse div.box {width:20%;display:inline-block;margin:1%;} div.individual {width:60%}}
