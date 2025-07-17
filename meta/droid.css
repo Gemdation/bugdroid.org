@@ -1,5 +1,5 @@
-@font-face {font-family:'Droid Sans';src:url('droid-sans.ttf') format('truetype'), url('droid-sans-bold.ttf') format('truetype');font-weight:normal;font-style:normal;}
-@font-face {font-family:'Droid Sans';src:url('droid-sans-bold.ttf') format('truetype');font-weight:bold;font-style:normal;}
+@font-face {font-family:'Droid Sans';font-display:swap;src:url('droid-sans.ttf') format('truetype'), url('droid-sans-bold.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face {font-family:'Droid Sans';font-display:swap;src:url('droid-sans-bold.ttf') format('truetype');font-weight:bold;font-style:normal;}
 
 body {margin:0;padding-top:30px;background-color:black;color:white;text-align:center;font-family:"Droid Sans",sans-serif;}
 nav {position:fixed;z-index:1000;top:0;width:100%;}

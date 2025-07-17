@@ -2,6 +2,32 @@
 // It tries to be chronologicial by following the
 // SKU numbers, however is it not going so well.
 const productData = {
+  "juniper-tee": {
+    name: "YouTube Organic Juniper Tee",
+    maker: "Robertson Marketing",
+    year: "2025",
+    id: "GGOEYXXX2511",
+    price: "$32.00",
+    synopsis: "Like and subscribe to style. This YouTube tee lets you sport the iconic logo in comfort. It's a versatile addition to any wardrobe, perfect for everyday wear, gaming, or simply relaxing while watching your favorite subscriptions.",
+    images: [
+      "media/products/youtube/GGOEYXXX2511.jpg",
+      "media/products/youtube/GGOEYXXX2511-2.jpg",
+      "media/products/youtube/GGOEYXXX2511-3.jpg"
+    ]
+  },
+  "shoe-charm": {
+    name: "YouTube Shoe Charm Pack",
+    maker: "Robertson Marketing",
+    year: "2025",
+    id: "GGOEYCBR250899",
+    price: "$9.00",
+    synopsis: "Give your shoes a nod of approval with our YouTube charm pack. This set is perfect for content creators, avid viewers, or anyone who just loves to spread good vibes. Get ready to hit that 'like' button on your style!",
+    images: [
+      "media/products/youtube/GGOEYCBR250899.jpg",
+      "media/products/youtube/GGOEYCBR250899-2.jpg",
+      "media/products/youtube/GGOEYCBR250899-3.jpg"
+    ]
+  },
   "acrylic-pin": {
     name: "YouTube Acrylic Pin Set",
     maker: "Robertson Marketing",
