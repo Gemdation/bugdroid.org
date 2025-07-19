@@ -1,6 +1,7 @@
 let currentSlide = 0;
 let currentImages = [];
 
+// Get references to all necessary elements at the start
 const prodImages = document.getElementById('prod-images');
 const prodName = document.getElementById('prod-name');
 const prodMaker = document.getElementById('prod-maker');
@@ -10,8 +11,12 @@ const prodPrice = document.getElementById('prod-price');
 const prodDescrip = document.getElementById('prod-descrip');
 const browseSpan = document.querySelector('div.board');
 const prodContainer = document.getElementById('prod');
+const brandingElements = document.querySelectorAll('.branding'); // Get all elements with class 'branding'
+const prevButton = document.getElementById('prev-button');
+const nextButton = document.getElementById('next-button');
 
-document.querySelectorAll('img.prev').forEach(img => {
+
+document.querySelectorAll('div.board img').forEach(img => {
     img.addEventListener('click', (event) => showProduct(event.currentTarget.id));
 });
 
@@ -23,8 +28,14 @@ function showProduct(id) {
     currentSlide = 0;
 
     updateProductDisplay(data);
+
     browseSpan?.style.setProperty('display', 'none');
     prodContainer.style.display = 'block';
+    
+    // Hide all branding elements when a product is shown
+    brandingElements.forEach(element => {
+        element.style.display = 'none';
+    });
 }
 
 function updateProductDisplay(data) {
@@ -38,15 +49,10 @@ function updateProductDisplay(data) {
     prodPrice.textContent = data.price;
     prodDescrip.textContent = data.synopsis;
 
-    const prevButton = document.getElementById('prev-button');
-    const nextButton = document.getElementById('next-button');
-
     const singleImage = currentImages.length <= 1;
     prevButton.disabled = singleImage;
     nextButton.disabled = singleImage;
 }
-
-
 
 function changeSlide(direction) {
     if (currentImages.length === 0) return;
@@ -66,4 +72,12 @@ function prevSlide() {
 function returnToBrowse() {
     browseSpan?.style.setProperty('display', 'block');
     prodContainer.style.display = 'none';
+
+    // Show all branding elements when returning to browse view
+    brandingElements.forEach(element => {
+        // You might need to adjust 'block' based on the element's default display type
+        // For example, if it's a span, you might want 'inline' or 'inline-block'.
+        // Or you can set it to an empty string '' to revert to its default CSS display.
+        element.style.display = 'block';
+    });
 }

@@ -48,7 +48,7 @@ ul a {font-weight:bold}
 
 img.emo {width:24px;height:24px;vertical-align:middle;margin:0 2px;}
 img.i {background:linear-gradient(to bottom,#F1F1F1,#B8B8B8);padding:2px;}
-img.i:hover {background:linear-gradient(to bottom,#FFB769,#EC6100);}
+img.i:hover {cursor:pointer}
 img.i:active {background:linear-gradient(to bottom,#FFD554,#E99D00);}
 img.d {background:linear-gradient(to bottom,#535353,#636363);padding:2px;cursor:not-allowed}
 

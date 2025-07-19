@@ -2,6 +2,133 @@
 // It tries to be chronologicial by following the
 // SKU numbers, however is it not going so well.
 const productData = {
+  "light-tee": {
+    name: "Light YouTube Tee Black",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2092",
+    price: "£23.00",
+    synopsis: "Classic black crewneck t-shirt branded with the YouTube logo across the chest.",
+    images: [
+      "media/products/youtube/GGL2092-1.webp",
+      "media/products/youtube/GGL2092-2.webp",
+      "media/products/youtube/GGL2092-3.webp"
+    ]
+  },
+  "familia-tee": {
+    name: "La Familia Unisex Tee",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2104",
+    price: "£23.00",
+    synopsis: "Classic unisex crewneck t-shirt, branded with the Familia logo to the left chest.",
+    images: [
+      "media/products/youtube/GGL2104-1.webp"
+    ]
+  },
+  "tshirt": {
+    name: "T-Shirt",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2158",
+    price: "£30.00",
+    synopsis: "This white YouTube t-shirt offers outstanding comfort, style and fit.",
+    images: [
+      "media/products/youtube/GGL2158-1.webp",
+      "media/products/youtube/GGL2158-2.webp",
+      "media/products/youtube/GGL2158-3.webp"
+    ]
+  },
+  "varsity-bag": {
+    name: "YouTube Varsity Gym Bag",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2252",
+    price: "£31.00",
+    synopsis: "This featherlight gym bag has all the space you need whether you’re going to the gym or a weekend away. Easily packs away into the in-built pouch. Branded with the YouTube play button.",
+    images: [
+      "media/products/youtube/GGL2252-1.webp",
+      "media/products/youtube/GGL2252-2.webp",
+      "media/products/youtube/GGL2252-3.webp"
+    ]
+  },
+  "black-tshirt": {
+    name: "YouTube Black Tshirt",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2257",
+    price: "£30.00",
+    synopsis: "A classic black crewneck featuring the YouTube play button to the left chest, perfect for everyday wear.",
+    images: [
+      "media/products/youtube/GGL2257-1.webp",
+      "media/products/youtube/GGL2257-2.webp",
+      "media/products/youtube/GGL2257-3.webp"
+    ]
+  },
+  "pens-4-pack": {
+    name: "YouTube Pens 4 Pack",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2258",
+    price: "£6.00",
+    synopsis: "Pack of 4 push ball pens, each branded with a YouTube play button to the centre.",
+    images: [
+      "media/products/youtube/GGL2258-1.webp",
+      "media/products/youtube/GGL2258-2.webp",
+      "media/products/youtube/GGL2258-3.webp"
+    ]
+  },
+  "pin-badge-2025": {
+    name: "YouTube Pin Badge 2025",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2253",
+    price: "£3.30",
+    synopsis: "Now you can pin the YouTube logo to any bag or garment!",
+    images: [
+      "media/products/youtube/GGL2253-1.webp",
+      "media/products/youtube/GGL2253-2.webp",
+      "media/products/youtube/GGL2253-3.webp"
+    ]
+  },
+  "rpet-lanyard-2025": {
+    name: "YouTube RPET Lanyard 2025",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2254",
+    price: "£3.30",
+    synopsis: "Attach your keys or security card to this 2025 YouTube branded lanyard.",
+    images: [
+      "media/products/youtube/GGL2254-1.webp",
+      "media/products/youtube/GGL2254-2.webp",
+      "media/products/youtube/GGL2254-3.webp"
+    ]
+  },
+  "tote-bag": {
+    name: "YouTube Tote Bag",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2261",
+    price: "£6.00",
+    synopsis: "This sturdy tote is great for shopping or for carrying everyday essentials. Branded with a YouTube play button to the corner.",
+    images: [
+      "media/products/youtube/GGL2259-1.webp",
+      "media/products/youtube/GGL2259-2.webp"
+    ]
+  },
+  "black-sweatshirt": {
+    name: "YouTube Black Sweatshirt",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2261",
+    price: "£66.00",
+    synopsis: "This black crewneck provides casual everyday style and features the YouTube play button to the left chest.",
+    images: [
+      "media/products/youtube/GGL2261-1.webp",
+      "media/products/youtube/GGL2261-2.webp",
+      "media/products/youtube/GGL2261-3.webp"
+    ]
+  },
   "juniper-tee": {
     name: "YouTube Organic Juniper Tee",
     maker: "Robertson Marketing",
