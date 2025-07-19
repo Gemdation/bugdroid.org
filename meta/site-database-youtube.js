@@ -10,9 +10,9 @@ const productData = {
     price: "$32.00",
     synopsis: "Like and subscribe to style. This YouTube tee lets you sport the iconic logo in comfort. It's a versatile addition to any wardrobe, perfect for everyday wear, gaming, or simply relaxing while watching your favorite subscriptions.",
     images: [
-      "media/products/youtube/GGOEYXXX2511.jpg",
-      "media/products/youtube/GGOEYXXX2511-2.jpg",
-      "media/products/youtube/GGOEYXXX2511-3.jpg"
+      "media/products/youtube/GGOEYXXX2511.webp",
+      "media/products/youtube/GGOEYXXX2511-2.webp",
+      "media/products/youtube/GGOEYXXX2511-3.webp"
     ]
   },
   "shoe-charm": {
@@ -23,9 +23,9 @@ const productData = {
     price: "$9.00",
     synopsis: "Give your shoes a nod of approval with our YouTube charm pack. This set is perfect for content creators, avid viewers, or anyone who just loves to spread good vibes. Get ready to hit that 'like' button on your style!",
     images: [
-      "media/products/youtube/GGOEYCBR250899.jpg",
-      "media/products/youtube/GGOEYCBR250899-2.jpg",
-      "media/products/youtube/GGOEYCBR250899-3.jpg"
+      "media/products/youtube/GGOEYCBR250899.webp",
+      "media/products/youtube/GGOEYCBR250899-2.webp",
+      "media/products/youtube/GGOEYCBR250899-3.webp"
     ]
   },
   "acrylic-pin": {
@@ -36,9 +36,9 @@ const productData = {
     price: "$10.00",
     synopsis: "Showcase your passion for all things YouTube with this exclusive pin set. Whether you're a trend-spotter, a gaming guru, or a music maven, these pins have got you covered.",
     images: [
-      "media/products/youtube/GGOEYCBR250799.jpg",
-      "media/products/youtube/GGOEYCBR250799-2.jpg",
-      "media/products/youtube/GGOEYCBR250799-3.jpg"
+      "media/products/youtube/GGOEYCBR250799.webp",
+      "media/products/youtube/GGOEYCBR250799-2.webp",
+      "media/products/youtube/GGOEYCBR250799-3.webp"
     ]
   },
   "mini-jotter": {
@@ -49,9 +49,9 @@ const productData = {
     price: "$5.00",
     synopsis: "Your ideas, amplified. The official YouTube mini jotter notepad is here to help you capture every spark of inspiration. Compact, convenient, and ready for your next viral hit.",
     images: [
-      "media/products/youtube/GGOEYOCB250499.jpg",
-      "media/products/youtube/GGOEYOCB250499-2.jpg",
-      "media/products/youtube/GGOEYOCB250499-3.jpg"
+      "media/products/youtube/GGOEYOCB250499.webp",
+      "media/products/youtube/GGOEYOCB250499-2.webp",
+      "media/products/youtube/GGOEYOCB250499-3.webp"
     ]
   },
   "clicker-pen": {
@@ -62,9 +62,9 @@ const productData = {
     price: "$2.00",
     synopsis: "Write green, think big. Our YouTube pen is made from recycled materials and sports a cool red click top. It's the ultimate tool for eco-conscious creators and fans alike. Get yours and start making a difference, one word at a time.",
     images: [
-      "media/products/youtube/GGOEYOAB250599.jpg",
-      "media/products/youtube/GGOEYOAB250599-2.jpg",
-      "media/products/youtube/GGOEYOAB250599-3.jpg"
+      "media/products/youtube/GGOEYOAB250599.webp",
+      "media/products/youtube/GGOEYOAB250599-2.webp",
+      "media/products/youtube/GGOEYOAB250599-3.webp"
     ]
   },
   "journal-ca": {
@@ -75,9 +75,9 @@ const productData = {
     price: "CA$11.00",
     synopsis: "Whether you're an aspiring writer or artist, or simply an expert note-taker, this black YouTube journal offers a versatile and enduring companion for your thoughts and creative ideas.",
     images: [
-      "media/products/youtube/GGCNGOLB105299.jpg",
-      "media/products/youtube/GGCNGOLB105299-2.jpg",
-      "media/products/youtube/GGCNGOLB105299-3.jpg"
+      "media/products/youtube/GGCNGOLB105299.webp",
+      "media/products/youtube/GGCNGOLB105299-2.webp",
+      "media/products/youtube/GGCNGOLB105299-3.webp"
     ]
   },
   "insulated-mug": {
@@ -88,9 +88,9 @@ const productData = {
     price: "CA$36.00",
     synopsis: "This sustainable YouTube mug is crafted from recycled materials, reducing your environmental footprint. The lid keeps your drink hot or cold, making it ideal for any occasion.",
     images: [
-      "media/products/youtube/GGCNGDWB105399.jpg",
-      "media/products/youtube/GGCNGDWB105399-2.jpg",
-      "media/products/youtube/GGCNGDWB105399-3.jpg"
+      "media/products/youtube/GGCNGDWB105399.webp",
+      "media/products/youtube/GGCNGDWB105399-2.webp",
+      "media/products/youtube/GGCNGDWB105399-3.webp"
     ]
   },
   "jotter-pen": {
@@ -101,9 +101,9 @@ const productData = {
     price: "CA$2.50",
     synopsis: "This YouTube pen is sleek, reliable, and always ready to capture your thoughts! Whether you're taking notes or making to-do lists, this pen has got you covered.",
     images: [
-      "media/products/youtube/GGCNGOAB105499.jpg",
-      "media/products/youtube/GGCNGOAB105499-2.jpg",
-      "media/products/youtube/GGCNGOAB105499-3.jpg"
+      "media/products/youtube/GGCNGOAB105499.webp",
+      "media/products/youtube/GGCNGOAB105499-2.webp",
+      "media/products/youtube/GGCNGOAB105499-3.webp"
     ]
   },
   "icon-sticker": {
@@ -114,8 +114,8 @@ const productData = {
     price: "CA$2.00",
     synopsis: "Show your love for YouTube with this classic icon sticker. Featuring a clear adhesive backing, it's the perfect way to express yourself.",
     images: [
-      "media/products/youtube/GGCNYOKR105899.jpg",
-      "media/products/youtube/GGCNYOKR105899-2.jpg"
+      "media/products/youtube/GGCNYOKR105899.webp",
+      "media/products/youtube/GGCNYOKR105899-2.webp"
     ]
   },
   "old-school-socks": {
@@ -126,9 +126,9 @@ const productData = {
     price: "CA$24.00",
     synopsis: "These YouTube socks are so retro-chic! With bold stripes and fun details, they’re sure to be a thumbs up! With a comfy cushioned bottom, your feet will be happy all day long.",
     images: [
-      "media/products/youtube/GGCNYCXQ105999.jpg",
-      "media/products/youtube/GGCNYCXQ105999-2.jpg",
-      "media/products/youtube/GGCNYCXQ105999-3.jpg"
+      "media/products/youtube/GGCNYCXQ105999.webp",
+      "media/products/youtube/GGCNYCXQ105999-2.webp",
+      "media/products/youtube/GGCNYCXQ105999-3.webp"
     ]
   },
   "kids-coloring-book": {
@@ -139,9 +139,9 @@ const productData = {
     price: "$6.00",
     synopsis: "Spark your inner artist with this adorable YouTube Kids coloring book. Filled with your favorite characters like Sprinkle Toast, T-Rex and more, this book offers fun creative time for kids and adults!",
     images: [
-      "media/products/youtube/GGOEYOBA242499.jpg",
-      "media/products/youtube/GGOEYOBA242499-2.jpg",
-      "media/products/youtube/GGOEYOBA242499-3.jpg"
+      "media/products/youtube/GGOEYOBA242499.webp",
+      "media/products/youtube/GGOEYOBA242499-2.webp",
+      "media/products/youtube/GGOEYOBA242499-3.webp"
     ]
   },
   "dino-accessory": {
@@ -152,9 +152,9 @@ const productData = {
     price: "$16.00",
     synopsis: "Chrome Dino has a big attitude but an even bigger boombox. This T-Rex is sure to shred all expectations with their YouTube skateboard, one kickflip at a time.",
     images: [
-      "media/products/youtube/GGOEGFBA241299.jpg",
-      "media/products/youtube/GGOEGFBA241299-2.jpg",
-      "media/products/youtube/GGOEGFBA241299-3.jpg"
+      "media/products/youtube/GGOEGFBA241299.webp",
+      "media/products/youtube/GGOEGFBA241299-2.webp",
+      "media/products/youtube/GGOEGFBA241299-3.webp"
     ]
   },
   "retro-duffel": {
@@ -165,9 +165,9 @@ const productData = {
     price: "$32.00",
     synopsis: "Plan your getaway with this handy YouTube duffel bag, featuring top and side zippered closures and an embroidered logo.",
     images: [
-      "media/products/youtube/GGOEYBMB211099.jpg",
-      "media/products/youtube/GGOEYBMB211099-2.jpg",
-      "media/products/youtube/GGOEYBMB211099-3.jpg"
+      "media/products/youtube/GGOEYBMB211099.webp",
+      "media/products/youtube/GGOEYBMB211099-2.webp",
+      "media/products/youtube/GGOEYBMB211099-3.webp"
     ]
   },
   "straw-tumbler": {
@@ -178,9 +178,9 @@ const productData = {
     price: "$12.00",
     synopsis: "Sip away while creating content in a YouTube tumbler with a smooth rubberized finish and a matching straw.",
     images: [
-      "media/products/youtube/GGOEYDNB210499.jpg",
-      "media/products/youtube/GGOEYDNB210499-2.jpg",
-      "media/products/youtube/GGOEYDNB210499-3.jpg"
+      "media/products/youtube/GGOEYDNB210499.webp",
+      "media/products/youtube/GGOEYDNB210499-2.webp",
+      "media/products/youtube/GGOEYDNB210499-3.webp"
     ]
   },
   "phone-lanyard": {
@@ -191,9 +191,9 @@ const productData = {
     price: "$8.00",
     synopsis: "Always need your phone nearby? This YouTube lanyard was made for you! You won’t have to worry about digging through your bag or pockets the next time your phone rings.",
     images: [
-      "media/products/youtube/GGOEYCBB219599.jpg",
-      "media/products/youtube/GGOEYCBB219599-2.jpg",
-      "media/products/youtube/GGOEYCBB219599-3.jpg"
+      "media/products/youtube/GGOEYCBB219599.webp",
+      "media/products/youtube/GGOEYCBB219599-2.webp",
+      "media/products/youtube/GGOEYCBB219599-3.webp"
     ]
   },
   "beanie": {
@@ -204,9 +204,9 @@ const productData = {
     price: "$25.00",
     synopsis: "Stave off cold temps in this versatile YouTube beanie that can be worn cuffed or in a slouched style.",
     images: [
-      "media/products/youtube/GGOEYHPB217010.jpg",
-      "media/products/youtube/GGOEYHPB217010-2.jpg",
-      "media/products/youtube/GGOEYHPB217010-3.jpg"
+      "media/products/youtube/GGOEYHPB217010.webp",
+      "media/products/youtube/GGOEYHPB217010-2.webp",
+      "media/products/youtube/GGOEYHPB217010-3.webp"
     ]
   },
   "wood-zipper-pull": {
@@ -217,9 +217,9 @@ const productData = {
     price: "$6.00",
     synopsis: "Upgrade your gear with this YouTube zipper pull made out of repurposed wood. This tab is the perfect way to show brand love on your bag, backpack or jacket!",
     images: [
-      "media/products/youtube/GGOEYCBR221099.jpg",
-      "media/products/youtube/GGOEYCBR221099-2.jpg",
-      "media/products/youtube/GGOEYCBR221099-3.jpg"
+      "media/products/youtube/GGOEYCBR221099.webp",
+      "media/products/youtube/GGOEYCBR221099-2.webp",
+      "media/products/youtube/GGOEYCBR221099-3.webp"
     ]
   },
   "floating-pen": {
@@ -230,9 +230,9 @@ const productData = {
     price: "$6.50",
     synopsis: "Crazy for YouTube?  Us too!  You need to check out this floaty pen, it’s a big thumbs up.",
     images: [
-      "media/products/youtube/GGOEYOAB216899.jpg",
-      "media/products/youtube/GGOEYOAB216899-2.jpg",
-      "media/products/youtube/GGOEYOAB216899-3.jpg"
+      "media/products/youtube/GGOEYOAB216899.webp",
+      "media/products/youtube/GGOEYOAB216899-2.webp",
+      "media/products/youtube/GGOEYOAB216899-3.webp"
     ]
   },
   "icon-windbreaker": {
@@ -243,9 +243,9 @@ const productData = {
     price: "$63.00",
     synopsis: "Layer up before filming your next reel in this YouTube windbreaker, featuring an adjustable hood, zip front and side pockets.",
     images: [
-      "media/products/youtube/GGOEYXXX2218.jpg",
-      "media/products/youtube/GGOEYXXX2218-2.jpg",
-      "media/products/youtube/GGOEYXXX2218-3.jpg"
+      "media/products/youtube/GGOEYXXX2218.webp",
+      "media/products/youtube/GGOEYXXX2218-2.webp",
+      "media/products/youtube/GGOEYXXX2218-3.webp"
     ]
   },
   "traveller-tumbler": {
@@ -256,9 +256,9 @@ const productData = {
     price: "$32.00",
     synopsis: "It's called the traveller for a reason & this YouTube tumbler is perfect to take just about anywhere! Store your favorite hot or cold beverages in a vessel that also doubles as a super soup container.",
     images: [
-      "media/products/youtube/GGOEYDNB210999.jpg",
-      "media/products/youtube/GGOEYDNB210999-2.jpg",
-      "media/products/youtube/GGOEYDNB210999-3.jpg"
+      "media/products/youtube/GGOEYDNB210999.webp",
+      "media/products/youtube/GGOEYDNB210999-2.webp",
+      "media/products/youtube/GGOEYDNB210999-3.webp"
     ]
   },
   "icon-mug": {
@@ -269,9 +269,9 @@ const productData = {
     price: "$14.00",
     synopsis: "When you just want to kick-back, get cozy and watch YouTube, our Icon mug will be your tried and true partner",
     images: [
-      "media/products/youtube/GGOEYDWB210799.jpg",
-      "media/products/youtube/GGOEYDWB210799-2.jpg",
-      "media/products/youtube/GGOEYDWB210799-3.jpg"
+      "media/products/youtube/GGOEYDWB210799.webp",
+      "media/products/youtube/GGOEYDWB210799-2.webp",
+      "media/products/youtube/GGOEYDWB210799-3.webp"
     ]
   },
   "eco-wood-magnet": {
@@ -282,9 +282,9 @@ const productData = {
     price: "$7.00",
     synopsis: "YouTube enthusiast?  Definitely add this repurposed wood magnet to your collection.  It's bound to make you and your fridge happy.",
     images: [
-      "media/products/youtube/GGOEYOBA215899.jpg",
-      "media/products/youtube/GGOEYOBA215899-2.jpg",
-      "media/products/youtube/GGOEYOBA215899-3.jpg"
+      "media/products/youtube/GGOEYOBA215899.webp",
+      "media/products/youtube/GGOEYOBA215899-2.webp",
+      "media/products/youtube/GGOEYOBA215899-3.webp"
     ]
   },
   "black-le-pen": {
@@ -295,9 +295,9 @@ const productData = {
     price: "US$4.00, CA$5.50",
     synopsis: "Once you've tried these smooth micro-fine YouTube Le Pen pens, you may never want to use anything else again! Don't say we didn't warn you....", // has a repeated word and four dots on purpose
     images: [
-      "media/products/youtube/GGOEYOAB200699.jpg",
-      "media/products/youtube/GGOEYOAB200699-2.jpg",
-      "media/products/youtube/GGOEYOAB200699-3.jpg"
+      "media/products/youtube/GGOEYOAB200699.webp",
+      "media/products/youtube/GGOEYOAB200699-2.webp",
+      "media/products/youtube/GGOEYOAB200699-3.webp"
     ]
   },
   "icon-patch": {
@@ -308,9 +308,9 @@ const productData = {
     price: "$4.50",
     synopsis: "Embroidered patches are a fab way to personalise a piece of your clothing. Give your favorite jacket, hat or bag a makeover with this fun and colorful YouTube Icon patch.",
     images: [
-      "media/products/youtube/GGOEYCBA198999.jpg",
-      "media/products/youtube/GGOEYCBA198999-2.jpg",
-      "media/products/youtube/GGOEYCBA198999-3.jpg"
+      "media/products/youtube/GGOEYCBA198999.webp",
+      "media/products/youtube/GGOEYCBA198999-2.webp",
+      "media/products/youtube/GGOEYCBA198999-3.webp"
     ]
   },
   "express-socks": {
@@ -321,9 +321,9 @@ const productData = {
     price: "$18.00",
     synopsis: "Put some swing in your step with these expressive YouTube socks. They'll give your outfit that little something extra you didn't know you needed.",
     images: [
-      "media/products/youtube/GGOEYAXA197410.jpg",
-      "media/products/youtube/GGOEYAXA197410-2.jpg",
-      "media/products/youtube/GGOEYAXA197410-3.jpg"
+      "media/products/youtube/GGOEYAXA197410.webp",
+      "media/products/youtube/GGOEYAXA197410-2.webp",
+      "media/products/youtube/GGOEYAXA197410-3.webp"
     ]
   },
   "keyboard-sticker": {
@@ -334,9 +334,9 @@ const productData = {
     price: "$2.00",
     synopsis: "Add some character to your keyboard! This small YouTube sticker will be sure to bring some joy next time you're at your computer.",
     images: [
-      "media/products/youtube/GGOEYFKA194999.jpg",
-      "media/products/youtube/GGOEYFKA194999-2.jpg",
-      "media/products/youtube/GGOEYFKA194999-3.jpg"
+      "media/products/youtube/GGOEYFKA194999.webp",
+      "media/products/youtube/GGOEYFKA194999-2.webp",
+      "media/products/youtube/GGOEYFKA194999-3.webp"
     ]
   },
   "kids-sticker-sheet": {
@@ -347,9 +347,9 @@ const productData = {
     price: "$8.00",
     synopsis: "Folks of all ages will go nuts for this awesome YouTube Kids sticker sheet!  Featuring the coolest characters in action.",
     images: [
-      "media/products/youtube/GGOEYCKA182799.jpg",
-      "media/products/youtube/GGOEYCKA182799-2.jpg",
-      "media/products/youtube/GGOEYCKA182799-3.jpg"
+      "media/products/youtube/GGOEYCKA182799.webp",
+      "media/products/youtube/GGOEYCKA182799-2.webp",
+      "media/products/youtube/GGOEYCKA182799-3.webp"
     ]
   },
   "kids-toast-keychain": {
@@ -360,9 +360,9 @@ const productData = {
     price: "$8.00",
     synopsis: "Take your creativity to go! Grab this handy travel-sized YouTube Kids colored pencil set and get ready to unleash your inner artist.",
     images: [
-      "media/products/youtube/GGOEYCBA182399.jpg",
-      "media/products/youtube/GGOEYCBA182399-2.jpg",
-      "media/products/youtube/GGOEYCBA182399-3.jpg"
+      "media/products/youtube/GGOEYCBA182399.webp",
+      "media/products/youtube/GGOEYCBA182399-2.webp",
+      "media/products/youtube/GGOEYCBA182399-3.webp"
     ]
   },
   "kids-coloring-pencils": {
@@ -373,9 +373,9 @@ const productData = {
     price: "$4.00",
     synopsis: "Take your creativity to go! Grab this handy travel-sized YouTube Kids colored pencil set and get ready to unleash your inner artist.",
     images: [
-      "media/products/youtube/GGOEYKBA182199.jpg",
-      "media/products/youtube/GGOEYKBA182199-2.jpg",
-      "media/products/youtube/GGOEYKBA182199-3.jpg"
+      "media/products/youtube/GGOEYKBA182199.webp",
+      "media/products/youtube/GGOEYKBA182199-2.webp",
+      "media/products/youtube/GGOEYKBA182199-3.webp"
     ]
   },
   "kids-eco-bottle": {
@@ -386,9 +386,9 @@ const productData = {
     price: "$9.00",
     synopsis: "It might be kid-sized, but we won't blame the adults for loving this one too!  With it's convenient size, eco-friendly materials and super cool imagery, it's perfect for everyone in the family.",
     images: [
-      "media/products/youtube/GGOEYDHA182099.jpg",
-      "media/products/youtube/GGOEYDHA182099-2.jpg",
-      "media/products/youtube/GGOEYDHA182099-3.jpg"
+      "media/products/youtube/GGOEYDHA182099.webp",
+      "media/products/youtube/GGOEYDHA182099-2.webp",
+      "media/products/youtube/GGOEYDHA182099-3.webp"
     ]
   },
   "journal": {
@@ -399,9 +399,9 @@ const productData = {
     price: "$20.00",
     synopsis: "It's time to start your storytelling journey with this YouTube notebook.  Great ideas, thoughts and inspiration will never be forgotten again.",
     images: [
-      "media/products/youtube/GGOEYOCB181099.jpg",
-      "media/products/youtube/GGOEYOCB181099-2.jpg",
-      "media/products/youtube/GGOEYOCB181099-3.jpg"
+      "media/products/youtube/GGOEYOCB181099.webp",
+      "media/products/youtube/GGOEYOCB181099-2.webp",
+      "media/products/youtube/GGOEYOCB181099-3.webp"
     ]
   },
   "zipper-pull": {
@@ -412,9 +412,9 @@ const productData = {
     price: "$5.00",
     synopsis: "Upgrade your gear with this YouTube zipper pull.  This tab is the perfect way to show brand love on your bag, backpack or jacket!",
     images: [
-      "media/products/youtube/GGOEYCBA180799.jpg",
-      "media/products/youtube/GGOEYCBA180799-2.jpg",
-      "media/products/youtube/GGOEYCBA180799-3.jpg"
+      "media/products/youtube/GGOEYCBA180799.webp",
+      "media/products/youtube/GGOEYCBA180799-2.webp",
+      "media/products/youtube/GGOEYCBA180799-3.webp"
     ]
   },
   "tie-dye-socks": {
@@ -425,9 +425,9 @@ const productData = {
     price: "$18.00",
     synopsis: "Your feet are in for a surprise!  These YouTube Tie-Dye woven socks will definitely add some pep to your step and make your sock drawer happy.",
     images: [
-      "media/products/youtube/GGOEYAKA179210.jpg",
-      "media/products/youtube/GGOEYAKA179210-2.jpg",
-      "media/products/youtube/GGOEYAKA179210-3.jpg"
+      "media/products/youtube/GGOEYAKA179210.webp",
+      "media/products/youtube/GGOEYAKA179210-2.webp",
+      "media/products/youtube/GGOEYAKA179210-3.webp"
     ]
   },
   "marled-tee": {
@@ -438,9 +438,9 @@ const productData = {
     price: "$30.00",
     synopsis: "24-hours comfortable, this heathered YouTube tee makes a great companion for busy work days or leisure weekends.",
     images: [
-      "media/products/youtube/GGOEYXXX2046.jpg",
-      "media/products/youtube/GGOEYXXX2046-2.jpg",
-      "media/products/youtube/GGOEYXXX2046-3.jpg"
+      "media/products/youtube/GGOEYXXX2046.webp",
+      "media/products/youtube/GGOEYXXX2046-2.webp",
+      "media/products/youtube/GGOEYXXX2046-3.webp"
     ]
   },
   "far-out-sweatshirt": {
@@ -451,9 +451,9 @@ const productData = {
     price: "$69.00",
     synopsis: "Your wardrobe will thank you after you add this one-of-a-kind, inky finish tie-dye YouTube sweatshirt.  Truly far out!",
     images: [
-      "media/products/youtube/GGOEYXXX2043.jpg",
-      "media/products/youtube/GGOEYXXX2043-2.jpg",
-      "media/products/youtube/GGOEYXXX2043-3.jpg"
+      "media/products/youtube/GGOEYXXX2043.webp",
+      "media/products/youtube/GGOEYXXX2043-2.webp",
+      "media/products/youtube/GGOEYXXX2043-3.webp"
     ]
   },
   "black-zip-hoodie": {
@@ -464,9 +464,9 @@ const productData = {
     price: "$69.00",
     synopsis: "Our new embroidered YouTube hoodie is butter washed, making it so irresistibly soft. This zip-up is sure to become your go-to wardrobe hero!",
     images: [
-      "media/products/youtube/GGOEYXXX1801.jpg",
-      "media/products/youtube/GGOEYXXX1801-2.jpg",
-      "media/products/youtube/GGOEYXXX1801-3.jpg"
+      "media/products/youtube/GGOEYXXX1801.webp",
+      "media/products/youtube/GGOEYXXX1801-2.webp",
+      "media/products/youtube/GGOEYXXX1801-3.webp"
     ]
   },
   "lake-blue-tee": {
@@ -477,9 +477,9 @@ const productData = {
     price: "$25.00",
     synopsis: "No synopsis found.",
     images: [
-      "media/products/youtube/GGOEYXXX1796.jpg",
-      "media/products/youtube/GGOEYXXX1796-2.jpg",
-      "media/products/youtube/GGOEYXXX1796-3.jpg"
+      "media/products/youtube/GGOEYXXX1796.webp",
+      "media/products/youtube/GGOEYXXX1796-2.webp",
+      "media/products/youtube/GGOEYXXX1796-3.webp"
     ]
   },
   "tie-dye-tee": {
@@ -490,9 +490,9 @@ const productData = {
     price: "$32.00",
     synopsis: "We know you love tie-dye and so do we! Get groovy in this laidback YouTube Tie-Dye t-shirt. What’s even better, each shirt is unique, just like you.",
     images: [
-      "media/products/youtube/GGOEYXXX1795.jpg",
-      "media/products/youtube/GGOEYXXX1795-2.jpg",
-      "media/products/youtube/GGOEYXXX1795-3.jpg"
+      "media/products/youtube/GGOEYXXX1795.webp",
+      "media/products/youtube/GGOEYXXX1795-2.webp",
+      "media/products/youtube/GGOEYXXX1795-3.webp"
     ]
   },
   "express-sweatshirt": {
@@ -503,9 +503,9 @@ const productData = {
     price: "$63.00",
     synopsis: "Express yourself while wearing this awesome limited-edition graphic YouTube Sweatshirt! Even better, it’s made from eco-friendly fabric.",
     images: [
-      "media/products/youtube/GGOEYXXX1799.jpg",
-      "media/products/youtube/GGOEYXXX1799-2.jpg",
-      "media/products/youtube/GGOEYXXX1799-3.jpg"
+      "media/products/youtube/GGOEYXXX1799.webp",
+      "media/products/youtube/GGOEYXXX1799-2.webp",
+      "media/products/youtube/GGOEYXXX1799-3.webp"
     ]
   },
   "ultralight-sweatshirt": {
@@ -516,9 +516,9 @@ const productData = {
     price: "$53.00",
     synopsis: "We’ve done it again with one of our treasured ultralight sweatshirts!  This time, we have the iconic YouTube logo embroidered for the world to see.",
     images: [
-      "media/products/youtube/GGOEYXXX1734.jpg",
-      "media/products/youtube/GGOEYXXX1734-2.jpg",
-      "media/products/youtube/GGOEYXXX1734-3.jpg"
+      "media/products/youtube/GGOEYXXX1734.webp",
+      "media/products/youtube/GGOEYXXX1734-2.webp",
+      "media/products/youtube/GGOEYXXX1734-3.webp"
     ]
   },
   "eco-duffel": {
@@ -529,9 +529,9 @@ const productData = {
     price: "$25.00",
     synopsis: "Delightful duffel bag alert!  This convenient size makes it a no-brainer to take for lighter hauls. It's got great features like a removable shoulder strap and most importantly, an embroidered YouTube logo!",
     images: [
-      "media/products/youtube/GGOEYBMB177599.jpg",
-      "media/products/youtube/GGOEYBMB177599-2.jpg",
-      "media/products/youtube/GGOEYBMB177599-3.jpg"
+      "media/products/youtube/GGOEYBMB177599.webp",
+      "media/products/youtube/GGOEYBMB177599-2.webp",
+      "media/products/youtube/GGOEYBMB177599-3.webp"
     ]
   },
   "shadow-tumbler": {
@@ -542,9 +542,9 @@ const productData = {
     price: "$28.00",
     synopsis: "Savor that morning brew a little bit longer with this insulated YouTube Tumbler. Your commute by car or foot will be nice and easy with this tumbler, that fits perfectly in the palm of your hands.",
     images: [
-      "media/products/youtube/GGOEYDNA175399.jpg",
-      "media/products/youtube/GGOEYDNA175399-2.jpg",
-      "media/products/youtube/GGOEYDNA175399-3.jpg"
+      "media/products/youtube/GGOEYDNA175399.webp",
+      "media/products/youtube/GGOEYDNA175399-2.webp",
+      "media/products/youtube/GGOEYDNA175399-3.webp"
     ]
   },
   "black-sunglasses": {
@@ -555,9 +555,9 @@ const productData = {
     price: "$5.00",
     synopsis: "With its iconic shape and retro design, these black YouTube sunglasses are guaranteed to be a timeless silhouette.",
     images: [
-      "media/products/youtube/GGOEYHGB174299.jpg",
-      "media/products/youtube/GGOEYHGB174299-2.jpg",
-      "media/products/youtube/GGOEYHGB174299-3.jpg"
+      "media/products/youtube/GGOEYHGB174299.webp",
+      "media/products/youtube/GGOEYHGB174299-2.webp",
+      "media/products/youtube/GGOEYHGB174299-3.webp"
     ]
   },
   "metal-loop-bottle": {
@@ -568,9 +568,9 @@ const productData = {
     price: "$13.00",
     synopsis: "Keep your drink secure while filming your next vlog with this YouTube Metal Loop bottle. You’ll need to stay hydrated while creating that new content!",
     images: [
-      "media/products/youtube/GGOEYDHB174899.jpg",
-      "media/products/youtube/GGOEYDHB174899-2.jpg",
-      "media/products/youtube/GGOEYDHB174899-3.jpg"
+      "media/products/youtube/GGOEYDHB174899.webp",
+      "media/products/youtube/GGOEYDHB174899-2.webp",
+      "media/products/youtube/GGOEYDHB174899-3.webp"
     ]
   },
   "jotter-pad": {
@@ -581,9 +581,9 @@ const productData = {
     price: "$3.00",
     synopsis: "A sustainable way to take notes. This reporter-size YouTube notebook has a recycled cardboard cover and a matching pen with a recycled cardboard barrel that fits in the elastic pen loop. 1% of your purchase goes to nonprofits who protect our Earth.",
     images: [
-      "media/products/youtube/GGOEYOLB151999.jpg",
-      "media/products/youtube/GGOEYOLB151999-2.jpg",
-      "media/products/youtube/GGOEYOLB151999-3.jpg"
+      "media/products/youtube/GGOEYOLB151999.webp",
+      "media/products/youtube/GGOEYOLB151999-2.webp",
+      "media/products/youtube/GGOEYOLB151999-3.webp"
     ]
   },
   "zip-hoodie": {
@@ -594,9 +594,9 @@ const productData = {
     price: "$60.00",
     synopsis: "The softness of this YouTube full zip fleece hoodie will keep you comfortable and warm.",
     images: [
-      "media/products/youtube/GGOEYXXX1207.jpg",
-      "media/products/youtube/GGOEYXXX1207-2.jpg",
-      "media/products/youtube/GGOEYXXX1207-3.jpg"
+      "media/products/youtube/GGOEYXXX1207.webp",
+      "media/products/youtube/GGOEYXXX1207-2.webp",
+      "media/products/youtube/GGOEYXXX1207-3.webp"
     ]
   },
   "icon-tee-grey": {
@@ -607,9 +607,9 @@ const productData = {
     price: "$22.00",
     synopsis: "This ultra soft YouTube tee is the perfect shirt for relaxing and watching your favorite videos.",
     images: [
-      "media/products/youtube/GGOEYXXX1203.jpg",
-      "media/products/youtube/GGOEYXXX1203-2.jpg",
-      "media/products/youtube/GGOEYXXX1203-3.jpg"
+      "media/products/youtube/GGOEYXXX1203.webp",
+      "media/products/youtube/GGOEYXXX1203-2.webp",
+      "media/products/youtube/GGOEYXXX1203-3.webp"
     ]
   },
   "icon-tee-charcoal": {
@@ -620,9 +620,9 @@ const productData = {
     price: "$22.00",
     synopsis: "This ultra soft YouTube tee is the perfect shirt for relaxing and watching your favorite videos.",
     images: [
-      "media/products/youtube/GGOEYXXX1202.jpg",
-      "media/products/youtube/GGOEYXXX1202-2.jpg",
-      "media/products/youtube/GGOEYXXX1202-3.jpg"
+      "media/products/youtube/GGOEYXXX1202.webp",
+      "media/products/youtube/GGOEYXXX1202-2.webp",
+      "media/products/youtube/GGOEYXXX1202-3.webp"
     ]
   },
   "iconic-pin": {
@@ -633,8 +633,8 @@ const productData = {
     price: "$8.00",
     synopsis: "Wear this pin to show you're a player.", // lmfao
     images: [
-      "media/products/youtube/GGOEYCBR138999.jpg",
-      "media/products/youtube/GGOEYCBR138999-2.jpg"
+      "media/products/youtube/GGOEYCBR138999.webp",
+      "media/products/youtube/GGOEYCBR138999-2.webp"
     ]
   },
   "icon-bundle": {
@@ -645,7 +645,7 @@ const productData = {
     price: "$42.00",
     synopsis: "Show your love for YouTube with this discounted bundle of essential YouTube merchandise.",
     images: [
-      "media/products/youtube/GGOEYCBA128999.jpg"
+      "media/products/youtube/GGOEYCBA128999.webp"
     ]
   },
   "transmission-journal-red": {
@@ -656,9 +656,9 @@ const productData = {
     price: "$16.00",
     synopsis: "This Youtube Transmission Journal has a smooth hardcover. It comes in the classic Youtube red.",
     images: [
-      "media/products/youtube/GGOEYOCR125599.jpg",
-      "media/products/youtube/GGOEYOCR125599-2.jpg",
-      "media/products/youtube/GGOEYOCR125599-3.jpg"
+      "media/products/youtube/GGOEYOCR125599.webp",
+      "media/products/youtube/GGOEYOCR125599-2.webp",
+      "media/products/youtube/GGOEYOCR125599-3.webp"
     ]
   },
   "play-mug": {
@@ -669,9 +669,9 @@ const productData = {
     price: "$13.00",
     synopsis: "Whatever your choice of hot beverage may be it will taste great in this 15oz dual color stoneware mug.",
     images: [
-      "media/products/youtube/GGOEYDWB123299.jpg",
-      "media/products/youtube/GGOEYDWB123299-2.jpg",
-      "media/products/youtube/GGOEYDWB123299-3.jpg"
+      "media/products/youtube/GGOEYDWB123299.webp",
+      "media/products/youtube/GGOEYDWB123299-2.webp",
+      "media/products/youtube/GGOEYDWB123299-3.webp"
     ]
   },
   "strap-hat": {
@@ -682,9 +682,9 @@ const productData = {
     price: "$17.00",
     synopsis: "Stay protected from the sun and show off your appreciation for YouTube with this black adjustable twill hat.",
     images: [
-      "media/products/youtube/GGOEYHPB121110.jpg",
-      "media/products/youtube/GGOEYHPB121110-2.jpg",
-      "media/products/youtube/GGOEYHPB121110-3.jpg"
+      "media/products/youtube/GGOEYHPB121110.webp",
+      "media/products/youtube/GGOEYHPB121110-2.webp",
+      "media/products/youtube/GGOEYHPB121110-3.webp"
     ]
   },
   "buoy-bottle": {
@@ -695,9 +695,9 @@ const productData = {
     price: "$8.00",
     synopsis: "Stay hydrated with this dual opening YouTube water bottle.",
     images: [
-      "media/products/youtube/GGOEYDHR117299.jpg",
-      "media/products/youtube/GGOEYDHR117299-2.jpg",
-      "media/products/youtube/GGOEYDHR117299-3.jpg"
+      "media/products/youtube/GGOEYDHR117299.webp",
+      "media/products/youtube/GGOEYDHR117299-2.webp",
+      "media/products/youtube/GGOEYDHR117299-3.webp"
     ]
   },
   "small-sticker-sheet": {
@@ -708,9 +708,9 @@ const productData = {
     price: "$2.99",
     synopsis: "4” x 6” custom YouTube sticker sheet. Sticker sheet comes with seven separate YouTube stickers.",
     images: [
-      "media/products/youtube/GGOEYFKQ105899.jpg",
-      "media/products/youtube/GGOEYFKQ105899-2.jpg",
-      "media/products/youtube/GGOEYFKQ105899-3.jpg"
+      "media/products/youtube/GGOEYFKQ105899.webp",
+      "media/products/youtube/GGOEYFKQ105899-2.webp",
+      "media/products/youtube/GGOEYFKQ105899-3.webp"
     ]
   },
   "crew-socks-summer": {
@@ -721,9 +721,9 @@ const productData = {
     price: "$15.99",
     synopsis: "Custom branded YouTube crew socks. 76% cotton, 22% nylon, 2% spandex. One size fits most.",
     images: [
-      "media/products/youtube/GGOEYAEA105610.jpg",
-      "media/products/youtube/GGOEYAEA105610-2.jpg",
-      "media/products/youtube/GGOEYAEA105610-3.jpg"
+      "media/products/youtube/GGOEYAEA105610.webp",
+      "media/products/youtube/GGOEYAEA105610-2.webp",
+      "media/products/youtube/GGOEYAEA105610-3.webp"
     ]
   },
   "tritan-sport-bottle": {
@@ -734,9 +734,9 @@ const productData = {
     price: "$13.99",
     synopsis: "This durable 23oz Tritan bottle is shatter, stain, and odor resistant; making it a perfect liquid companion.",
     images: [
-      "media/products/youtube/GGOEYDHJ104099.jpg",
-      "media/products/youtube/GGOEYDHJ104099-2.jpg",
-      "media/products/youtube/GGOEYDHJ104099-3.jpg"
+      "media/products/youtube/GGOEYDHJ104099.webp",
+      "media/products/youtube/GGOEYDHJ104099-2.webp",
+      "media/products/youtube/GGOEYDHJ104099-3.webp"
     ]
   },
   "twill-sandwich-cap": {
@@ -747,9 +747,9 @@ const productData = {
     price: "$12.99",
     synopsis: "This YouTube Twill Sandwich Cap will not only keep the sun out of your eyes but will also keep you looking stylish.",
     images: [
-      "media/products/youtube/GGOEYHBB102199.jpg",
-      "media/products/youtube/GGOEYHBB102199-2.jpg",
-      "media/products/youtube/GGOEYHBB102199-3.jpg"
+      "media/products/youtube/GGOEYHBB102199.webp",
+      "media/products/youtube/GGOEYHBB102199-2.webp",
+      "media/products/youtube/GGOEYHBB102199-3.webp"
     ]
   },
   "pen-two-pack": {
@@ -760,9 +760,9 @@ const productData = {
     price: "$3.99",
     synopsis: "The soft touch surface and fine point gel tip of this YouTube Pen will make this your go-to pen for any of your writing needs.",
     images: [
-      "media/products/youtube/GGOEYOAA101499.jpg",
-      "media/products/youtube/GGOEYOAA101499-2.jpg",
-      "media/products/youtube/GGOEYOAA101499-3.jpg"
+      "media/products/youtube/GGOEYOAA101499.webp",
+      "media/products/youtube/GGOEYOAA101499-2.webp",
+      "media/products/youtube/GGOEYOAA101499-3.webp"
     ]
   },
   "flex-journal": {
@@ -773,9 +773,9 @@ const productData = {
     price: "$7.99",
     synopsis: "This YouTube Flex Journal has 50 lined sheets waiting for you to write down your imaginations and doodles.",
     images: [
-      "media/products/youtube/GGOEYOCB100499.jpg",
-      "media/products/youtube/GGOEYOCB100499-2.jpg",
-      "media/products/youtube/GGOEYOCB100499-3.jpg"
+      "media/products/youtube/GGOEYOCB100499.webp",
+      "media/products/youtube/GGOEYOCB100499-2.webp",
+      "media/products/youtube/GGOEYOCB100499-3.webp"
     ]
   },
   "gear-cap-bottle": {
@@ -786,9 +786,9 @@ const productData = {
     price: "$26.99",
     synopsis: "Take your favorite hot or cold drink anywhere with this YouTube 25oz Gear Cap Bottle. The carrying handle lid makes it convenient to take with you to your next meeting or workout.",
     images: [
-      "media/products/youtube/GGOEYDHB098499.jpg",
-      "media/products/youtube/GGOEYDHB098499-2.jpg",
-      "media/products/youtube/GGOEYDHB098499-3.jpg"
+      "media/products/youtube/GGOEYDHB098499.webp",
+      "media/products/youtube/GGOEYDHB098499-2.webp",
+      "media/products/youtube/GGOEYDHB098499-3.webp"
     ]
   },
   "transmission-journal": {
@@ -799,9 +799,9 @@ const productData = {
     price: "$15.99",
     synopsis: "This YouTube Transmission Journal is a convenient tool to collect your thoughts and doodles throughout the day.",
     images: [
-      "media/products/youtube/GGOEYOCB092699.jpg",
-      "media/products/youtube/GGOEYOCB092699-2.jpg",
-      "media/products/youtube/GGOEYOCB092699-3.jpg"
+      "media/products/youtube/GGOEYOCB092699.webp",
+      "media/products/youtube/GGOEYOCB092699-2.webp",
+      "media/products/youtube/GGOEYOCB092699-3.webp"
     ]
   },
   "transmission-bottle": {
@@ -812,9 +812,9 @@ const productData = {
     price: "$23.99",
     synopsis: "Keep your favorite drink cold during those long workouts with this YouTube Transmission Bottle. 17 oz.",
     images: [
-      "media/products/youtube/GGOEYDHB086099.jpg",
-      "media/products/youtube/GGOEYDHB086099-2.jpg",
-      "media/products/youtube/GGOEYDHB086099-3.jpg"
+      "media/products/youtube/GGOEYDHB086099.webp",
+      "media/products/youtube/GGOEYDHB086099-2.webp",
+      "media/products/youtube/GGOEYDHB086099-3.webp"
     ]
   },
   "icon-pullover": {
@@ -825,9 +825,9 @@ const productData = {
     price: "$59.99",
     synopsis: "This YouTube Transmission Journal is a convenient tool to collect your thoughts and doodles throughout the day.",
     images: [
-      "media/products/youtube/GGOEYXXX0938.jpg",
-      "media/products/youtube/GGOEYXXX0938-2.jpg",
-      "media/products/youtube/GGOEYXXX0938-3.jpg"
+      "media/products/youtube/GGOEYXXX0938.webp",
+      "media/products/youtube/GGOEYXXX0938-2.webp",
+      "media/products/youtube/GGOEYXXX0938-3.webp"
     ]
   },
   "wordmark-crew-grey": {
@@ -838,9 +838,9 @@ const productData = {
     price: "$51.99",
     synopsis: "Kick back and relax in this comfortable YouTube sweatshirt. Unisex sizing.",
     images: [
-      "media/products/youtube/GGOEYXXX0937.jpg",
-      "media/products/youtube/GGOEYXXX0937-2.jpg",
-      "media/products/youtube/GGOEYXXX0937-3.jpg"
+      "media/products/youtube/GGOEYXXX0937.webp",
+      "media/products/youtube/GGOEYXXX0937-2.webp",
+      "media/products/youtube/GGOEYXXX0937-3.webp"
     ]
   },
   "three-lines-tee": {
@@ -851,10 +851,10 @@ const productData = {
     price: "$21.99",
     synopsis: "Stay innovating with this YouTube tee made of soft tri-blend material. Unisex Sizing.",
     images: [
-      "media/products/youtube/GGOEGXXX0921.jpg",
-      "media/products/youtube/GGOEGXXX0921-2.jpg",
-      "media/products/youtube/GGOEGXXX0921-3.jpg",
-      "media/products/youtube/GGOEGXXX0921-4.jpg"
+      "media/products/youtube/GGOEGXXX0921.webp",
+      "media/products/youtube/GGOEGXXX0921-2.webp",
+      "media/products/youtube/GGOEGXXX0921-3.webp",
+      "media/products/youtube/GGOEGXXX0921-4.webp"
     ]
   },
   "favorite-tee-white": {
@@ -865,9 +865,9 @@ const productData = {
     price: "$21.99",
     synopsis: "Keep it simple with the new logo wearing this Youtube tee.",
     images: [
-      "media/products/youtube/GGOEGXXX0919.jpg",
-      "media/products/youtube/GGOEGXXX0919-2.jpg",
-      "media/products/youtube/GGOEGXXX0919-3.jpg"
+      "media/products/youtube/GGOEGXXX0919.webp",
+      "media/products/youtube/GGOEGXXX0919-2.webp",
+      "media/products/youtube/GGOEGXXX0919-3.webp"
     ]
   },
   "tee-black": {
@@ -878,9 +878,9 @@ const productData = {
     price: "$21.99",
     synopsis: "Keep it simple with the new logo wearing this YouTube tee. Unisex sizing.",
     images: [
-      "media/products/youtube/GGOEGXXX0918.jpg",
-      "media/products/youtube/GGOEGXXX0918-2.jpg",
-      "media/products/youtube/GGOEGXXX0918-3.jpg"
+      "media/products/youtube/GGOEGXXX0918.webp",
+      "media/products/youtube/GGOEGXXX0918-2.webp",
+      "media/products/youtube/GGOEGXXX0918-3.webp"
     ]
   },
   "kids-onesie-white": {
@@ -891,9 +891,9 @@ const productData = {
     price: "$25.99",
     synopsis: "This 100% cotton Youtube Onesie for your baby will keep them comfortable with non-binding sleeves for full freedom of movement.",
     images: [
-      "media/products/youtube/GGOEYXXX0897.jpg",
-      "media/products/youtube/GGOEYXXX0897-2.jpg",
-      "media/products/youtube/GGOEYXXX0897-3.jpg"
+      "media/products/youtube/GGOEYXXX0897.webp",
+      "media/products/youtube/GGOEYXXX0897-2.webp",
+      "media/products/youtube/GGOEYXXX0897-3.webp"
     ]
   },
   "kids-tee-black": {
@@ -904,9 +904,9 @@ const productData = {
     price: "$19.99",
     synopsis: "This 100% cotton Youtube short sleeve t-shirt is perfect for kids to wear to school or while playing.",
     images: [
-      "media/products/youtube/GGOEYXXX0896.jpg",
-      "media/products/youtube/GGOEYXXX0896-2.jpg",
-      "media/products/youtube/GGOEYXXX0896-3.jpg"
+      "media/products/youtube/GGOEYXXX0896.webp",
+      "media/products/youtube/GGOEYXXX0896-2.webp",
+      "media/products/youtube/GGOEYXXX0896-3.webp"
     ]
   },
   "kids-tee-white": {
@@ -917,9 +917,9 @@ const productData = {
     price: "$19.99",
     synopsis: "This 100% cotton Youtube short sleeve t-shirt is perfect for kids to wear to school or while playing.",
     images: [
-      "media/products/youtube/GGOEYXXX0895.jpg",
-      "media/products/youtube/GGOEYXXX0895-2.jpg",
-      "media/products/youtube/GGOEYXXX0895-3.jpg"
+      "media/products/youtube/GGOEYXXX0895.webp",
+      "media/products/youtube/GGOEYXXX0895-2.webp",
+      "media/products/youtube/GGOEYXXX0895-3.webp"
     ]
   },
   "fleece-hoodie-womens": {
@@ -930,8 +930,8 @@ const productData = {
     price: "$55.99",
     synopsis: "Vintage styling gives this YouTube hoodie a timeless appeal. With a full zipper and stand-out drawstrings.",
     images: [
-      "media/products/youtube/GGOEGAAX0732.jpg",
-      "media/products/youtube/GGOEGAAX0732-2.jpg"
+      "media/products/youtube/GGOEGAAX0732.webp",
+      "media/products/youtube/GGOEGAAX0732-2.webp"
     ]
   },
   "badge-tee-charcoal-womens": {
@@ -943,9 +943,9 @@ const productData = {
     synopsis: "A YouTube t-shirt for women made of luxurious tri-belnd jersey fabric, this Made in the USA tee can't be beat for style and comfort.",
     // "tri-belnd" is not a mistake, it appeared on the official synopsis
     images: [
-      "media/products/youtube/GGOEGAAX0295.jpg",
-      "media/products/youtube/GGOEGAAX0295-2.jpg",
-      "media/products/youtube/GGOEGAAX0295-3.jpg"
+      "media/products/youtube/GGOEGAAX0295.webp",
+      "media/products/youtube/GGOEGAAX0295-2.webp",
+      "media/products/youtube/GGOEGAAX0295-3.webp"
     ]
   },
   "hero-tee-charcoal-womens": {
@@ -956,9 +956,9 @@ const productData = {
     price: "$18.99",
     synopsis: "They don't call it the favorite for nothing. Experience the 100% cotton comfort.",
     images: [
-      "media/products/youtube/GGOEGAAX0290.jpg",
-      "media/products/youtube/GGOEGAAX0290-2.jpg",
-      "media/products/youtube/GGOEGAAX0290-3.jpg"
+      "media/products/youtube/GGOEGAAX0290.webp",
+      "media/products/youtube/GGOEGAAX0290-2.webp",
+      "media/products/youtube/GGOEGAAX0290-3.webp"
     ]
   },
   "long-tee-charcoal": {
@@ -969,9 +969,9 @@ const productData = {
     price: "$19.99",
     synopsis: "Tri-blend jersey fabric makes this Android t-shirt easy to wear and easy to move in. USA made with logo in the 'badge' location.",
     images: [
-      "media/products/youtube/GGOEGAAX0330.jpg",
-      "media/products/youtube/GGOEGAAX0330-2.jpg",
-      "media/products/youtube/GGOEGAAX0330-3.jpg"
+      "media/products/youtube/GGOEGAAX0330.webp",
+      "media/products/youtube/GGOEGAAX0330-2.webp",
+      "media/products/youtube/GGOEGAAX0330-3.webp"
     ]
   },
   "hero-tee-charcoal": {
@@ -982,9 +982,9 @@ const productData = {
     price: "$17.99",
     synopsis: "Made of soft tri-blend jersey fabric, this amazing YouTube t-shirt proudly bears the YouTube logo front and center. Made in USA.",
     images: [
-      "media/products/youtube/GGOEGAAX0325.jpg",
-      "media/products/youtube/GGOEGAAX0325-2.jpg",
-      "media/products/youtube/GGOEGAAX0325-3.jpg"
+      "media/products/youtube/GGOEGAAX0325.webp",
+      "media/products/youtube/GGOEGAAX0325-2.webp",
+      "media/products/youtube/GGOEGAAX0325-3.webp"
     ]
   },
   "hero-tee-white": {
@@ -995,8 +995,8 @@ const productData = {
     price: "$16.99",
     synopsis: "100% cotton makes for a smooth and well-wearing tee. This US-made YouTube t-shirt boldly bears the logo across the chest.",
     images: [
-      "media/products/youtube/GGOEGAAX0317.jpg",
-      "media/products/youtube/GGOEGAAX0317-2.jpg"
+      "media/products/youtube/GGOEGAAX0317.webp",
+      "media/products/youtube/GGOEGAAX0317-2.webp"
     ]
   },
   "hero-tee-black": {
@@ -1007,9 +1007,9 @@ const productData = {
     price: "$16.99",
     synopsis: "100% cotton makes for a smooth and well-wearing tee. This US-made YouTube t-shirt boldly bears the logo across the chest.",
     images: [
-      "media/products/youtube/GGOEGAAX0318.jpg",
-      "media/products/youtube/GGOEGAAX0318-2.jpg",
-      "media/products/youtube/GGOEGAAX0318-3.jpg"
+      "media/products/youtube/GGOEGAAX0318.webp",
+      "media/products/youtube/GGOEGAAX0318-2.webp",
+      "media/products/youtube/GGOEGAAX0318-3.webp"
     ]
   },
   "hero-tee-black-womens": {
@@ -1020,8 +1020,8 @@ const productData = {
     price: "$17.00",
     synopsis: "100% cotton fabric makes this YouTube t-shirt perfect formultiple views. Made in USA.",
     images: [
-      "media/products/youtube/GGOEGAAX0284.jpg",
-      "media/products/youtube/GGOEGAAX0284-2.jpg"
+      "media/products/youtube/GGOEGAAX0284.webp",
+      "media/products/youtube/GGOEGAAX0284-2.webp"
     ]
   },
   "vintage-tank": {
@@ -1032,8 +1032,8 @@ const productData = {
     price: "$20.99",
     synopsis: "Enhance your summer fashion with this stylish men's YouTube tank made of 50/50 fabric. Our special blend provides unique comfort and light-weight feel.",
     images: [
-      "media/products/youtube/GGOEGAAX0356.jpg",
-      "media/products/youtube/GGOEGAAX0356-2.jpg"
+      "media/products/youtube/GGOEGAAX0356.webp",
+      "media/products/youtube/GGOEGAAX0356-2.webp"
     ]
   },
   "vintage-henley": {
@@ -1044,8 +1044,8 @@ const productData = {
     price: "$29.99",
     synopsis: "Made with recycled polyester and organic cotton, this retro-style YouTube shirt with a henley neckline is sure to get plenty of views from YouTubers.",
     images: [
-      "media/products/youtube/GGOEGAAX0351.jpg",
-      "media/products/youtube/GGOEGAAX0351-2.jpg"
+      "media/products/youtube/GGOEGAAX0351.webp",
+      "media/products/youtube/GGOEGAAX0351-2.webp"
     ]
   },
   "trucker-hat": {
@@ -1056,10 +1056,10 @@ const productData = {
     price: "$21.99",
     synopsis: "This YouTube Trucker Hat keeps you ventilated and looking good at the same time!",
     images: [
-      "media/products/youtube/GGOEYHPA003510.jpg",
-      "media/products/youtube/GGOEYHPA003510-2.jpg",
-      "media/products/youtube/GGOEYHPA003510-3.jpg",
-      "media/products/youtube/GGOEYHPA003510-4.jpg"
+      "media/products/youtube/GGOEYHPA003510.webp",
+      "media/products/youtube/GGOEYHPA003510-2.webp",
+      "media/products/youtube/GGOEYHPA003510-3.webp",
+      "media/products/youtube/GGOEYHPA003510-4.webp"
     ]
   },
   "bottle-infuser": {
@@ -1070,9 +1070,9 @@ const productData = {
     price: "$4.99",
     synopsis: "Convenience in a mini bottle. This 22 oz. water bottle features an infuser basket for your fav fruit infused beverage.",
     images: [
-      "media/products/youtube/GGOEYDHJ056099.jpg",
-      "media/products/youtube/GGOEYDHJ056099-2.jpg",
-      "media/products/youtube/GGOEYDHJ056099-3.jpg"
+      "media/products/youtube/GGOEYDHJ056099.webp",
+      "media/products/youtube/GGOEYDHJ056099-2.webp",
+      "media/products/youtube/GGOEYDHJ056099-3.webp"
     ]
   },
   "heather-cap": {
@@ -1083,9 +1083,9 @@ const productData = {
     price: "$24.99",
     synopsis: "This YouTube Cap is a hat with a twist. Made of a wool-poly blend, this hat works as a baseball cap or a fashion accessory. Heather with a black brim.",
     images: [
-      "media/products/youtube/GGOEYHPA003610.jpg",
-      "media/products/youtube/GGOEYHPA003610-2.jpg",
-      "media/products/youtube/GGOEYHPA003610-3.jpg"
+      "media/products/youtube/GGOEYHPA003610.webp",
+      "media/products/youtube/GGOEYHPA003610-2.webp",
+      "media/products/youtube/GGOEYHPA003610-3.webp"
     ]
   },
   "leatherette-notebook": {
@@ -1096,9 +1096,9 @@ const productData = {
     price: "$6.99",
     synopsis: "This YouTube notebook combo is slim and compact for travel or elegant enough for any desk!",
     images: [
-      "media/products/youtube/GGOEYOLR018699.jpg",
-      "media/products/youtube/GGOEYOLR018699-2.jpg",
-      "media/products/youtube/GGOEYOLR018699-3.jpg"
+      "media/products/youtube/GGOEYOLR018699.webp",
+      "media/products/youtube/GGOEYOLR018699-2.webp",
+      "media/products/youtube/GGOEYOLR018699-3.webp"
     ]
   },
   "custom-decals": {
@@ -1109,8 +1109,8 @@ const productData = {
     price: "$1.99",
     synopsis: "Stick this YouTube vinyl stickers to your belongings to show your YouTube love!",
     images: [
-      "media/products/youtube/GGOEYFKQ020699.jpg",
-      "media/products/youtube/GGOEYFKQ020699-2.jpg"
+      "media/products/youtube/GGOEYFKQ020699.webp",
+      "media/products/youtube/GGOEYFKQ020699-2.webp"
     ]
   },
   "twill-cap": {
@@ -1121,9 +1121,9 @@ const productData = {
     price: "$10.99",
     synopsis: "Classic urban styling distinguishes this YouTube cap. Retains its shape, even when not being worn.",
     images: [
-      "media/products/youtube/GGOEYHPB072210.jpg",
-      "media/products/youtube/GGOEYHPB072210-2.jpg",
-      "media/products/youtube/GGOEYHPB072210-3.jpg"
+      "media/products/youtube/GGOEYHPB072210.webp",
+      "media/products/youtube/GGOEYHPB072210-2.webp",
+      "media/products/youtube/GGOEYHPB072210-3.webp"
     ]
   },
   "sergeant-bottle": {
@@ -1135,9 +1135,9 @@ const productData = {
     about: "It is a red leather notebook with the YouTube logo on it. It has a pouch inside and is sealed entirely with a zipper.",
     synopsis: "Sip on your durable YouTube water bottle while watching your favorite YouTube videos!",
     images: [
-      "media/products/youtube/GGOEYDHJ019399.jpg",
-      "media/products/youtube/GGOEYDHJ019399-2.jpg",
-      "media/products/youtube/GGOEYDHJ019399-3.jpg"
+      "media/products/youtube/GGOEYDHJ019399.webp",
+      "media/products/youtube/GGOEYDHJ019399-2.webp",
+      "media/products/youtube/GGOEYDHJ019399-3.webp"
     ]
   },
   "rfid-journal": {
@@ -1148,9 +1148,9 @@ const productData = {
     price: "$19.99",
     synopsis: "Google promotes data security, and this YouTube journal is another way you can keep your data safe from remote RFID scanning.",
     images: [
-      "media/products/youtube/GGOEYOCR077399.jpg",
-      "media/products/youtube/GGOEYOCR077399-2.jpg",
-      "media/products/youtube/GGOEYOCR077399-3.jpg"
+      "media/products/youtube/GGOEYOCR077399.webp",
+      "media/products/youtube/GGOEYOCR077399-2.webp",
+      "media/products/youtube/GGOEYOCR077399-3.webp"
     ]
   },
   "hard-cover-journal": {
@@ -1161,9 +1161,9 @@ const productData = {
     price: "$14.99",
     synopsis: "Store anything form business cards in the interior pocket to your wildest imagination on the 192 pages this YouTube Hard Cover Journal has to offer.",
     images: [
-      "media/products/youtube/GGOEYOCR077799.jpg",
-      "media/products/youtube/GGOEYOCR077799-2.jpg",
-      "media/products/youtube/GGOEYOCR077799-3.jpg"
+      "media/products/youtube/GGOEYOCR077799.webp",
+      "media/products/youtube/GGOEYOCR077799-2.webp",
+      "media/products/youtube/GGOEYOCR077799-3.webp"
     ]
   },
   "spiral-journal": {
@@ -1174,9 +1174,9 @@ const productData = {
     price: "$12.99",
     synopsis: "Let your thoughts run wild in this YouTube Spiral Journal with Pen set. Easily find your favorite thought with the elastic closure as a bookmark.",
     images: [
-      "media/products/youtube/GGOEYOCR078099.jpg",
-      "media/products/youtube/GGOEYOCR078099-2.jpg",
-      "media/products/youtube/GGOEYOCR078099-3.jpg"
+      "media/products/youtube/GGOEYOCR078099.webp",
+      "media/products/youtube/GGOEYOCR078099-2.webp",
+      "media/products/youtube/GGOEYOCR078099-3.webp"
     ]
   },
   "luggage-tag": {
@@ -1187,9 +1187,9 @@ const productData = {
     price: "$8.99",
     synopsis: "This stylish YouTube luggage tag is the perfect addition to your suitcase or bag when traveling, also doubling as a business card holder.",
     images: [
-      "media/products/youtube/GGOEYOBR078599.jpg",
-      "media/products/youtube/GGOEYOBR078599-2.jpg",
-      "media/products/youtube/GGOEYOBR078599-3.jpg"
+      "media/products/youtube/GGOEYOBR078599.webp",
+      "media/products/youtube/GGOEYOBR078599-2.webp",
+      "media/products/youtube/GGOEYOBR078599-3.webp"
     ]
   },
   "notebook-aps": {
@@ -1200,9 +1200,9 @@ const productData = {
     price: "$7.99",
     synopsis: "This small YouTube Notebook is the perfect size for any desk or while traveling. Included is a pen to write down notes or thoughts.",
     images: [
-      "media/products/youtube/GGOEYOLR080599.jpg",
-      "media/products/youtube/GGOEYOLR080599-2.jpg",
-      "media/products/youtube/GGOEYOLR080599-3.jpg",
+      "media/products/youtube/GGOEYOLR080599.webp",
+      "media/products/youtube/GGOEYOLR080599-2.webp",
+      "media/products/youtube/GGOEYOLR080599-3.webp",
     ]
   }
 };

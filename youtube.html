@@ -2,29 +2,31 @@
 <html lang="en">
 <head>
     <title>YouTube Merchandise</title>
-    <meta content="YouTube Merchandise" property="og:title">
-    <meta content="A collection of most YouTube merchandise." property="og:description">
-    <meta content="https://bugdroid.org/meta/subpage-youtube.png" property="og:image">
-    <meta content="https://bugdroid.org/youtube" property="og:url">
-    <meta content="#FF0000" data-react-helmet="true" name="theme-color">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:title" content="YouTube Merchandise">
+    <meta property="og:description" content="This is a collection of most official YouTube merchandise. Spanning from shirts, pins, stickers, cups, and more.">
+    <meta property="og:image" content="https://bugdroid.org/meta/subpage-youtube.webp">
+    <meta property="og:url" content="https://bugdroid.org/youtube">
+    <meta name="description" content="This is a collection of most official YouTube merchandise. Spanning from shirts, pins, stickers, cups, and more.">
+    <meta name="theme-color" content="#FF0000">
     <meta name="keywords" content="merchandise, archive, YouTube, Google">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="meta/droid.css">
     <link rel="icon" type="image/x-icon" href="meta/package.ico">
-    <script src="/meta/site-board.js" defer></script>
+    <script src="meta/site-board.js" defer></script>
+    <script src="meta/site-database-youtube.js" defer></script>
     <style>
         div.box, img.prev {border-radius:5px}
         div.individual div.box#Gallery header {background:black}
         img.prev {width:150px;border:solid 3px black;outline: solid 1px #4F4E4F;margin:3px;margin-top:0px}
-        img.prev:hover {box-shadow: 0px 0px 11px 4px red;cursor:pointer}
-        img.prev:active {box-shadow:none}
+        img.prev:hover {outline:solid 1px #E99D00;cursor:pointer}
+        img.prev:active {border:solid 3px #E99D00;}
         button:disabled {color:grey}
         a, mark, nav a:hover {color:#CE3732}
         div#prod {width: 100%;display:none}
         ::selection {background: #CE3732}
         #prod-images {display: block}
-        button, img.i {color:white;background: linear-gradient(to bottom, #505050, #101010);outline:solid 1px #4F4E4F;border-radius: 5px}
+        button, img.i {color:white;background:linear-gradient(to bottom, #505050, #101010);outline:solid 1px #4F4E4F;border-radius:5px}
         header.buttons {background: linear-gradient(to bottom, #000000, #000000)}
     </style>
 </head>
@@ -33,102 +35,108 @@
 <nav><header style="background: linear-gradient(to bottom, #505050, #000000);border-bottom: solid 1px grey"><a href="/">bugdroid.org</a>/youtube</header></nav>
 
 <div class="board">
-    <h1><img src="meta/logo-youtube.png" id="tubeImg" style="width: 200px;cursor:help"><audio id="tubeSound" src="meta/fx-youtube.mp3"></audio></h1>
+    <h1><img src="meta/logo-youtube.webp" id="tubeImg" alt="2005 YouTube logo" style="width:200px;cursor:help"><audio id="tubeSound" src="meta/fx-youtube.ogg"></audio></h1>
     <script>const clickableImage = document.getElementById('tubeImg'); const sound = document.getElementById('tubeSound'); let isPlaying = false; clickableImage.addEventListener('click', function() {if (isPlaying) return; const newSound = new Audio(sound.src); isPlaying = true; newSound.play(); newSound.addEventListener('ended', function() {isPlaying = false;});});</script>
     <!--it can't overlap on purpose, gets loud-->
 
-    <img src="media/products/youtube/GGOEYXXX2511.jpg" class="prev" id="juniper-tee" alt="Organic Juniper Tee">
-    <img src="media/products/youtube/GGOEYCBR250899.jpg" class="prev" id="shoe-charm" alt="Shoe Charm Pack">
-    <img src="media/products/youtube/GGOEYCBR250799.jpg" class="prev" id="acrylic-pin" alt="Acrylic Pin Set">
-    <img src="media/products/youtube/GGOEYOCB250499.jpg" class="prev" id="mini-jotter" alt="Mini Jotter">
-    <img src="media/products/youtube/GGOEYOAB250599.jpg" class="prev" id="clicker-pen" alt="Clicker Pen">
-    <img src="media/products/youtube/GGCNGOLB105299.jpg" class="prev" id="journal-ca" alt="Journal Ca">
-    <img src="media/products/youtube/GGCNGDWB105399.jpg" class="prev" id="insulated-mug" alt="Insulated Mug">
-    <img src="media/products/youtube/GGCNGOAB105499.jpg" class="prev" id="jotter-pen" alt="Jotter Pen">
-    <img src="media/products/youtube/GGCNYOKR105899.jpg" class="prev" id="icon-sticker" alt="Icon Sticker">
-    <img src="media/products/youtube/GGCNYCXQ105999.jpg" class="prev" id="old-school-socks" alt="Old School Socks">    
-    <img src="media/products/youtube/GGOEYOBA242499.jpg" class="prev" id="kids-coloring-book" alt="Kids Coloring Book">
-    <img src="media/products/youtube/GGOEGFBA241299.jpg" class="prev" id="dino-accessory" alt="Dino Accessory">
-    <img src="media/products/youtube/GGOEYBMB211099.jpg" class="prev" id="retro-duffel" alt="Retro Duffel">
-    <img src="media/products/youtube/GGOEYDNB210499.jpg" class="prev" id="straw-tumbler" alt="Straw Tumbler">
-    <img src="media/products/youtube/GGOEYCBB219599.jpg" class="prev" id="phone-lanyard" alt="Phone Lanyard">
-    <img src="media/products/youtube/GGOEYHPB217010.jpg" class="prev" id="beanie" alt="Beanie">
-    <img src="media/products/youtube/GGOEYCBR221099.jpg" class="prev" id="wood-zipper-pull" alt="Wood Zipper Pull">
-    <img src="media/products/youtube/GGOEYOAB216899.jpg" class="prev" id="floating-pen" alt="Floating Pen">
-    <img src="media/products/youtube/GGOEYXXX2218.jpg" class="prev" id="icon-windbreaker" alt="Icon Windbreaker">
-    <img src="media/products/youtube/GGOEYDNB210999.jpg" class="prev" id="traveller-tumbler" alt="Traveller Tumbler">
-    <img src="media/products/youtube/GGOEYDWB210799.jpg" class="prev" id="icon-mug" alt="Icon Mug">
-    <img src="media/products/youtube/GGOEYOBA215899.jpg" class="prev" id="eco-wood-magnet" alt="Eco Wood Magnet">
-    <img src="media/products/youtube/GGOEYOAB200699.jpg" class="prev" id="black-le-pen" alt="Black Le Pen">
-    <img src="media/products/youtube/GGOEYCBA198999.jpg" class="prev" id="icon-patch" alt="Icon Patch">
-    <img src="media/products/youtube/GGOEYAXA197410.jpg" class="prev" id="express-socks" alt="Express Socks">
-    <img src="media/products/youtube/GGOEYFKA194999.jpg" class="prev" id="keyboard-sticker" alt="Keyboard Sticker">
-    <img src="media/products/youtube/GGOEYCKA182799.jpg" class="prev" id="kids-sticker-sheet" alt="Kids Sticker Sheet">
-    <img src="media/products/youtube/GGOEYCBA182399.jpg" class="prev" id="kids-toast-keychain" alt="Kids Toast Keychain">
-    <img src="media/products/youtube/GGOEYKBA182199.jpg" class="prev" id="kids-coloring-pencils" alt="Kids Coloring Pencils">
-    <img src="media/products/youtube/GGOEYDHA182099.jpg" class="prev" id="kids-eco-bottle" alt="Kids Eco Bottle">
-    <img src="media/products/youtube/GGOEYOCB181099.jpg" class="prev" id="journal" alt="Journal">
-    <img src="media/products/youtube/GGOEYCBA180799.jpg" class="prev" id="zipper-pull" alt="Zipper Pull">
-    <img src="media/products/youtube/GGOEYAKA179210.jpg" class="prev" id="tie-dye-socks" alt="Tie Dye Socks">
-    <img src="media/products/youtube/GGOEYBMB177599.jpg" class="prev" id="eco-duffel" alt="Eco Duffel">
-    <img src="media/products/youtube/GGOEYDNA175399.jpg" class="prev" id="shadow-tumbler" alt="Shadow Tumbler">
-    <img src="media/products/youtube/GGOEYDHB174899.jpg" class="prev" id="metal-loop-bottle" alt="Metal Loop Bottle">
-    <img src="media/products/youtube/GGOEYHGB174299.jpg" class="prev" id="black-sunglasses" alt="Black Sunglasses">
-    <img src="media/products/youtube/GGOEYOLB151999.jpg" class="prev" id="jotter-pad" alt="Jotter Pad">
-    <img src="media/products/youtube/GGOEYCBR138999.jpg" class="prev" id="iconic-pin" alt="Iconic Pin">
-    <img src="media/products/youtube/GGOEYCBA128999.jpg" class="prev" id="icon-bundle" alt="Icon Bundle">
-    <img src="media/products/youtube/GGOEYOCR125599.jpg" class="prev" id="transmission-journal-red" alt="Transmission Journal Red">
-    <img src="media/products/youtube/GGOEYDWB123299.jpg" class="prev" id="play-mug" alt="Play Mug">
-    <img src="media/products/youtube/GGOEYHPB121110.jpg" class="prev" id="strap-hat" alt="Strap Hat">
-    <img src="media/products/youtube/GGOEYDHR117299.jpg" class="prev" id="buoy-bottle" alt="Buoy Bottle">
-    <img src="media/products/youtube/GGOEYFKQ105899.jpg" class="prev" id="small-sticker-sheet" alt="Small Sticker Sheet">
-    <img src="media/products/youtube/GGOEYAEA105610.jpg" class="prev" id="crew-socks-summer" alt="Crew Socks Summer">
-    <img src="media/products/youtube/GGOEYDHJ104099.jpg" class="prev" id="tritan-sport-bottle" alt="Tritan Sport Bottle">
-    <img src="media/products/youtube/GGOEYHBB102199.jpg" class="prev" id="twill-sandwich-cap" alt="Twill Sandwich Cap">
-    <img src="media/products/youtube/GGOEYOAA101499.jpg" class="prev" id="pen-two-pack" alt="Pen Two Pack">
-    <img src="media/products/youtube/GGOEYOCB100499.jpg" class="prev" id="flex-journal" alt="Flex Journal">
-    <img src="media/products/youtube/GGOEYDHB098499.jpg" class="prev" id="gear-cap-bottle" alt="Gear Cap Bottle">
-    <img src="media/products/youtube/GGOEYOCB092699.jpg" class="prev" id="transmission-journal" alt="Transmission Journal">
-    <img src="media/products/youtube/GGOEYDHB086099.jpg" class="prev" id="transmission-bottle" alt="Transmission Bottle">
-    <img src="media/products/youtube/GGOEYXXX2046.jpg" class="prev" id="marled-tee" alt="Marled Tee">
-    <img src="media/products/youtube/GGOEYXXX2043.jpg" class="prev" id="far-out-sweatshirt" alt="Far Out Sweatshirt">
-    <img src="media/products/youtube/GGOEYXXX1801.jpg" class="prev" id="black-zip-hoodie" alt="Black Zip Hoodie">
-    <img src="media/products/youtube/GGOEYXXX1799.jpg" class="prev" id="express-sweatshirt" alt="Express Sweatshirt">
-    <img src="media/products/youtube/GGOEYXXX1796.jpg" class="prev" id="lake-blue-tee" alt="Lake Blue Tee">
-    <img src="media/products/youtube/GGOEYXXX1795.jpg" class="prev" id="tie-dye-tee" alt="Tie Dye Tee">
-    <img src="media/products/youtube/GGOEYXXX1734.jpg" class="prev" id="ultralight-sweatshirt" alt="Ultralight Sweatshirt">
-    <img src="media/products/youtube/GGOEYXXX1207.jpg" class="prev" id="zip-hoodie" alt="Zip Hoodie">
-    <img src="media/products/youtube/GGOEYXXX1203.jpg" class="prev" id="icon-tee-grey" alt="Icon Tee Grey">
-    <img src="media/products/youtube/GGOEYXXX0938.jpg" class="prev" id="icon-pullover" alt="Icon Pullover">
-    <img src="media/products/youtube/GGOEYXXX0937.jpg" class="prev" id="wordmark-crew-grey" alt="Wordmark Crew Grey">
-    <img src="media/products/youtube/GGOEGXXX0921.jpg" class="prev" id="three-lines-tee" alt="Three Lines Tee">
-    <img src="media/products/youtube/GGOEGXXX0919.jpg" class="prev" id="favorite-tee-white" alt="Favorite Tee White">
-    <img src="media/products/youtube/GGOEGXXX0918.jpg" class="prev" id="tee-black" alt="Tee Black">
-    <img src="media/products/youtube/GGOEYXXX0897.jpg" class="prev" id="kids-onesie-white" alt="Kids Onesie White">
-    <img src="media/products/youtube/GGOEYXXX0896.jpg" class="prev" id="kids-tee-black" alt="Kids Tee Black">
-    <img src="media/products/youtube/GGOEYXXX0895.jpg" class="prev" id="kids-tee-white" alt="Kids Tee White">
-    <img src="media/products/youtube/GGOEGAAX0732.jpg" class="prev" id="fleece-hoodie-womens" alt="Fleece Hoodie Womens">
-    <img src="media/products/youtube/GGOEGAAX0295.jpg" class="prev" id="badge-tee-charcoal-womens" alt="Badge Tee Charcoal Womens">
-    <img src="media/products/youtube/GGOEGAAX0290.jpg" class="prev" id="hero-tee-charcoal-womens" alt="Hero Tee Charcoal Womens">
-    <img src="media/products/youtube/GGOEGAAX0330.jpg" class="prev" id="long-tee-charcoal" alt="Long Tee Charcoal">
-    <img src="media/products/youtube/GGOEGAAX0325.jpg" class="prev" id="hero-tee-charcoal" alt="Hero Tee Charcoal">
-    <img src="media/products/youtube/GGOEGAAX0317.jpg" class="prev" id="hero-tee-white" alt="Hero Tee White">
-    <img src="media/products/youtube/GGOEGAAX0318.jpg" class="prev" id="hero-tee-black" alt="Hero Tee Black">
-    <img src="media/products/youtube/GGOEGAAX0284.jpg" class="prev" id="hero-tee-black-womens" alt="Hero Tee Black Womens">
-    <img src="media/products/youtube/GGOEGAAX0356.jpg" class="prev" id="vintage-tank" alt="Vintage Tank">
-    <img src="media/products/youtube/GGOEGAAX0351.jpg" class="prev" id="vintage-henley" alt="Vintage Henley">
-    <img src="media/products/youtube/GGOEYHPA003510.jpg" class="prev" id="trucker-hat" alt="Trucker Hat">
-    <img src="media/products/youtube/GGOEYDHJ056099.jpg" class="prev" id="bottle-infuser" alt="Bottle Infuser">
-    <img src="media/products/youtube/GGOEYHPA003610.jpg" class="prev" id="heather-cap" alt="Heather Cap">
-    <img src="media/products/youtube/GGOEYOLR018699.jpg" class="prev" id="leatherette-notebook" alt="Leatherette Notebook">
-    <img src="media/products/youtube/GGOEYFKQ020699.jpg" class="prev" id="custom-decals" alt="Custom Decals">
-    <img src="media/products/youtube/GGOEYHPB072210.jpg" class="prev" id="twill-cap" alt="Twill Cap">
-    <img src="media/products/youtube/GGOEYDHJ019399.jpg" class="prev" id="sergeant-bottle" alt="Sergeant Bottle">
-    <img src="media/products/youtube/GGOEYOCR077399.jpg" class="prev" id="rfid-journal" alt="RFID Journal">
-    <img src="media/products/youtube/GGOEYOCR077799.jpg" class="prev" id="hard-cover-journal" alt="Hard Cover Journal">
-    <img src="media/products/youtube/GGOEYOCR078099.jpg" class="prev" id="spiral-journal" alt="Spiral Journal">
-    <img src="media/products/youtube/GGOEYOBR078599.jpg" class="prev" id="luggage-tag" alt="Luggage Tag">
-    <img src="media/products/youtube/GGOEYOLR080599.jpg" class="prev" id="notebook-aps" alt="Notebook APS">
+    <!--the commented dates are from the Last Modified field on the official images,
+        try not to use them as official date, they are only used here for a time frame-->
+    <img src="media/products/youtube/GGL2253.webp" class="prev" id="pin-badge" alt="Pin Badge 2025"><!--TBA Mar 20 2025-->
+    <img src="media/products/youtube/GGOEYXXX2511.webp" class="prev" id="juniper-tee" alt="Organic Juniper Tee">
+    <img src="media/products/youtube/GGOEYCBR250899.webp" class="prev" id="shoe-charm" alt="Shoe Charm Pack">
+    <img src="media/products/youtube/GGOEYCBR250799.webp" class="prev" id="acrylic-pin" alt="Acrylic Pin Set">
+    <img src="media/products/youtube/GGOEYOCB250499.webp" class="prev" id="mini-jotter" alt="Mini Jotter">
+    <img src="media/products/youtube/GGOEYOAB250599.webp" class="prev" id="clicker-pen" alt="Clicker Pen">
+    <img src="media/products/youtube/GGCNGOLB105299.webp" class="prev" id="journal-ca" alt="Journal Ca">
+    <img src="media/products/youtube/GGCNGDWB105399.webp" class="prev" id="insulated-mug" alt="Insulated Mug">
+    <img src="media/products/youtube/GGCNGOAB105499.webp" class="prev" id="jotter-pen" alt="Jotter Pen">
+    <img src="media/products/youtube/GGCNYOKR105899.webp" class="prev" id="icon-sticker" alt="Icon Sticker">
+    <img src="media/products/youtube/GGCNYCXQ105999.webp" class="prev" id="old-school-socks" alt="Old School Socks">    
+    <img src="media/products/youtube/GGOEYOBA242499.webp" class="prev" id="kids-coloring-book" alt="Kids Coloring Book">
+    <img src="media/products/youtube/GGOEGFBA241299.webp" class="prev" id="dino-accessory" alt="Dino Accessory">
+    <img src="media/products/youtube/GGOEYBMB211099.webp" class="prev" id="retro-duffel" alt="Retro Duffel">
+    <img src="media/products/youtube/GGOEYXXX2046.webp" class="prev" id="marled-tee" alt="Marled Tee"><!--May 17 2025-->
+    <img src="media/products/youtube/GGOEYDNB210499.webp" class="prev" id="straw-tumbler" alt="Straw Tumbler"><!--May 16 2025-->
+    <img src="media/products/youtube/GGL2254.webp" class="prev" id="rpet-lanyard" alt="RPET Lanyard"><!--TBA-->
+    <img src="media/products/youtube/GGOEYCBB219599.webp" class="prev" id="phone-lanyard" alt="Phone Lanyard"><!--Jul 7 2025-->
+    <img src="media/products/youtube/GGOEYHPB217010.webp" class="prev" id="beanie" alt="Beanie">
+    <img src="media/products/youtube/GGOEYCBR221099.webp" class="prev" id="wood-zipper-pull" alt="Wood Zipper Pull">
+    <img src="media/products/youtube/GGL2259.webp" class="prev" id="tote-bag" alt="Tote Bag"><!--TBA-->
+    <img src="media/products/youtube/GGOEYOAB216899.webp" class="prev" id="floating-pen" alt="Floating Pen">
+    <img src="media/products/youtube/GGOEYXXX2218.webp" class="prev" id="icon-windbreaker" alt="Icon Windbreaker">
+    <img src="media/products/youtube/GGOEYDNB210999.webp" class="prev" id="traveller-tumbler" alt="Traveller Tumbler">
+    <img src="media/products/youtube/GGOEYDWB210799.webp" class="prev" id="icon-mug" alt="Icon Mug">
+    <img src="media/products/youtube/GGOEYOBA215899.webp" class="prev" id="eco-wood-magnet" alt="Eco Wood Magnet">
+    <img src="media/products/youtube/GGL2261.webp" class="prev" id="black-sweatshirt" alt="Black Sweatshirt"><!--TBA-->
+    <img src="media/products/youtube/GGOEYOAB200699.webp" class="prev" id="black-le-pen" alt="Black Le Pen">
+    <img src="media/products/youtube/GGOEYCBA198999.webp" class="prev" id="icon-patch" alt="Icon Patch"><!--May 16 2025-->
+    <img src="media/products/youtube/GGOEYAXA197410.webp" class="prev" id="express-socks" alt="Express Socks">
+    <img src="media/products/youtube/GGOEYFKA194999.webp" class="prev" id="keyboard-sticker" alt="Keyboard Sticker">
+    <img src="media/products/youtube/GGOEYCKA182799.webp" class="prev" id="kids-sticker-sheet" alt="Kids Sticker Sheet">
+    <img src="media/products/youtube/GGOEYCBA182399.webp" class="prev" id="kids-toast-keychain" alt="Kids Toast Keychain">
+    <img src="media/products/youtube/GGOEYKBA182199.webp" class="prev" id="kids-coloring-pencils" alt="Kids Coloring Pencils">
+    <img src="media/products/youtube/GGOEYDHA182099.webp" class="prev" id="kids-eco-bottle" alt="Kids Eco Bottle">
+    <img src="media/products/youtube/GGOEYOCB181099.webp" class="prev" id="journal" alt="Journal">
+    <img src="media/products/youtube/GGOEYCBA180799.webp" class="prev" id="zipper-pull" alt="Zipper Pull">
+    <img src="media/products/youtube/GGOEYAKA179210.webp" class="prev" id="tie-dye-socks" alt="Tie Dye Socks">
+    <img src="media/products/youtube/GGOEYBMB177599.webp" class="prev" id="eco-duffel" alt="Eco Duffel">
+    <img src="media/products/youtube/GGOEYDNA175399.webp" class="prev" id="shadow-tumbler" alt="Shadow Tumbler">
+    <img src="media/products/youtube/GGOEYDHB174899.webp" class="prev" id="metal-loop-bottle" alt="Metal Loop Bottle">
+    <img src="media/products/youtube/GGOEYHGB174299.webp" class="prev" id="black-sunglasses" alt="Black Sunglasses">
+    <img src="media/products/youtube/GGOEYOLB151999.webp" class="prev" id="jotter-pad" alt="Jotter Pad">
+    <img src="media/products/youtube/GGOEYCBR138999.webp" class="prev" id="iconic-pin" alt="Iconic Pin"><!--Jun 15 2025-->
+    <img src="media/products/youtube/GGOEYCBA128999.webp" class="prev" id="icon-bundle" alt="Icon Bundle">
+    <img src="media/products/youtube/GGOEYOCR125599.webp" class="prev" id="transmission-journal-red" alt="Transmission Journal Red">
+    <img src="media/products/youtube/GGOEYDWB123299.webp" class="prev" id="play-mug" alt="Play Mug">
+    <img src="media/products/youtube/GGOEYHPB121110.webp" class="prev" id="strap-hat" alt="Strap Hat">
+    <img src="media/products/youtube/GGOEYDHR117299.webp" class="prev" id="buoy-bottle" alt="Buoy Bottle">
+    <img src="media/products/youtube/GGOEYFKQ105899.webp" class="prev" id="small-sticker-sheet" alt="Small Sticker Sheet">
+    <img src="media/products/youtube/GGOEYAEA105610.webp" class="prev" id="crew-socks-summer" alt="Crew Socks Summer">
+    <img src="media/products/youtube/GGOEYDHJ104099.webp" class="prev" id="tritan-sport-bottle" alt="Tritan Sport Bottle">
+    <img src="media/products/youtube/GGOEYHBB102199.webp" class="prev" id="twill-sandwich-cap" alt="Twill Sandwich Cap">
+    <img src="media/products/youtube/GGOEYOAA101499.webp" class="prev" id="pen-two-pack" alt="Pen Two Pack">
+    <img src="media/products/youtube/GGOEYOCB100499.webp" class="prev" id="flex-journal" alt="Flex Journal">
+    <img src="media/products/youtube/GGOEYDHB098499.webp" class="prev" id="gear-cap-bottle" alt="Gear Cap Bottle">
+    <img src="media/products/youtube/GGOEYOCB092699.webp" class="prev" id="transmission-journal" alt="Transmission Journal">
+    <img src="media/products/youtube/GGOEYDHB086099.webp" class="prev" id="transmission-bottle" alt="Transmission Bottle">
+    <img src="media/products/youtube/GGOEYXXX2043.webp" class="prev" id="far-out-sweatshirt" alt="Far Out Sweatshirt">
+    <img src="media/products/youtube/GGOEYXXX1801.webp" class="prev" id="black-zip-hoodie" alt="Black Zip Hoodie">
+    <img src="media/products/youtube/GGOEYXXX1799.webp" class="prev" id="express-sweatshirt" alt="Express Sweatshirt">
+    <img src="media/products/youtube/GGOEYXXX1796.webp" class="prev" id="lake-blue-tee" alt="Lake Blue Tee">
+    <img src="media/products/youtube/GGOEYXXX1795.webp" class="prev" id="tie-dye-tee" alt="Tie Dye Tee">
+    <img src="media/products/youtube/GGOEYXXX1734.webp" class="prev" id="ultralight-sweatshirt" alt="Ultralight Sweatshirt">
+    <img src="media/products/youtube/GGOEYXXX1207.webp" class="prev" id="zip-hoodie" alt="Zip Hoodie">
+    <img src="media/products/youtube/GGOEYXXX1203.webp" class="prev" id="icon-tee-grey" alt="Icon Tee Grey">
+    <img src="media/products/youtube/GGOEYXXX0938.webp" class="prev" id="icon-pullover" alt="Icon Pullover">
+    <img src="media/products/youtube/GGOEYXXX0937.webp" class="prev" id="wordmark-crew-grey" alt="Wordmark Crew Grey">
+    <img src="media/products/youtube/GGOEGXXX0921.webp" class="prev" id="three-lines-tee" alt="Three Lines Tee">
+    <img src="media/products/youtube/GGOEGXXX0919.webp" class="prev" id="favorite-tee-white" alt="Favorite Tee White">
+    <img src="media/products/youtube/GGOEGXXX0918.webp" class="prev" id="tee-black" alt="Tee Black">
+    <img src="media/products/youtube/GGOEYXXX0897.webp" class="prev" id="kids-onesie-white" alt="Kids Onesie White">
+    <img src="media/products/youtube/GGOEYXXX0896.webp" class="prev" id="kids-tee-black" alt="Kids Tee Black">
+    <img src="media/products/youtube/GGOEYXXX0895.webp" class="prev" id="kids-tee-white" alt="Kids Tee White">
+    <img src="media/products/youtube/GGOEGAAX0732.webp" class="prev" id="fleece-hoodie-womens" alt="Fleece Hoodie Womens">
+    <img src="media/products/youtube/GGOEGAAX0295.webp" class="prev" id="badge-tee-charcoal-womens" alt="Badge Tee Charcoal Womens">
+    <img src="media/products/youtube/GGOEGAAX0290.webp" class="prev" id="hero-tee-charcoal-womens" alt="Hero Tee Charcoal Womens">
+    <img src="media/products/youtube/GGOEGAAX0330.webp" class="prev" id="long-tee-charcoal" alt="Long Tee Charcoal">
+    <img src="media/products/youtube/GGOEGAAX0325.webp" class="prev" id="hero-tee-charcoal" alt="Hero Tee Charcoal">
+    <img src="media/products/youtube/GGOEGAAX0317.webp" class="prev" id="hero-tee-white" alt="Hero Tee White">
+    <img src="media/products/youtube/GGOEGAAX0318.webp" class="prev" id="hero-tee-black" alt="Hero Tee Black">
+    <img src="media/products/youtube/GGOEGAAX0284.webp" class="prev" id="hero-tee-black-womens" alt="Hero Tee Black Womens">
+    <img src="media/products/youtube/GGOEGAAX0356.webp" class="prev" id="vintage-tank" alt="Vintage Tank">
+    <img src="media/products/youtube/GGOEGAAX0351.webp" class="prev" id="vintage-henley" alt="Vintage Henley">
+    <img src="media/products/youtube/GGOEYHPA003510.webp" class="prev" id="trucker-hat" alt="Trucker Hat">
+    <img src="media/products/youtube/GGOEYDHJ056099.webp" class="prev" id="bottle-infuser" alt="Bottle Infuser">
+    <img src="media/products/youtube/GGOEYHPA003610.webp" class="prev" id="heather-cap" alt="Heather Cap">
+    <img src="media/products/youtube/GGOEYOLR018699.webp" class="prev" id="leatherette-notebook" alt="Leatherette Notebook">
+    <img src="media/products/youtube/GGOEYFKQ020699.webp" class="prev" id="custom-decals" alt="Custom Decals">
+    <img src="media/products/youtube/GGOEYHPB072210.webp" class="prev" id="twill-cap" alt="Twill Cap">
+    <img src="media/products/youtube/GGOEYDHJ019399.webp" class="prev" id="sergeant-bottle" alt="Sergeant Bottle">
+    <img src="media/products/youtube/GGOEYOCR077399.webp" class="prev" id="rfid-journal" alt="RFID Journal">
+    <img src="media/products/youtube/GGOEYOCR077799.webp" class="prev" id="hard-cover-journal" alt="Hard Cover Journal">
+    <img src="media/products/youtube/GGOEYOCR078099.webp" class="prev" id="spiral-journal" alt="Spiral Journal">
+    <img src="media/products/youtube/GGOEYOBR078599.webp" class="prev" id="luggage-tag" alt="Luggage Tag">
+    <img src="media/products/youtube/GGOEYOLR080599.webp" class="prev" id="notebook-aps" alt="Notebook APS">
 
     <div class="clear">
         <a href="https://gemdation.com"><img src="meta/button-gemdation.com.gif" class="i" alt="Gemdation web button"></a>
@@ -142,25 +150,23 @@
 <div id="prod">
     <button onclick="returnToBrowse()" style="margin-top:15px;">Close</button>
     <div class="individual">
-    <div class="box" id="Gallery">
-        <img src="" id="prod-images" alt="" style="width:100%">
-        <header><button id="prev-button" onclick="prevSlide()">◀</button> <button id="next-button" onclick="nextSlide()">▶</button></header>
-    </div>
+        <div class="box" id="Gallery">
+            <img src="" id="prod-images" alt="" style="width:100%">
+            <header><button id="prev-button" onclick="prevSlide()">◀</button> <button id="next-button" onclick="nextSlide()">▶</button></header>
+        </div>
 
-    <div class="box" id="About">
-        <h2 style="margin-left:10px"><span id="prod-name"></span></h2>
-        <p style="font-style:italic"><span id="prod-descrip"></span></p>
-        <ul>
-            <li><mark>Manufacturer:</mark> <span id="prod-maker"></span></li>
-            <li><mark>Release Year:</mark> <span id="prod-year"></span></li>
-            <li><mark>ID:</mark> <span id="prod-id"></span></li>
-            <li><mark>Price:</mark> <span id="prod-price"></span></li>
-        </ul>
-    </div>
+        <div class="box" id="About">
+            <h2 style="margin-left:10px"><span id="prod-name"></span></h2>
+            <p style="font-style:italic"><span id="prod-descrip"></span></p>
+            <ul>
+                <li><mark>Manufacturer:</mark> <span id="prod-maker"></span></li>
+                <li><mark>Release Year:</mark> <span id="prod-year"></span></li>
+                <li><mark>ID:</mark> <span id="prod-id"></span></li>
+                <li><mark>Price:</mark> <span id="prod-price"></span></li>
+            </ul>
+        </div>
     </div>
 </div>
-
-<script src="meta/site-database-youtube.js"></script>
 
 </body>
 </html>

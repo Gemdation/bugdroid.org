@@ -13,23 +13,20 @@
     let data = await response.json();
 
     const iconMap = {
-        'apk': '/meta/dir-apk.png',
-        'css': '/meta/dir-css.png',
-        'ttf': '/meta/dir-font.png',
-        'psd': '/meta/dir-image-editable.png',
-        'svg': '/meta/dir-image-editable.png',
-        'jpg': '/meta/dir-image.png',
-        'jpeg': '/meta/dir-image.png',
-        'webp': '/meta/dir-image.png',
-        'gif': '/meta/dir-image.png',
-        'ico': '/meta/dir-image.png',
-        'png': '/meta/dir-image.png',
-        'js': '/meta/dir-javascript.png',
-        'mp3': '/meta/dir-sound.png',
-        'txt': '/meta/dir-text.png',
-        'md': '/meta/dir-text.png',
-        'mp4': '/meta/dir-video.png',
-        'zip': '/meta/dir-zip.png',
+        'apk': '/meta/dir-apk.webp',
+        'css': '/meta/dir-css.webp',
+        'ttf': '/meta/dir-font.webp',
+        'psd': '/meta/dir-image-editable.webp',
+        'svg': '/meta/dir-image-editable.webp',
+        'gif': '/meta/dir-image.webp',
+        'ico': '/meta/dir-image.webp',
+        'js': '/meta/dir-javascript.webp',
+        'mp3': '/meta/dir-sound.webp',
+        'txt': '/meta/dir-text.webp',
+        'md': '/meta/dir-text.webp',
+        'webm': '/meta/dir-video.webp',
+        'webp': '/meta/dir-image.webp',
+        'zip': '/meta/dir-zip.webp',
     };
 
     data = data.filter(item => item.name !== 'index.html');
@@ -44,17 +41,17 @@
         const parentPathArray = currentPath.split('/');
         parentPathArray.pop();
         const parentLink = parentPathArray.join('/');        
-        const previousIcon = '/meta/dir-previous.png'; 
+        const previousIcon = '/meta/dir-previous.webp'; 
         const parentHref = parentLink === '' ? '/' : `/${parentLink}/`;
         htmlStrings.push(`<li><a href="${parentHref}"><img src="${previousIcon}" alt="parent directory"> ..</a></li>`);
     }
 
     for (const item of data) {
-        let iconSrc = '/meta/dir-unknown.png';
+        let iconSrc = '/meta/dir-unknown.webp';
         let itemLink = `/${item.path}`; 
 
         if (item.type === 'dir') {
-        iconSrc = '/meta/dir-previous.png'; 
+        iconSrc = '/meta/dir-previous.webp'; 
         itemLink = `/${item.path}/`;} else {
         const fileExtension = item.name.split('.').pop().toLowerCase();
         if (iconMap[fileExtension]) {iconSrc = iconMap[fileExtension];}}
