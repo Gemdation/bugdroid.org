@@ -2,6 +2,189 @@
 // It tries to be chronologicial by following the
 // SKU numbers, however is it not going so well.
 const productData = {
+  "pin-badge": {
+    name: "YouTube Sticker",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL1417",
+    price: "£4.00",
+    synopsis: "This stamped iron YouTube badge with soft enamel infill in red and white and butterfly clutch - is the perfect gift for any digital enthusiast.",
+    images: [
+      "media/products/youtube/GGL1417-1.webp",
+      "media/products/youtube/GGL1417-2.webp"
+    ]
+  },
+  "sticker": {
+    name: "YouTube Sticker",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL1658",
+    price: "£3.00",
+    synopsis: "Personalise your water bottle, notebook or laptop. Will stay on your bottle even after hand washing!",
+    images: [
+      "media/products/youtube/GGL1658-1.webp",
+      "media/products/youtube/GGL1658-2.webp"
+    ]
+  },
+  "sweatshirt": {
+    name: "YouTube Sweatshirt",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL1745",
+    price: "£67.00",
+    synopsis: "The icon on an iconic sweatshirt. Made from super soft cotton and recycled polyester to keep its shape. Heavier weight reduces the chance of ‘bacon-neck’ and shrinkage during washing (keep to care instructions to extend life of sweatshirt). Printed with water based inks to be kind to our environment.",
+    images: [
+      "media/products/youtube/GGL1745-1.webp",
+      "media/products/youtube/GGL1745-2.webp",
+      "media/products/youtube/GGL1745-3.webp"
+    ]
+  },
+  "flat-peak": {
+    name: "YouTube Flat Peak",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2008",
+    price: "£19.00",
+    synopsis: "A 4-season flat peak cap in black, featuring an inner mesh lining and dry-tech sweatband made from recycled polyester.",
+    images: [
+      "media/products/youtube/GGL2008-1.webp",
+      "media/products/youtube/GGL2008-2.webp",
+      "media/products/youtube/GGL2008-3.webp",
+      "media/products/youtube/GGL2008-4.webp"
+    ]
+  },
+  "rpet-lanyard": {
+    name: "YouTube RPET Lanyard",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2047",
+    price: "£4.00",
+    synopsis: "Black lanyard with a trigger clip to hold security cards or keys, and a safety break for easy removal. Featuring the YouTube logo repeatedly printed along the lanyard.",
+    images: [
+      "media/products/youtube/GGL2047-1.webp",
+      "media/products/youtube/GGL2047-2.webp",
+      "media/products/youtube/GGL2047-3.webp"
+    ]
+  },
+  "familia-toiletry": {
+    name: "La Familia Toiletry Bag",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2103",
+    price: "£5.00",
+    synopsis: "Toiletry bag with zipped main and side compartments to keep your bathroom belongings safe and secure. Branded with the Familia and Youtube logos.",
+    images: [
+      "media/products/youtube/GGL2103-1.webp"
+    ]
+  },
+  "familia-a5-sticker": {
+    name: "La Familia A5 Sticker Sheet",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2099",
+    price: "£5.00",
+    synopsis: "Customise any surface with this selection of stickers which features various designs and La Familia wordmarks. • Digitally printed on gloss white adhesive vinyl. • A5.",
+    images: [
+      "media/products/youtube/GGL2099-1.webp",
+      "media/products/youtube/GGL2099-2.webp",
+      "media/products/youtube/GGL2099-3.webp"
+    ]
+  },
+  "familia-mouse-mat": {
+    name: "La Familia Mouse Mat",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2101",
+    price: "£42.00",
+    synopsis: "An essential addition to your computer setup, this mouse mat offers 100% perfect mouse control for any standard balled or optical mouse. As well as its functionality, the mouse mat is made from 100% recycled materials making it a great sustainable product. Branded with the Familia and Youtube logos.",
+    images: [
+      "media/products/youtube/GGL2101-1.webp"
+    ]
+  },
+  "straw-tumbler": {
+    name: "YouTube Straw Tumbler",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2123",
+    price: "£42.00",
+    synopsis: "This black tumbler is a viral sensation. Engineered for excellence with a double-wall construction to maintain the temperature of your drinks for longer, a handle for holding and a straw for easy drinking. Branded with the YouTube logo.",
+    images: [
+      "media/products/youtube/GGL2123-1.webp",
+      "media/products/youtube/GGL2123-2.webp",
+      "media/products/youtube/GGL2123-3.webp",
+      "media/products/youtube/GGL2123-4.webp",
+      "media/products/youtube/GGL2123-5.webp"
+    ]
+  },
+  "corduroy-cap": {
+    name: "YouTube Corduroy Cap",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2151",
+    price: "£18.00",
+    synopsis: "This black corduroy hat has a timeless vintage style and is made from recycled materials. Featuring a YouTube logo in contrasting white to the front.",
+    images: [
+      "media/products/youtube/GGL2151-1.webp",
+      "media/products/youtube/GGL2151-2.webp",
+      "media/products/youtube/GGL2151-3.webp",
+      "media/products/youtube/GGL2151-4.webp",
+      "media/products/youtube/GGL2151-5.webp"
+    ]
+  },
+  "770ml-bottle": {
+    name: "YouTube 770ml Bottle",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGl2152",
+    price: "£12.00",
+    synopsis: "Pack of 5 click pens, each featuring an abstract art design and the YouTube logo to the clip.",
+    images: [
+      "media/products/youtube/GGl2152-1.webp",
+      "media/products/youtube/GGl2152-2.webp",
+      "media/products/youtube/GGl2152-3.webp",
+      "media/products/youtube/GGl2152-4.webp",
+      "media/products/youtube/GGl2152-5.webp"
+    ]
+  },
+  "pens-pk5": {
+    name: "YouTube Pens pk5",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGL2153",
+    price: "£12.00",
+    synopsis: "Pack of 5 click pens, each featuring an abstract art design and the YouTube logo to the clip.",
+    images: [
+      "media/products/youtube/GGL2153-1.webp",
+      "media/products/youtube/GGL2153-2.webp",
+      "media/products/youtube/GGL2153-3.webp"
+    ]
+  },
+  "magnets": {
+    name: "YouTube Magnets pk4",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGl2156",
+    price: "£6.00",
+    synopsis: "Transform your fridge into a work of abstract art with these YouTube squiggly magnets.",
+    images: [
+      "media/products/youtube/GGl2156-1.webp",
+      "media/products/youtube/GGl2156-2.webp",
+      "media/products/youtube/GGl2156-3.webp"
+    ]
+  },
+  "tshirt-blue": {
+    name: "YouTube T-Shirt Blue",
+    maker: "Brand Addition",
+    year: "2025",
+    id: "GGl2157",
+    price: "£30.00",
+    synopsis: "This blue YouTube t-shirt offers outstanding comfort, style and fit.",
+    images: [
+      "media/products/youtube/GGl2157-1.webp",
+      "media/products/youtube/GGl2157-2.webp",
+      "media/products/youtube/GGl2157-3.webp"
+    ]
+  },
   "light-tee": {
     name: "Light YouTube Tee Black",
     maker: "Brand Addition",
