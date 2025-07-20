@@ -24,23 +24,26 @@
     <script src="meta/site-database-dino.js" defer></script>
     <style>
         @font-face {font-family:'Dino';font-display:swap;src:url('meta/dino.ttf') format('truetype');font-weight:normal;font-style:normal;}
-        body {font-family:'Dino',sans-serif;line-height:15px}
+        body {font-family:'Dino',sans-serif}
         button {font-family:'Dino';color:grey;box-shadow:none;background:#ffffff;}
         button:active, img.i:active {background:#464646}
         button:disabled {color:#ACACAC}
         a, mark, nav a:hover {color:#929292}
         div.board img {border:solid 3px #ACACAC;outline:solid 1px black}
-        div.board img:hover {outline:solid 1px #E99D00}
+        div.board img:hover, img.i:hover {outline:solid 1px #E99D00}
         div.board img:active {border:solid 3px #E99D00}
-        h2 {font-size:13px}
-        header, p, ul {font-size:12px}
+        h2 {font-size:1.2em}
+        header {background:#ACACAC}
+        header, p {font-size:0.9em}
+        ul {font-size:0.8em;}
+        li {padding-bottom:5px}
         header button {vertical-align:middle;}
         ::selection {background:#ACACAC;color:white}
     </style>
 </head>
 <body>
 
-<nav><header style="background:#ACACAC;text-shadow:none;color:white"><a href="/">bugdroid.org</a>/dino</header></nav>
+<nav><header style="text-shadow:none;color:white"><a href="/">bugdroid.org</a>/dino</header></nav>
 
 
 <h1 class="branding"><img src="meta/logo-dino.webp" id="dinoImg" alt="Retro-styled dinosaur and cactus" style="width:200px;cursor:help"><audio id="dinoSound1" src="meta/fx-dino-1.ogg"></audio><audio id="dinoSound2" src="meta/fx-dino-2.ogg"></audio><audio id="dinoSound3" src="meta/fx-dino-3.ogg"></audio></h1>
@@ -51,15 +54,22 @@
     <!--the commented dates are from the Last Modified headers on the official images,
         try not to use them as official date, they are only used here for a general time frame-->
 
-    <!--25, May 23--><img src="media/products/youtube/GGOEGFBA241299.webp" id="dino-accessory" alt="Dino Accessory">
-   </div>
+    <!--25, Aug  4--><img src="media/products/dino/GGL2045-1.webp" id="dino-accessory-cozy" alt="Dino Cozy Accessory">
+    <!--25, Jul 15--><img src="media/products/dino/GGOEGFBA241999-1.webp" id="dino-accessory-aloha" alt="Dino Aloha Accessory">
+    <!--25, Jul 20--><img src="media/products/dino/dino-summer-pack-1.webp" id="dino-accessory-summer" alt="Dino Summer Accessory ">
+    <!--25, May 23--><img src="media/products/dino/GGOEGFBA241299-1.webp" id="dino-accessory-youtube" alt="Dino YouTube Accessory">
+    <!--24, Oct  7--><img src="media/products/dino/GGOEGFDA213699-1.webp" id="dino-accessory-party" alt="Dino Party Accessory">
+    <!--24, Jun  1--><img src="media/products/dino/GGOEGFDA213799-1.webp" id="dino-accessory-googler" alt="Dino Googler Accessory">
+    <!--19, Apr 16--><img src="media/products/dino/GGOEGABQ170299-1.webp" id="dino-set-dark" alt="Dino Set Dark">
+    <!--19, Apr 16--><img src="media/products/dino/GGOEGABJ125299-1.webp" id="dino-set" alt="Dino Set">
+</div>
 
 <p class="branding"><a href="https://gemdation.com"><img src="meta/button-gemdation.com.gif" class="i" alt="Gemdation web button"></a> <a href="https://github.com/Gemdation/bugdroid.org"><img src="meta/button-dino.gif" class="i" alt="YouTube web button"></a></p>
 
 <!--begin the JS stuff-->
 
 <div id="prod">
-    <button onclick="returnToBrowse()" style="margin-top:15px;">Close</button>
+    <button onclick="returnToBrowse()">Close</button>
     <div class="individual">
         <div class="box" id="Gallery">
             <img src="" id="prod-images" alt="" style="width:100%">
