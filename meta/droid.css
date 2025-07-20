@@ -23,6 +23,10 @@ div.browse div.box {color:white;font-weight:bold;padding-bottom:10px;width:95%;m
 div.browse div.box p {margin-top:0;margin-bottom:5px;}
 div.browse div.box img {width:100%;margin-bottom:10px;display:block}
 div.board {margin:auto}
+div.board img {margin:auto;width:150px;margin:3px;margin-top:0px}
+div.board img:hover {cursor:pointer}
+div#prod {width:100%;display:none}
+div.individual img#prod-images {display:block}
 div.individual {padding-top:10px}
 div.individual div.box {width:95%;text-align:left;margin-top:0}
 div.individual div.box#Gallery img {width:100%}
