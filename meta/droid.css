@@ -26,6 +26,8 @@ div.board {margin:auto}
 div.board img {margin:auto;width:150px;margin:3px;margin-top:0px}
 div.board img:hover {cursor:pointer}
 div#prod {width:100%;display:none}
+div#prod div.individual h2 {margin:10px}
+div#prod div.individual p {margin-top:15px;margin-bottom:0}
 div.individual img#prod-images {display:block}
 div.individual {padding-top:10px}
 div.individual div.box {width:95%;text-align:left;margin-top:0}
