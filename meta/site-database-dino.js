@@ -40,6 +40,19 @@ const productData = {
       "media/products/dino/GGOEGFBA241999-3.webp"
     ]
   },
+  "kaleidoscope": {
+    name: "Chrome Dino Kaleidoscope",
+    maker: "Robertson Marketing",
+    year: "2024",
+    id: "GGOEGFDB245799",
+    price: "$8.00",
+    synopsis: "Unlock a world of whimsy with a twist! This magical Chrome Dino Kaleidoscope turns the mundane into the magnificent. Give it a spin and be amazed as everyday fragments transform into intricate, ever-changing works of art.",
+    images: [
+      "media/products/dino/GGOEGFDB245799-1.webp",
+      "media/products/dino/GGOEGFDB245799-2.webp",
+      "media/products/dino/GGOEGFDB245799-3.webp"
+    ]
+  },
   "figure-accessory-youtube": {
     name: "Chrome Dino YouTube Skater Accessory Pack",
     maker: "Dyzplastic",
@@ -51,6 +64,84 @@ const productData = {
       "media/products/dino/GGOEGFBA241299-1.webp",
       "media/products/dino/GGOEGFBA241299-2.webp",
       "media/products/dino/GGOEGFBA241299-3.webp"
+    ]
+  },
+  "holiday-lodge-socks": {
+    name: "Chrome Dino Holiday Lodge Socks",
+    maker: "Robertson Marketing",
+    year: "2024",
+    id: "GGOEGCXH236899",
+    price: "$18.00",
+    synopsis: "Keep your toes toasty in these adorable Chrome Dino socks that will look good all-year-long.",
+    images: [
+      "media/products/dino/GGOEGCXH236899-1.webp",
+      "media/products/dino/GGOEGCXH236899-2.webp",
+      "media/products/dino/GGOEGCXH236899-3.webp"
+    ]
+  },
+  "shoe-charm": {
+    name: "Chrome Dino Glow Shoe Charm",
+    maker: "Robertson Marketing",
+    year: "2024",
+    id: "GGOEGCBB230999",
+    price: "$5.00",
+    synopsis: "Easily pop on this glow-in-the-dark Chrome Dino shoe charm and watch everyone light up! We couldn’t think of a better way to personalize your shoes.",
+    images: [
+      "media/products/dino/GGOEGCBB230999-1.webp",
+      "media/products/dino/GGOEGCBB230999-2.webp",
+      "media/products/dino/GGOEGCBB230999-3.webp"
+    ]
+  },
+  "colorful-socks": {
+    name: "Chrome Dino Colorful Socks",
+    maker: "Robertson Marketing",
+    year: "2024",
+    id: "GGOEGCXQ228699",
+    price: "$18.00",
+    synopsis: "Level up your sock game! These colorful socks feature your favorite pixelated, peppy, prehistoric T-rex…Chrome Dino!",
+    images: [
+      "media/products/dino/GGOEGCXQ228699-1.webp",
+      "media/products/dino/GGOEGCXQ228699-2.webp",
+      "media/products/dino/GGOEGCXQ228699-3.webp"
+    ]
+  },
+  "brick-set": {
+    name: "Chrome Dino Brick Set",
+    maker: "Robertson Marketing",
+    year: "2024",
+    id: "GGOEGFNH228499",
+    price: "$40.00",
+    synopsis: "Dino on the run! This rad Chrome Dino brick set lets you construct your own dino pal. Featuring 233 pieces, it’s perfect for builders that like a challenge.",
+    images: [
+      "media/products/dino/GGOEGFNH228499-1.webp",
+      "media/products/dino/GGOEGFNH228499-2.webp",
+      "media/products/dino/GGOEGFNH228499-3.webp"
+    ]
+  },
+  "game-over-cap": {
+    name: "Chrome Dino Game Over Cap",
+    maker: "Robertson Marketing",
+    year: "2024",
+    id: "GGOEGHPB227099",
+    price: "$23.00",
+    synopsis: "Run, jump and hit the town in a Chrome Dino cap that you’ll want to wear everyday. Don’t be caught without it, or Game Over!",
+    images: [
+      "media/products/dino/GGOEGHPB227099-1.webp",
+      "media/products/dino/GGOEGHPB227099-2.webp",
+      "media/products/dino/GGOEGHPB227099-3.webp"
+    ]
+  },
+  "eco-zipper-pull": {
+    name: "Chrome Dino Eco Wood Zipper Pull",
+    maker: "Robertson Marketing",
+    year: "2023",
+    id: "GGOEGCBB220899",
+    price: "$6.00",
+    synopsis: "Upgrade your gear with this Chrome Dino zipper pull made out of repurposed wood. This tab is the perfect way to show brand love on your bag, backpack or jacket!",
+    images: [
+      "media/products/dino/GGOEGCBB220899-1.webp",
+      "media/products/dino/GGOEGCBB220899-2.webp",
+      "media/products/dino/GGOEGCBB220899-3.webp"
     ]
   },
   "surfing-patch": {
@@ -121,6 +212,19 @@ const productData = {
       "media/products/dino/GGOEGOKA212399-6.webp"
     ]
   },
+  "floating-pen": {
+    name: "Chrome Dino Floating Pen",
+    maker: "Robertson Marketing",
+    year: "2023",
+    id: "GGOEGOAH216799",
+    price: "$6.50",
+    synopsis: "Watch Chrome Dino just glide by those prickly pixel cacti in this fabulous floaty pen!",
+    images: [
+      "media/products/dino/GGOEGOAH216799-1.webp",
+      "media/products/dino/GGOEGOAH216799-2.webp",
+      "media/products/dino/GGOEGOAH216799-3.webp"
+    ]
+  },
   "wood-magnet": {
     name: "Chrome Dino Eco Wood Magnet",
     maker: "Robertson Marketing",
@@ -135,7 +239,7 @@ const productData = {
     ]
   },
   "game-over-mug": {
-    name: "Chrome Dino Rope Lanyard",
+    name: "Chrome Dino Game Over Mug",
     maker: "Robertson Marketing",
     year: "2023",
     id: "GGOEGDWB211499",
@@ -291,7 +395,7 @@ const productData = {
     ]
   },
   "keyboard-sticker": {
-    name: "Chrome Dino Keychain",
+    name: "Chrome Dino Keyboard Sticker",
     maker: "Robertson Marketing",
     year: "2022",
     id: "GGOEGFKA194899",
