@@ -66,6 +66,44 @@ const productData = {
       "media/products/dino/GGOEGFBA241299-3.webp"
     ]
   },
+  "holiday-lodge-sweater": {
+    name: "Chrome Dino Holiday Lodge Sweater",
+    maker: "Robertson Marketing",
+    year: "2024",
+    id: "GGCNGXXX1050",
+    price: "CA$79.00",
+    synopsis: "Our Chrome Dino vintage-inspired sweater is a cozy and charming choice for those who appreciate a traditional festive look. The classic design and earthy colors evoke a sense of warmth and comfort.",
+    images: [
+      "media/products/dino/GGCNGXXX1050-1.webp",
+      "media/products/dino/GGCNGXXX1050-2.webp",
+      "media/products/dino/GGCNGXXX1050-3.webp"
+    ]
+  },
+  "holiday-lodge-mug": {
+    name: "Chrome Dino Holiday Lodge Mug",
+    maker: "Robertson Marketing",
+    year: "2024",
+    id: "GGCNGDWH104899",
+    price: "CA$22.00",
+    synopsis: "We have never had a mug that has needed hot chocolate more! Our Chrome Dino holiday mug is perfect for a day of relaxing by the fireplace and keeping cozy. Don’t forget the marshmallows…",
+    images: [
+      "media/products/dino/GGCNGDWH104899-1.webp",
+      "media/products/dino/GGCNGDWH104899-2.webp",
+      "media/products/dino/GGCNGDWH104899-3.webp"
+    ]
+  },
+  "holiday-lodge-ornament": {
+    name: "Chrome Dino Holiday Lodge Ornament",
+    maker: "Robertson Marketing",
+    year: "2024",
+    id: "GGCNGOBJ104999",
+    price: "CA$12.00",
+    synopsis: "We think our Chrome Dino holiday lodge sweater ornament is the best way to warm up your festive winter decor.",
+    images: [
+      "media/products/dino/GGCNGOBJ104999-1.webp",
+      "media/products/dino/GGCNGOBJ104999-2.webp"
+    ]
+  },
   "holiday-lodge-socks": {
     name: "Chrome Dino Holiday Lodge Socks",
     maker: "Robertson Marketing",
