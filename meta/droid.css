@@ -17,6 +17,7 @@ a div.box:hover header {color:#A4C639}
 a div.box:active {background:linear-gradient(to bottom, #FFD554, #E99D00);color:black}
 a div.box:active span.year, a div.box:active span.price, a div.box:active p {color:black}
 
+
 div.box {margin:auto;box-sizing:border-box;margin-top:10px;margin-bottom:10px;border:solid 1px #4F4E4F;overflow:hidden}
 div.browse a {text-decoration:none;}
 div.browse div.box {color:white;font-weight:bold;padding-bottom:10px;width:95%;margin-bottom:10px;}
@@ -38,6 +39,8 @@ div.individual div.texts header {background:#191919;color:#BEBEBE;border-bottom:
 div.individual div.box#Extras header {margin-bottom:10px}
 div.individual div.box#Extras img {width:150px}
 div.box#Video video {width:100%;display:block}
+div#Archives {padding:10px}
+div#Archives p {margin:0 auto;padding-bottom:15px}
 
 span.artist, span.year {color:grey}
 span.price {color:#A4C639}
