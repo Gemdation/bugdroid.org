@@ -104,6 +104,32 @@ const productData = {
       "media/products/dino/GGCNGOBJ104999-2.webp"
     ]
   },
+  "holiday-lodge-mug-ww": {
+    name: "Google Holidays Mug",
+    maker: "Brand Addition",
+    year: "2024",
+    id: "GGL2225",
+    price: "£7.00",
+    synopsis: "Enjoy a hot beverage from drinkware with a festive touch with this Google branded holiday mug.",
+    images: [
+      "media/products/dino/GGL2225-1.webp",
+      "media/products/dino/GGL2225-2.webp",
+      "media/products/dino/GGL2225-3.webp"
+    ]
+  },
+  "holiday-lodge-bauble": {
+    name: "Google Holidays Bauble",
+    maker: "Brand Addition",
+    year: "2024",
+    id: "GGL2219",
+    price: "£8.00",
+    synopsis: "Add a festive touch to your Holiday tree or space with this bone china hanger bauble which features a festive green Google design.",
+    images: [
+      "media/products/dino/GGL2219-1.webp",
+      "media/products/dino/GGL2219-2.webp",
+      "media/products/dino/GGL2219-3.webp"
+    ]
+  },
   "holiday-lodge-socks": {
     name: "Chrome Dino Holiday Lodge Socks",
     maker: "Robertson Marketing",
@@ -115,6 +141,110 @@ const productData = {
       "media/products/dino/GGOEGCXH236899-1.webp",
       "media/products/dino/GGOEGCXH236899-2.webp",
       "media/products/dino/GGOEGCXH236899-3.webp"
+    ]
+  },
+  "stan-mug": {
+    name: "Google Stan Dino Mug",
+    maker: "Brand Addition",
+    year: "2024",
+    id: "GGL2203",
+    price: "£8.00",
+    synopsis: "White mug featuring Stan the Dino in an homage to the iconic Google Chrome side-scrolling game.",
+    images: [
+      "media/products/dino/GGL2203-1.webp",
+      "media/products/dino/GGL2203-2.webp",
+      "media/products/dino/GGL2203-3.webp"
+    ]
+  },
+  "tee-green": {
+    name: "Chrome Dino Kids Tee - Green",
+    maker: "Brand Addition",
+    year: "2024",
+    id: "GGL2144",
+    price: "£23.00",
+    synopsis: "A summer essential - stylish kids crewneck T with a large Chrome Dino design to the front.",
+    images: [
+      "media/products/dino/GGL2144-1.webp",
+      "media/products/dino/GGL2144-2.webp"
+    ]
+  },
+  "blanket": {
+    name: "Chrome Dino Blanket",
+    maker: "Brand Addition",
+    year: "2024",
+    id: "GGL2121",
+    price: "£50.00",
+    synopsis: "This cosy blanket is made from super-soft sherpa fleece, perfect to wrap yourself up in during winter or as a picnic blanket in the summer. The blanket features a Chrome Dino pattern.",
+    images: [
+      "media/products/dino/GGL2121-1.webp",
+      "media/products/dino/GGL2121-2.webp",
+      "media/products/dino/GGL2121-3.webp",
+      "media/products/dino/GGL2121-4.webp"
+    ]
+  },
+  "bottle": {
+    name: "Chrome Dino Bottle",
+    maker: "Brand Addition",
+    year: "2024",
+    id: "GGL2120",
+    price: "£30.00",
+    synopsis: "600ml Stainless steel thermal bottle, branded with the Chrome Dino.",
+    images: [
+      "media/products/dino/GGL2120-1.webp",
+      "media/products/dino/GGL2120-2.webp",
+      "media/products/dino/GGL2120-3.webp",
+      "media/products/dino/GGL2120-4.webp"
+    ]
+  },
+  "pens-multipack": {
+    name: "Chrome Dino Pens (Multipack)",
+    maker: "Brand Addition",
+    year: "2024",
+    id: "GGL2117",
+    price: "£21.00",
+    synopsis: "Pack of 10 push ball pens produced using an ABS ReCompound which is made up of more than 95% recycled materials. Featuring the Chrome Dino to the barrel and the Google logo to the clip.",
+    images: [
+      "media/products/dino/GGL2117-1.webp",
+      "media/products/dino/GGL2117-2.webp"
+    ]
+  },
+  "socks-ww": {
+    name: "Chrome Dino Socks",
+    maker: "Brand Addition",
+    year: "2024",
+    id: "GGL2116",
+    price: "£15.00",
+    synopsis: "Upcycled cotton socks, branded with Chrom Dino. One size fits all.",
+    images: [
+      "media/products/dino/GGL2116-1.webp",
+      "media/products/dino/GGL2116-2.webp",
+      "media/products/dino/GGL2116-3.webp"
+    ]
+  },
+  "stan-scarf": {
+    name: "Winter Stan Scarf",
+    maker: "Brand Addition",
+    year: "2024",
+    id: "GGL2095",
+    price: "£16.00",
+    synopsis: "Stay wrapped up warm and get into the holiday spirit with this festive scarf, decorated with the Stan Dino pattern.",
+    images: [
+      "media/products/dino/GGL2095-1.webp",
+      "media/products/dino/GGL2095-2.webp",
+      "media/products/dino/GGL2095-3.webp"
+    ]
+  },
+  "dino-tee": {
+    name: "Stan Dino Tee",
+    maker: "Brand Addition",
+    year: "2024",
+    id: "GGL2064",
+    price: "£26.40",
+    synopsis: "Show your fandom for everyone’s favourite web runner. Printed on a unisex fit t-shirt, made from 100% organic cotton.",
+    images: [
+      "media/products/dino/GGL2064-1.webp",
+      "media/products/dino/GGL2064-2.webp",
+      "media/products/dino/GGL2064-3.webp"
     ]
   },
   "shoe-charm": {
@@ -167,6 +297,18 @@ const productData = {
       "media/products/dino/GGOEGHPB227099-1.webp",
       "media/products/dino/GGOEGHPB227099-2.webp",
       "media/products/dino/GGOEGHPB227099-3.webp"
+    ]
+  },
+  "stan-jumper": {
+    name: "Winter Stan Jumper",
+    maker: "Brand Addition",
+    year: "2023",
+    id: "GGL2041",
+    price: "£53.00",
+    synopsis: "Get into the holiday spirit with the 2023 Google Christmas jumper. Decorated with a festive take on the Stan Dino pattern.",
+    images: [
+      "media/products/dino/GGL2041-1.webp",
+      "media/products/dino/GGL2041-2.webp"
     ]
   },
   "eco-zipper-pull": {
@@ -456,6 +598,45 @@ const productData = {
       "media/products/dino/GGOEGCBA195199-1.webp",
       "media/products/dino/GGOEGCBA195199-2.webp",
       "media/products/dino/GGOEGCBA195199-3.webp"
+    ]
+  },
+  "stan-badge": {
+    name: "Stan Pin Badge",
+    maker: "Brand Addition",
+    year: "2022",
+    id: "GGL1726",
+    price: "£4.00",
+    synopsis: "Stan Pin Badge stamped on one side in full colour. Supplied with a soft enamel infill in the shape of the Stan icon.",
+    images: [
+      "media/products/dino/GGL1726-1.webp",
+      "media/products/dino/GGL1726-2.webp",
+      "media/products/dino/GGL1726-3.webp"
+    ]
+  },
+  "stan-sticker": {
+    name: "2D Stan Sticker",
+    maker: "Brand Addition",
+    year: "2022",
+    id: "GGL1662",
+    price: "£3.00",
+    synopsis: "Personalise your water bottle, notebook or laptop. Will stay on your bottle even after hand washing!",
+    images: [
+      "media/products/dino/GGL1662-1.webp",
+      "media/products/dino/GGL1662-2.webp",
+      "media/products/dino/GGL1662-3.webp",
+      "media/products/dino/GGL1662-4.webp"
+    ]
+  },
+  "kids-tee-red": {
+    name: "Kids Dino 2D Tee - Red",
+    maker: "Brand Addition",
+    year: "2022",
+    id: "GGL1593",
+    price: "£22.00",
+    synopsis: "Classic fit kids t-shirt in bright, eye catching red, featuring Stan printed in white to the front.",
+    images: [
+      "media/products/dino/GGL1593-1.webp",
+      "media/products/dino/GGL1593-2.webp"
     ]
   },
   "zipper-pull": {

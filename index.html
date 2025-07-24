@@ -23,6 +23,7 @@
 <body>
 
 <nav><header>bugdroid.org</header><img src="meta/404-peek.svg" id="droidImg" style="cursor:help;width:70px;float:right;padding-right:5px" alt="Bugdroid in a bag"><audio id="droidSound" src="meta/fx-droid.ogg"></audio></nav>
+    <script>const clickableImage = document.getElementById('droidImg'); const sound = document.getElementById('droidSound'); clickableImage.addEventListener('click', function() {const newSound = new Audio(sound.src); newSound.play();});</script>
 
 <article style="padding-top:0;padding-bottom:10px">
     <h1 style="font-size:25px">Droid Pack</h1>
@@ -30,7 +31,6 @@
        merchandise, and what not. <em>All revolving around the cute green robot!</em> <img src="/meta/emote-heart.webp" class="emo" alt=""></p>
     <p>Click a directory below to start exploring, use the <span style="color:white;background:linear-gradient(to bottom,#9C9C9C,#878787);text-shadow: 0px 0px 11px #0000009c;padding:2px"><b>header</b></span> to navigate back through directories.</p>
     <a href="about"><button>About</button></a> <a href="help"><button>Help</button></a>
-    <script>const clickableImage = document.getElementById('droidImg'); const sound = document.getElementById('droidSound'); clickableImage.addEventListener('click', function() {const newSound = new Audio(sound.src); newSound.play();});</script>
 </article>
 
 <div class="browse">
@@ -57,6 +57,7 @@
     <p><b style="color:#BEBEBE">Droid Pack Archives</b></p>
     <img src="meta/button-bugdroid-modern.gif" class="d" alt="Android web button">
     <a href="dino"><img src="meta/button-dino.gif" class="i" alt="Chrome Dino web button"></a>
+    <a href="gemini"><img src="meta/button-gemini.gif" class="i" alt="Gemini web button"></a>
     <img src="meta/button-google.gif" class="d" alt="Google web button">
     <a href="youtube"><img src="meta/button-youtube.gif" class="i" alt="YouTube animated web button"></a>
 </div>
