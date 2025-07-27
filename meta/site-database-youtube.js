@@ -2,6 +2,31 @@
 // It tries to be chronologicial by following the
 // SKU numbers, however is it not going so well.
 const productData = {
+  "charm-keychain": {
+    name: "YouTube Double Charm Keychain",
+    maker: "Robertson Marketing",
+    year: "2025",
+    id: "GGOEYCKJ250699",
+    price: "$14.00",
+    synopsis: "Our YouTube enamel keychain proudly displays the iconic play button alongside the legendary thumbs-up. Carry your love for the YouTube community wherever you go!",
+    images: [
+      "media/products/youtube/GGOEYCKJ250699-1.webp",
+      "media/products/youtube/GGOEYCKJ250699-2.webp",
+      "media/products/youtube/GGOEYCKJ250699-3.webp"
+    ]
+  },
+  "phone-holder": {
+    name: "YouTube Phone Stand Journal",
+    maker: "Robertson Marketing",
+    year: "2025",
+    id: "GGOEYOJB251399",
+    price: "$25.00",
+    synopsis: "This isn't just a journal, it's your go-to YouTube accessory! Jot notes or sketch away, then easily transform it into a phone stand for comfortable, hands-free content viewing.",
+    images: [
+      "media/products/youtube/GGOEYOJB251399-1.webp",
+      "media/products/youtube/GGOEYOJB251399-2.webp"
+    ]
+  },
   "pin-badge": {
     name: "YouTube Sticker",
     maker: "Brand Addition",
