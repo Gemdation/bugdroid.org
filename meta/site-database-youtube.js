@@ -2,6 +2,32 @@
 // It tries to be chronologicial by following the
 // SKU numbers, however is it not going so well.
 const productData = {
+  "plush-keychain": {
+    name: "YouTube Plush Keychain",
+    maker: "Robertson Marketing",
+    year: "2025",
+    id: "GGOEYCKR252299",
+    price: "$16.00",
+    synopsis: "Take your love for YouTube on the go! This soft, fuzzy keychain is perfect for adding to your backpack or everyday bag.",
+    images: [
+      "media/products/youtube/GGOEYCKR252299.jpg",
+      "media/products/youtube/GGOEYCKR252299-2.jpg",
+      "media/products/youtube/GGOEYCKR252299-3.jpg"
+    ]
+  },
+  "thumbs-up-duffel": {
+    name: "YouTube Thumbs Up Duffel",
+    maker: "Robertson Marketing",
+    year: "2025",
+    id: "GGOEYBMB250399",
+    price: "$44.00",
+    synopsis: "Gear up with the ultimate YouTube duffel bag. Featuring a bold red interior and awesome thumbs-up zipper pulls, this bag is a statement. It's spacious, durable, and ready for your next adventure – on or offline.",
+    images: [
+      "media/products/youtube/GGOEYBMB250399.jpg",
+      "media/products/youtube/GGOEYBMB250399-2.jpg",
+      "media/products/youtube/GGOEYBMB250399-3.jpg"
+    ]
+  },
   "charm-keychain": {
     name: "YouTube Double Charm Keychain",
     maker: "Robertson Marketing",
