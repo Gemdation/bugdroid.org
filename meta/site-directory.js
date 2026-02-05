@@ -22,10 +22,13 @@
         'ico': '/meta/dir-image.png',
         'js': '/meta/dir-javascript.png',
         'mp3': '/meta/dir-sound.png',
+        'ogg': '/meta/dir-sound.png',
         'txt': '/meta/dir-text.png',
         'md': '/meta/dir-text.png',
-        'webm': '/meta/dir-video.png',
+        'mp4': '/meta/dir-video.png',
         'webp': '/meta/dir-image.png',
+        'png': '/meta/dir-image.png',
+        'jpg': '/meta/dir-image.png',
         'zip': '/meta/dir-zip.png',
     };
 
