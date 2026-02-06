@@ -23,6 +23,7 @@ div.browse a {text-decoration:none;}
 div.browse div.box {color:white;font-weight:bold;padding-bottom:10px;width:95%;margin-bottom:10px;}
 div.browse div.box p {margin-top:0;margin-bottom:5px;}
 div.browse div.box img {width:100%;margin-bottom:10px;display:block}
+div.browse div.box details {font-weight:normal;}
 div.board {margin:auto}
 div.board img {margin:auto;width:150px;margin:3px;margin-top:0px}
 div.board img:hover {cursor:pointer}
