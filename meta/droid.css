@@ -12,15 +12,19 @@ button:active {background:linear-gradient(to bottom,#FFD554,#E99D00);}
 button:disabled {cursor:not-allowed;background:linear-gradient(to bottom, #535353, #636363);}
 
 a {color:#A4C639}
-a div.box:hover {border:solid 1px #E99D00}
-a div.box:hover header {color:#A4C639}
-a div.box:active {background:linear-gradient(to bottom, #FFD554, #E99D00);color:black}
-a div.box:active span.year, a div.box:active span.price, a div.box:active p {color:black}
+
+div.browse div.box a {color:white;}
+div.browse div.box:hover {border:solid 1px #E99D00}
+div.browse div.box:hover header {color:#A4C639}
+div.browse div.box:active {background:linear-gradient(to bottom, #FFD554, #E99D00);color:black}
+div.browse div.box:active span.year, div.box a:active span.price, div.box a:active p {color:black}
 
 
 div.box {margin:auto;box-sizing:border-box;margin-top:10px;margin-bottom:10px;border:solid 1px #4F4E4F;overflow:hidden}
+div.product {margin:auto;box-sizing:border-box;height:100%;}
 div.browse a {text-decoration:none;}
-div.browse div.box {color:white;font-weight:bold;padding-bottom:10px;width:95%;margin-bottom:10px;}
+div.browse div.box {color:white;font-weight:bold;width:95%;margin-bottom:10px;}
+div.browse div.box div.contents {box-sizing:border-box;width:100%;height:100%;padding-bottom:10px;}
 div.browse div.box p {margin-top:0;margin-bottom:5px;}
 div.browse div.box img {width:100%;margin-bottom:10px;display:block}
 div.browse div.box details {font-weight:normal;}
