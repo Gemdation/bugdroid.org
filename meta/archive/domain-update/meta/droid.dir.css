@@ -1,0 +1,12 @@
+@font-face {font-family: 'Droid Sans'; src: url('droid-sans.ttf') format('truetype'), url('droid-sans-bold.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'Droid Sans'; src: url('droid-sans-bold.ttf') format('truetype'); font-weight: bold; font-style: normal;}
+
+body {background-color:#A4C639; color:white;font-family:'Droid Sans',sans-serif;}
+table, th, td {border:1px solid white;border-collapse: collapse;}
+th, td {padding: 2px;}
+a {text-decoration: none;color:#ffffff;}
+a:hover {color:white}
+
+/* This CSS is borrowed mostly from The Q */
+/* See it at http://q.gemdation.com/q.css */
+@media (max-width: 768px) {div {width: 100%;}}

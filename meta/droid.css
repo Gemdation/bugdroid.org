@@ -47,7 +47,7 @@ div.box#Video video {width:100%;display:block}
 div#Archives {padding:10px}
 div#Archives p {margin:0 auto;padding-bottom:15px}
 
-span.artist, span.year {color:grey}
+span.artist, span.year, .hide {color:grey}
 span.price {color:#A4C639}
 
 article {border:solid 1px grey;border-radius:5px;width:90%;text-align:center;margin:auto;background:linear-gradient(#414141,#202020);padding:5px;padding-right:0;padding-bottom:0;overflow:hidden;}

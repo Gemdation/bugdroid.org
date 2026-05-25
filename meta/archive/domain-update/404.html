@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/meta/droid.css">
+    <link rel="icon" type="image/x-icon" href="/meta/package.ico">
+</head>
+<body>
+
+<header><span class="url" id="requested-url"></span></header>
+
+<div class="block">
+<h1>404</h1>
+<p>Not Found</p>
+<img src="/media/images/android-recovery-warning.png">
+
+<p><a href="/"><button>Go to <b>bugdroid.org</b></button></a></p>
+</div>
+
+<script>var fullUrl = window.location.href; var urlHeader = fullUrl.replace(/^https?:\/\//, ''); document.getElementById('requested-url').textContent = urlHeader;</script>
+</body>
+</html>
