@@ -5,9 +5,7 @@ Bugdroid.org is a collection of (primarily) merchandise, fan games, wallpapers, 
 ## Things observed
 
 * Merchandise
-* * From the **Google Merch Shop** (formerly the **Google Merchandise Store**, **Google Store**)
-* * From the **Dead Zebra Shop** (also its **Android Foundry** brand)
-* * From the **AndroidFiguren.de** website
+* * Often sourced from Google Merch Shop and Dead Zebra Shop
 * Games
 * Videos
 
