@@ -1,4 +1,4 @@
-# ([Bugdroid.org](https://bugdroid.org))
+# [Bugdroid.org](https://bugdroid.org)
 
 Bugdroid.org is a collection of (primarily) merchandise, fan games, wallpapers, and videos involving Bugdroid, mascot of Android. The website is themed after early Android UI and edited in Visual Studio Code.
 
