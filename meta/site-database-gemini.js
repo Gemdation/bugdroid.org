@@ -3,7 +3,7 @@
 const productData = {
   "ring-bottle": {
     name: "Gemini Ring-top Bottle",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEGDHB249499",
     price: "$33.00",
@@ -16,7 +16,7 @@ const productData = {
   },
   "ombre-lanyard": {
     name: "Gemini Ombre Lanyard",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEGCXB249699",
     price: "$8.00",
@@ -29,7 +29,7 @@ const productData = {
   },
   "eco-pen": {
     name: "Gemini Eco Pen",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEGOAB249599",
     price: "$3.00",
@@ -42,7 +42,7 @@ const productData = {
   },
   "tee-black": {
     name: "Gemini Tee Black",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2262",
     price: "£30.00",
@@ -55,7 +55,7 @@ const productData = {
   },
   "cap-black": {
     name: "Gemini Cap Black",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2263",
     price: "£16.00",
@@ -69,7 +69,7 @@ const productData = {
   },
   "black-hoodie": {
     name: "Gemini Black Hoodie",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2264",
     price: "£71.00",
@@ -82,7 +82,7 @@ const productData = {
   },
   "black-sweatshirt": {
     name: "Gemini Black Sweatshirt",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2265",
     price: "£55.00",
@@ -95,7 +95,7 @@ const productData = {
   },
   "pens-multipack": {
     name: "Gemini Recycled Pens (Multipack)",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2199",
     price: "£17.00",
@@ -109,7 +109,7 @@ const productData = {
   },
   "bottle": {
     name: "Gemini Bottle",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2224",
     price: "£17.00",
@@ -123,7 +123,7 @@ const productData = {
   },
   "tote-bag": {
     name: "Gemini Tote Bag",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2198",
     price: "£17.00",
@@ -135,7 +135,7 @@ const productData = {
   },
   "lanyard": {
     name: "Gemini Lanyard",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2195",
     price: "£4.00",
@@ -148,7 +148,7 @@ const productData = {
   },
   "notebook": {
     name: "Gemini Notebook",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2196",
     price: "£10.00",
@@ -162,7 +162,7 @@ const productData = {
   },
   "sticker": {
     name: "Gemini Sticker",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2197",
     price: "£3.00",
@@ -174,7 +174,7 @@ const productData = {
   },
   "holo-sticker": {
     name: "Gemini Hologram Sticker",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEGOKA234599",
     price: "$2.00",
@@ -186,7 +186,7 @@ const productData = {
   },
   "black-tee": {
     name: "Gemini Black Tee",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2024",
     id: "GGOEGXXX2350",
     price: "$29.00",

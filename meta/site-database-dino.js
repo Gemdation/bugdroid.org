@@ -3,7 +3,7 @@
 const productData = {
   "figure-accessory-cozy": {
     name: "Chrome Dino Warm and Cozy Accessory Pack",
-    maker: "Dyzplastic",
+    maker: "Dead Zebra, Dyzplastic",
     year: "2024",
     id: "GGL2045",
     price: "£14.00",
@@ -17,7 +17,7 @@ const productData = {
   },
   "figure-accessory-summer": {
     name: "Chrome Dino Hot Dino Summer Accessory Pack",
-    maker: "Dyzplastic",
+    maker: "Dead Zebra, Dyzplastic",
     year: "2025",
     id: " ",
     price: "$14.00",
@@ -29,7 +29,7 @@ const productData = {
   },
   "figure-accessory-aloha": {
     name: "Chrome Dino Aloha Accessory Pack",
-    maker: "Dyzplastic",
+    maker: "Dead Zebra, Dyzplastic",
     year: "2024",
     id: "GGL2045",
     price: "$16.00",
@@ -42,7 +42,7 @@ const productData = {
   },
   "kaleidoscope": {
     name: "Chrome Dino Kaleidoscope",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2024",
     id: "GGOEGFDB245799",
     price: "$8.00",
@@ -55,7 +55,7 @@ const productData = {
   },
   "figure-accessory-youtube": {
     name: "Chrome Dino YouTube Skater Accessory Pack",
-    maker: "Dyzplastic",
+    maker: "Dead Zebra, Dyzplastic",
     year: "2024",
     id: "GGOEGFBA241299",
     price: "$16.00",
@@ -68,7 +68,7 @@ const productData = {
   },
   "holiday-lodge-sweater": {
     name: "Chrome Dino Holiday Lodge Sweater",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2024",
     id: "GGCNGXXX1050",
     price: "CA$79.00",
@@ -81,7 +81,7 @@ const productData = {
   },
   "holiday-lodge-mug": {
     name: "Chrome Dino Holiday Lodge Mug",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2024",
     id: "GGCNGDWH104899",
     price: "CA$22.00",
@@ -94,7 +94,7 @@ const productData = {
   },
   "holiday-lodge-ornament": {
     name: "Chrome Dino Holiday Lodge Ornament",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2024",
     id: "GGCNGOBJ104999",
     price: "CA$12.00",
@@ -106,7 +106,7 @@ const productData = {
   },
   "holiday-lodge-mug-ww": {
     name: "Google Holidays Mug",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2225",
     price: "£7.00",
@@ -119,7 +119,7 @@ const productData = {
   },
   "holiday-lodge-bauble": {
     name: "Google Holidays Bauble",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2219",
     price: "£8.00",
@@ -132,7 +132,7 @@ const productData = {
   },
   "holiday-lodge-socks": {
     name: "Chrome Dino Holiday Lodge Socks",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2024",
     id: "GGOEGCXH236899",
     price: "$18.00",
@@ -145,7 +145,7 @@ const productData = {
   },
   "stan-mug": {
     name: "Google Stan Dino Mug",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2203",
     price: "£8.00",
@@ -158,7 +158,7 @@ const productData = {
   },
   "tee-green": {
     name: "Chrome Dino Kids Tee - Green",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2144",
     price: "£23.00",
@@ -170,7 +170,7 @@ const productData = {
   },
   "blanket": {
     name: "Chrome Dino Blanket",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2121",
     price: "£50.00",
@@ -184,7 +184,7 @@ const productData = {
   },
   "bottle": {
     name: "Chrome Dino Bottle",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2120",
     price: "£30.00",
@@ -198,7 +198,7 @@ const productData = {
   },
   "pens-multipack": {
     name: "Chrome Dino Pens (Multipack)",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2117",
     price: "£21.00",
@@ -210,7 +210,7 @@ const productData = {
   },
   "socks-ww": {
     name: "Chrome Dino Socks",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2116",
     price: "£15.00",
@@ -223,7 +223,7 @@ const productData = {
   },
   "stan-scarf": {
     name: "Winter Stan Scarf",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2095",
     price: "£16.00",
@@ -236,7 +236,7 @@ const productData = {
   },
   "dino-tee": {
     name: "Stan Dino Tee",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2024",
     id: "GGL2064",
     price: "£26.40",
@@ -249,7 +249,7 @@ const productData = {
   },
   "shoe-charm": {
     name: "Chrome Dino Glow Shoe Charm",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2024",
     id: "GGOEGCBB230999",
     price: "$5.00",
@@ -262,7 +262,7 @@ const productData = {
   },
   "colorful-socks": {
     name: "Chrome Dino Colorful Socks",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2024",
     id: "GGOEGCXQ228699",
     price: "$18.00",
@@ -275,7 +275,7 @@ const productData = {
   },
   "brick-set": {
     name: "Chrome Dino Brick Set",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2024",
     id: "GGOEGFNH228499",
     price: "$40.00",
@@ -288,7 +288,7 @@ const productData = {
   },
   "game-over-cap": {
     name: "Chrome Dino Game Over Cap",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2024",
     id: "GGOEGHPB227099",
     price: "$23.00",
@@ -301,7 +301,7 @@ const productData = {
   },
   "stan-jumper": {
     name: "Winter Stan Jumper",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2023",
     id: "GGL2041",
     price: "£53.00",
@@ -313,7 +313,7 @@ const productData = {
   },
   "eco-zipper-pull": {
     name: "Chrome Dino Eco Wood Zipper Pull",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEGCBB220899",
     price: "$6.00",
@@ -326,7 +326,7 @@ const productData = {
   },
   "surfing-patch": {
     name: "Chrome Dino Surfing Patch",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEGCBQ215799",
     price: "$5.50",
@@ -339,7 +339,7 @@ const productData = {
   },
   "recycled-backpack": {
     name: "Chrome Dino Recycled Backpack",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEGBRB212599",
     price: "$57.00",
@@ -352,7 +352,7 @@ const productData = {
   },
   "figure-accessory-party": {
     name: "Chrome Dino Party Time Accessory Pack",
-    maker: "Dyzplastic",
+    maker: "Dead Zebra, Dyzplastic",
     year: "2024",
     id: "GGOEGFDA213699",
     price: "$14.00",
@@ -365,7 +365,7 @@ const productData = {
   },
   "figure-accessory-googler": {
     name: "Chrome Dino Googler Accessory Pack",
-    maker: "Dyzplastic",
+    maker: "Dead Zebra, Dyzplastic",
     year: "2023",
     id: "GGOEGFDA213799",
     price: "$14.00",
@@ -378,7 +378,7 @@ const productData = {
   },
   "glow-stickers": {
     name: "Chrome Dino Glow-in-the-Dark Sticker",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEGOKA212399",
     price: "$2.00",
@@ -394,7 +394,7 @@ const productData = {
   },
   "floating-pen": {
     name: "Chrome Dino Floating Pen",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEGOAH216799",
     price: "$6.50",
@@ -407,7 +407,7 @@ const productData = {
   },
   "wood-magnet": {
     name: "Chrome Dino Eco Wood Magnet",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEGOBB216099",
     price: "$7.00",
@@ -420,7 +420,7 @@ const productData = {
   },
   "game-over-mug": {
     name: "Chrome Dino Game Over Mug",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEGDWB211499",
     price: "$14.00",
@@ -433,7 +433,7 @@ const productData = {
   },
   "rope-lanyard": {
     name: "Chrome Dino Rope Lanyard",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEGOBB211299",
     price: "$7.00",
@@ -446,7 +446,7 @@ const productData = {
   },
   "unisex-shirt": {
     name: "Chrome Dino Glow-in-the-Dark Unisex Tee",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEGXXX2075",
     price: "$30.00",
@@ -459,7 +459,7 @@ const productData = {
   },
   "party-card": {
     name: "Chrome Dino Party Time Greeting Card",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGCOGCBA196099",
     price: "$6.00",
@@ -472,7 +472,7 @@ const productData = {
   },
   "camp-shirt": {
     name: "Chrome Dino Camp Shirt",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGXXX2003",
     price: "$86.00",
@@ -485,7 +485,7 @@ const productData = {
   },
   "enamel-pin": {
     name: "Chrome Dino Enamel Pin",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGCBB203299",
     price: "$7.00",
@@ -498,7 +498,7 @@ const productData = {
   },
   "holiday-sweater": {
     name: "Chrome Dino Holiday Sweater Ornament",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGFBA202499",
     price: "$12.00",
@@ -511,7 +511,7 @@ const productData = {
   },
   "holiday-scarf": {
     name: "Chrome Dino Holiday Scarf",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGAEA200799",
     price: "$25.00",
@@ -524,7 +524,7 @@ const productData = {
   },
   "holiday-socks": {
     name: "Chrome Dino Holiday Sock",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGAEA199699",
     price: "$18.00",
@@ -537,7 +537,7 @@ const productData = {
   },
   "recycled-cap": {
     name: "Chrome Dino Recycled Cap",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGHPB175810",
     price: "$21.00",
@@ -550,7 +550,7 @@ const productData = {
   },
   "ultralight-sweater": {
     name: "Chrome Dino Ultralight Sweatshirt",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGXXX1952",
     price: "$58.00",
@@ -563,7 +563,7 @@ const productData = {
   },
   "toddler-tee": {
     name: "Chrome Dino Glow-in-the-Dark Toddler Tee",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGXXX1959",
     price: "$25.00",
@@ -576,7 +576,7 @@ const productData = {
   },
   "keyboard-sticker": {
     name: "Chrome Dino Keyboard Sticker",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGFKA194899",
     price: "$2.00",
@@ -589,7 +589,7 @@ const productData = {
   },
   "keychain": {
     name: "Chrome Dino Keychain",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGCBA195199",
     price: "$8.00",
@@ -602,7 +602,7 @@ const productData = {
   },
   "stan-badge": {
     name: "Stan Pin Badge",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2022",
     id: "GGL1726",
     price: "£4.00",
@@ -615,7 +615,7 @@ const productData = {
   },
   "stan-sticker": {
     name: "2D Stan Sticker",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2022",
     id: "GGL1662",
     price: "£3.00",
@@ -629,7 +629,7 @@ const productData = {
   },
   "kids-tee-red": {
     name: "Kids Dino 2D Tee - Red",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2022",
     id: "GGL1593",
     price: "£22.00",
@@ -641,7 +641,7 @@ const productData = {
   },
   "zipper-pull": {
     name: "Chrome Dino Zipper Pull",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGCBA180699",
     price: "$5.00",
@@ -654,7 +654,7 @@ const productData = {
   },
   "youth-tee": {
     name: "Chrome Dino Glow-in-the-Dark Youth Tee",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEGXXX1730",
     price: "$23.00",
@@ -667,7 +667,7 @@ const productData = {
   },
   "sticker": {
     name: "Chrome Dino Sticker Sheet",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2021",
     id: "GGOEGCKA176099",
     price: "$3.00",
@@ -679,7 +679,7 @@ const productData = {
   },
   "patch": {
     name: "Chrome Dino Patch",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2021",
     id: "GGOEGCBA173999",
     price: "$5.50",
@@ -692,7 +692,7 @@ const productData = {
   },
   "socks": {
     name: "Chrome Dino Socks",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2021",
     id: "GGOEGAKB165910",
     price: "$18.00",
@@ -705,7 +705,7 @@ const productData = {
   },
   "food-container": {
     name: "Chrome Dino Food Container",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2021",
     id: "GGOEGCBB165899",
     price: "$38.00",
@@ -718,7 +718,7 @@ const productData = {
   },
   "light-up-bottle": {
     name: "Chrome Dino Light-Up Water Bottle",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2021",
     id: "GGOEGDHB163199",
     price: "$24.00",
@@ -731,7 +731,7 @@ const productData = {
   },
   "marine-tee": {
     name: "Chrome Dino Marine Layer Tee",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2020",
     id: "GGOEGXXX1194",
     price: "$48.00",
@@ -744,7 +744,7 @@ const productData = {
   },
   "figure-set-dark": {
     name: "Chrome Dino Dark Mode Set",
-    maker: "Dyzplastic",
+    maker: "Dead Zebra, Dyzplastic",
     year: "2019",
     id: "GGOEGABQ170299",
     price: "$28.00",
@@ -761,7 +761,7 @@ const productData = {
   },
   "figure-set": {
     name: "Chrome Dino Set",
-    maker: "Dyzplastic",
+    maker: "Dead Zebra, Dyzplastic",
     year: "2019",
     id: "GGOEGABJ125299",
     price: "$28.00",

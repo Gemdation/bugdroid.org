@@ -4,7 +4,7 @@
 const productData = {
   "plush-keychain": {
     name: "YouTube Plush Keychain",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEYCKR252299",
     price: "$16.00",
@@ -17,7 +17,7 @@ const productData = {
   },
   "thumbs-up-duffel": {
     name: "YouTube Thumbs Up Duffel",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEYBMB250399",
     price: "$44.00",
@@ -30,7 +30,7 @@ const productData = {
   },
   "charm-keychain": {
     name: "YouTube Double Charm Keychain",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEYCKJ250699",
     price: "$14.00",
@@ -43,7 +43,7 @@ const productData = {
   },
   "phone-holder": {
     name: "YouTube Phone Stand Journal",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEYOJB251399",
     price: "$25.00",
@@ -55,7 +55,7 @@ const productData = {
   },
   "pin-badge": {
     name: "YouTube Sticker",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL1417",
     price: "£4.00",
@@ -67,7 +67,7 @@ const productData = {
   },
   "sticker": {
     name: "YouTube Sticker",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL1658",
     price: "£3.00",
@@ -79,7 +79,7 @@ const productData = {
   },
   "sweatshirt": {
     name: "YouTube Sweatshirt",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL1745",
     price: "£67.00",
@@ -92,7 +92,7 @@ const productData = {
   },
   "flat-peak": {
     name: "YouTube Flat Peak",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2008",
     price: "£19.00",
@@ -106,7 +106,7 @@ const productData = {
   },
   "rpet-lanyard": {
     name: "YouTube RPET Lanyard",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2047",
     price: "£4.00",
@@ -119,7 +119,7 @@ const productData = {
   },
   "familia-toiletry": {
     name: "La Familia Toiletry Bag",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2103",
     price: "£5.00",
@@ -130,7 +130,7 @@ const productData = {
   },
   "familia-a5-sticker": {
     name: "La Familia A5 Sticker Sheet",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2099",
     price: "£5.00",
@@ -143,7 +143,7 @@ const productData = {
   },
   "familia-mouse-mat": {
     name: "La Familia Mouse Mat",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2101",
     price: "£42.00",
@@ -154,7 +154,7 @@ const productData = {
   },
   "straw-tumbler": {
     name: "YouTube Straw Tumbler",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2123",
     price: "£42.00",
@@ -169,7 +169,7 @@ const productData = {
   },
   "corduroy-cap": {
     name: "YouTube Corduroy Cap",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2151",
     price: "£18.00",
@@ -184,7 +184,7 @@ const productData = {
   },
   "770ml-bottle": {
     name: "YouTube 770ml Bottle",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGl2152",
     price: "£12.00",
@@ -199,7 +199,7 @@ const productData = {
   },
   "pens-pk5": {
     name: "YouTube Pens pk5",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2153",
     price: "£12.00",
@@ -212,7 +212,7 @@ const productData = {
   },
   "magnets": {
     name: "YouTube Magnets pk4",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGl2156",
     price: "£6.00",
@@ -225,7 +225,7 @@ const productData = {
   },
   "tshirt-blue": {
     name: "YouTube T-Shirt Blue",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGl2157",
     price: "£30.00",
@@ -238,7 +238,7 @@ const productData = {
   },
   "light-tee": {
     name: "Light YouTube Tee Black",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2092",
     price: "£23.00",
@@ -251,7 +251,7 @@ const productData = {
   },
   "familia-tee": {
     name: "La Familia Unisex Tee",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2104",
     price: "£23.00",
@@ -262,7 +262,7 @@ const productData = {
   },
   "tshirt": {
     name: "T-Shirt",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2158",
     price: "£30.00",
@@ -275,7 +275,7 @@ const productData = {
   },
   "varsity-bag": {
     name: "YouTube Varsity Gym Bag",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2252",
     price: "£31.00",
@@ -288,7 +288,7 @@ const productData = {
   },
   "black-tshirt": {
     name: "YouTube Black Tshirt",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2257",
     price: "£30.00",
@@ -301,7 +301,7 @@ const productData = {
   },
   "pens-4-pack": {
     name: "YouTube Pens 4 Pack",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2258",
     price: "£6.00",
@@ -314,7 +314,7 @@ const productData = {
   },
   "pin-badge-2025": {
     name: "YouTube Pin Badge 2025",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2253",
     price: "£3.30",
@@ -327,7 +327,7 @@ const productData = {
   },
   "rpet-lanyard-2025": {
     name: "YouTube RPET Lanyard 2025",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2254",
     price: "£3.30",
@@ -340,7 +340,7 @@ const productData = {
   },
   "tote-bag": {
     name: "YouTube Tote Bag",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2261",
     price: "£6.00",
@@ -352,7 +352,7 @@ const productData = {
   },
   "black-sweatshirt": {
     name: "YouTube Black Sweatshirt",
-    maker: "Brand Addition",
+    maker: "Google, Brand Addition",
     year: "2025",
     id: "GGL2261",
     price: "£66.00",
@@ -365,7 +365,7 @@ const productData = {
   },
   "juniper-tee": {
     name: "YouTube Organic Juniper Tee",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEYXXX2511",
     price: "$32.00",
@@ -378,7 +378,7 @@ const productData = {
   },
   "shoe-charm": {
     name: "YouTube Shoe Charm Pack",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEYCBR250899",
     price: "$9.00",
@@ -391,7 +391,7 @@ const productData = {
   },
   "acrylic-pin": {
     name: "YouTube Acrylic Pin Set",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEYCBR250799",
     price: "$10.00",
@@ -404,7 +404,7 @@ const productData = {
   },
   "mini-jotter": {
     name: "YouTube Mini Jotter",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEYOCB250499",
     price: "$5.00",
@@ -417,7 +417,7 @@ const productData = {
   },
   "clicker-pen": {
     name: "YouTube Recycled Clicker Pen",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2025",
     id: "GGOEYOAB250599",
     price: "$2.00",
@@ -430,7 +430,7 @@ const productData = {
   },
   "journal-ca": {
     name: "YouTube Journal",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2025",
     id: "GGCNGOLB105299",
     price: "CA$11.00",
@@ -443,7 +443,7 @@ const productData = {
   },
   "insulated-mug": {
     name: "YouTube Insulated Mug",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2025",
     id: "GGCNGDWB105399",
     price: "CA$36.00",
@@ -456,7 +456,7 @@ const productData = {
   },
   "jotter-pen": {
     name: "YouTube Jotter Pen",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2025",
     id: "GGCNGOAB105499",
     price: "CA$2.50",
@@ -469,7 +469,7 @@ const productData = {
   },
   "icon-sticker": {
     name: "YouTube Icon Sticker",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2025",
     id: "GGCNYOKR105899",
     price: "CA$2.00",
@@ -481,7 +481,7 @@ const productData = {
   },
   "old-school-socks": {
     name: "YouTube Old School Socks",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2025",
     id: "GGCNYCXQ105999",
     price: "CA$24.00",
@@ -494,7 +494,7 @@ const productData = {
   },
   "kids-coloring-book": {
     name: "YouTube Kids Coloring Book",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2025",
     id: "GGOEYOBA242499",
     price: "$6.00",
@@ -507,7 +507,7 @@ const productData = {
   },
   "dino-accessory": {
     name: "Chrome Dino YouTube Skater Accessory Pack",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2024",
     id: "GGOEGFBA241299",
     price: "$16.00",
@@ -520,7 +520,7 @@ const productData = {
   },
   "retro-duffel": {
     name: "YouTube Retro Duffel",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEYBMB211099",
     price: "$32.00",
@@ -533,7 +533,7 @@ const productData = {
   },
   "straw-tumbler": {
     name: "YouTube Straw Tumbler",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEYDNB210499",
     price: "$12.00",
@@ -546,7 +546,7 @@ const productData = {
   },
   "phone-lanyard": {
     name: "YouTube Crossbody Phone Lanyard",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEYCBB219599",
     price: "$8.00",
@@ -559,7 +559,7 @@ const productData = {
   },
   "beanie": {
     name: "YouTube Beanie",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEYHPB217010",
     price: "$25.00",
@@ -572,7 +572,7 @@ const productData = {
   },
   "wood-zipper-pull": {
     name: "YouTube Eco Wood Zipper Pull",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEYCBR221099",
     price: "$6.00",
@@ -585,7 +585,7 @@ const productData = {
   },
   "floating-pen": {
     name: "YouTube Floating Pen",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEYOAB216899",
     price: "$6.50",
@@ -598,7 +598,7 @@ const productData = {
   },
   "icon-windbreaker": {
     name: "YouTube Icon Windbreaker",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEYXXX2218",
     price: "$63.00",
@@ -611,7 +611,7 @@ const productData = {
   },
   "traveller-tumbler": {
     name: "YouTube Traveller Tumbler",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEYDNB210999",
     price: "$32.00",
@@ -624,7 +624,7 @@ const productData = {
   },
   "icon-mug": {
     name: "YouTube Icon Mug",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEYDWB210799",
     price: "$14.00",
@@ -637,7 +637,7 @@ const productData = {
   },
   "eco-wood-magnet": {
     name: "YouTube Icon Eco Wood Magnet",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2023",
     id: "GGOEYOBA215899",
     price: "$7.00",
@@ -650,7 +650,7 @@ const productData = {
   },
   "black-le-pen": {
     name: "YouTube Black Le Pen",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2022",
     id: "GGOEYOAB200699 (US), GGCNYOAB104299 (CA)",
     price: "US$4.00, CA$5.50",
@@ -663,7 +663,7 @@ const productData = {
   },
   "icon-patch": {
     name: "YouTube Icon Patch",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2022",
     id: "GGOEYCBA198999",
     price: "$4.50",
@@ -676,7 +676,7 @@ const productData = {
   },
   "express-socks": {
     name: "YouTube Expressive Socks",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEYAXA197410",
     price: "$18.00",
@@ -689,7 +689,7 @@ const productData = {
   },
   "keyboard-sticker": {
     name: "YouTube Keyboard Sticker",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEYFKA194999",
     price: "$2.00",
@@ -702,7 +702,7 @@ const productData = {
   },
   "kids-sticker-sheet": {
     name: "YouTube Kids Character Sticker Sheet",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEYCKA182799",
     price: "$8.00",
@@ -715,7 +715,7 @@ const productData = {
   },
   "kids-toast-keychain": {
     name: "YouTube Kids Sprinkle Toast Keychain",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEYCBA182399",
     price: "$8.00",
@@ -728,7 +728,7 @@ const productData = {
   },
   "kids-coloring-pencils": {
     name: "YouTube Kids Coloring Pencils",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEYKBA182199",
     price: "$4.00",
@@ -741,7 +741,7 @@ const productData = {
   },
   "kids-eco-bottle": {
     name: "YouTube Kids Eco Water Bottle",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEYDHA182099",
     price: "$9.00",
@@ -754,7 +754,7 @@ const productData = {
   },
   "journal": {
     name: "YouTube Journal",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2022",
     id: "GGOEYOCB181099",
     price: "$20.00",
@@ -767,7 +767,7 @@ const productData = {
   },
   "zipper-pull": {
     name: "YouTube Zipper Pull",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2022",
     id: "GGOEYCBA180799",
     price: "$5.00",
@@ -780,7 +780,7 @@ const productData = {
   },
   "tie-dye-socks": {
     name: "YouTube Tie-Dye Woven Socks",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2022",
     id: "GGOEYAKA179210",
     price: "$18.00",
@@ -793,7 +793,7 @@ const productData = {
   },
   "marled-tee": {
     name: "YouTube Marled Black Tee",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2022",
     id: "GGOEYXXX2046",
     price: "$30.00",
@@ -806,7 +806,7 @@ const productData = {
   },
   "far-out-sweatshirt": {
     name: "YouTube Far Out Tie-Dye Sweatshirt",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2022",
     id: "GGOEYXXX2043",
     price: "$69.00",
@@ -819,7 +819,7 @@ const productData = {
   },
   "black-zip-hoodie": {
     name: "YouTube Black Zip Hoodie",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2022",
     id: "GGOEYXXX1801",
     price: "$69.00",
@@ -832,7 +832,7 @@ const productData = {
   },
   "lake-blue-tee": {
     name: "YouTube Lake Blue Tee",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2022",
     id: "GGOEYXXX1796",
     price: "$25.00",
@@ -845,7 +845,7 @@ const productData = {
   },
   "tie-dye-tee": {
     name: "YouTube Tie-Dye Tee",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2021",
     id: "GGOEYXXX1795",
     price: "$32.00",
@@ -858,7 +858,7 @@ const productData = {
   },
   "express-sweatshirt": {
     name: "YouTube Expressive Sweatshirt",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2021",
     id: "GGOEYXXX1799",
     price: "$63.00",
@@ -871,7 +871,7 @@ const productData = {
   },
   "ultralight-sweatshirt": {
     name: "YouTube Shadow Tumbler",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2021",
     id: "GGOEYXXX1734",
     price: "$53.00",
@@ -884,7 +884,7 @@ const productData = {
   },
   "eco-duffel": {
     name: "YouTube Eco-Friendly Duffel", // 
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2021",
     id: "GGOEYBMB177599",
     price: "$25.00",
@@ -897,7 +897,7 @@ const productData = {
   },
   "shadow-tumbler": {
     name: "YouTube Shadow Tumbler",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2021",
     id: "GGOEYDNA175399",
     price: "$28.00",
@@ -910,7 +910,7 @@ const productData = {
   },
   "black-sunglasses": {
     name: "YouTube Black Sunglasses",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2021",
     id: "GGOEYHGB174299",
     price: "$5.00",
@@ -923,7 +923,7 @@ const productData = {
   },
   "metal-loop-bottle": {
     name: "YouTube Metal Loop Bottle",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2020",
     id: "GGOEYDHB174899",
     price: "$13.00",
@@ -936,7 +936,7 @@ const productData = {
   },
   "jotter-pad": {
     name: "YouTube Jotter Task Pad",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2020",
     id: "GGOEYOLB151999",
     price: "$3.00",
@@ -949,7 +949,7 @@ const productData = {
   },
   "zip-hoodie": {
     name: "YouTube Standards Zip Hoodie Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2019",
     id: "GGOEYXXX1207",
     price: "$60.00",
@@ -962,7 +962,7 @@ const productData = {
   },
   "icon-tee-grey": {
     name: "YouTube Icon Tee Grey",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2019",
     id: "GGOEYXXX1203",
     price: "$22.00",
@@ -975,7 +975,7 @@ const productData = {
   },
   "icon-tee-charcoal": {
     name: "YouTube Icon Tee Charcoal",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2019",
     id: "GGOEYXXX1202",
     price: "$22.00",
@@ -988,7 +988,7 @@ const productData = {
   },
   "iconic-pin": {
     name: "YouTube Iconic Play Pin",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2019",
     id: "GGOEYCBR138999",
     price: "$8.00",
@@ -1000,7 +1000,7 @@ const productData = {
   },
   "icon-bundle": {
     name: "YouTube Icon Bundle",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2019",
     id: "GGOEYCBA128999",
     price: "$42.00",
@@ -1011,7 +1011,7 @@ const productData = {
   },
   "transmission-journal-red": {
     name: "YouTube Transmission Journal Red",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2019",
     id: "GGOEYDWB123299",
     price: "$16.00",
@@ -1024,7 +1024,7 @@ const productData = {
   },
   "play-mug": {
     name: "YouTube Play Mug",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2019",
     id: "GGOEYDWB123299",
     price: "$13.00",
@@ -1037,7 +1037,7 @@ const productData = {
   },
   "strap-hat": {
     name: "YouTube Leather Strap Hat Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2019",
     id: "GGOEYHPB121110",
     price: "$17.00",
@@ -1050,7 +1050,7 @@ const productData = {
   },
   "buoy-bottle": {
     name: "YouTube Buoy Bottle",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2019",
     id: "GGOEYDHR117299",
     price: "$8.00",
@@ -1063,7 +1063,7 @@ const productData = {
   },
   "small-sticker-sheet": {
     name: "YouTube Small Sticker Sheet",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEYFKQ105899",
     price: "$2.99",
@@ -1076,7 +1076,7 @@ const productData = {
   },
   "crew-socks-summer": {
     name: "YouTube Crew Socks Summer 18",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEYAEA105610",
     price: "$15.99",
@@ -1089,7 +1089,7 @@ const productData = {
   },
   "tritan-sport-bottle": {
     name: "YouTube Tritan Sport Bottle 23oz",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEYDHJ104099",
     price: "$13.99",
@@ -1102,7 +1102,7 @@ const productData = {
   },
   "twill-sandwich-cap": {
     name: "YouTube Twill Sandwich Cap Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEYHBB102199",
     price: "$12.99",
@@ -1115,7 +1115,7 @@ const productData = {
   },
   "pen-two-pack": {
     name: "YouTube Pen 2-Pack",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEYOAA101499",
     price: "$3.99",
@@ -1128,7 +1128,7 @@ const productData = {
   },
   "flex-journal": {
     name: "YouTube Flex Journal Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEYOCB100499",
     price: "$7.99",
@@ -1141,7 +1141,7 @@ const productData = {
   },
   "gear-cap-bottle": {
     name: "YouTube 25 oz Gear Cap Bottle Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEYDHB098499",
     price: "$26.99",
@@ -1154,7 +1154,7 @@ const productData = {
   },
   "transmission-journal": {
     name: "YouTube Transmission Journal Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEYOCB092699",
     price: "$15.99",
@@ -1167,7 +1167,7 @@ const productData = {
   },
   "transmission-bottle": {
     name: "YouTube Transmission Bottle Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEYDHB086099",
     price: "$23.99",
@@ -1180,7 +1180,7 @@ const productData = {
   },
   "icon-pullover": {
     name: "YouTube Icon Pullover Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEYXXX0938",
     price: "$59.99",
@@ -1193,7 +1193,7 @@ const productData = {
   },
   "wordmark-crew-grey": {
     name: "YouTube Wordmark Crew Grey",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2018",
     id: "GGOEGXXX0921",
     price: "$51.99",
@@ -1206,7 +1206,7 @@ const productData = {
   },
   "three-lines-tee": {
     name: "YouTube 3 Lines Tee Grey",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEGXXX0921",
     price: "$21.99",
@@ -1220,7 +1220,7 @@ const productData = {
   },
   "favorite-tee-white": {
     name: "YouTube Women's Favorite Tee White",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEGXXX0918",
     price: "$21.99",
@@ -1233,7 +1233,7 @@ const productData = {
   },
   "tee-black": {
     name: "YouTube Tee Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEGXXX0918",
     price: "$21.99",
@@ -1246,7 +1246,7 @@ const productData = {
   },
   "kids-onesie-white": {
     name: "YouTube Kids Onesie White",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEYXXX0897",
     price: "$25.99",
@@ -1259,7 +1259,7 @@ const productData = {
   },
   "kids-tee-black": {
     name: "YouTube Kids Tee Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEYXXX0896",
     price: "$19.99",
@@ -1272,7 +1272,7 @@ const productData = {
   },
   "kids-tee-white": {
     name: "YouTube Kids Tee White",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEYXXX0895",
     price: "$19.99",
@@ -1285,7 +1285,7 @@ const productData = {
   },
   "fleece-hoodie-womens": {
     name: "YouTube Women's Fleece Hoodie Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEGAAX0732",
     price: "$55.99",
@@ -1297,7 +1297,7 @@ const productData = {
   },
   "badge-tee-charcoal-womens": {
     name: "YouTube Women's Short Sleeve Hero Tee Charcoal",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEGAAX0295",
     price: "$18.99",
@@ -1311,7 +1311,7 @@ const productData = {
   },
   "hero-tee-charcoal-womens": {
     name: "YouTube Women's Short Sleeve Hero Tee Charcoal",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEGAAX0290",
     price: "$18.99",
@@ -1324,7 +1324,7 @@ const productData = {
   },
   "long-tee-charcoal": {
     name: "YouTube Men's Long & Lean Tee Charcoal",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEGAAX0330",
     price: "$19.99",
@@ -1337,7 +1337,7 @@ const productData = {
   },
   "hero-tee-charcoal": {
     name: "YouTube Men's Short Sleeve Hero Tee Charcoal",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "2017",
     id: "GGOEGAAX0325",
     price: "$17.99",
@@ -1350,7 +1350,7 @@ const productData = {
   },
   "hero-tee-white": {
     name: "YouTube Men's Short Sleeve Hero Tee White",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEGAAX0317",
     price: "$16.99",
@@ -1362,7 +1362,7 @@ const productData = {
   },
   "hero-tee-black": {
     name: "YouTube Men's Short Sleeve Hero Tee Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEGAAX0318",
     price: "$16.99",
@@ -1375,7 +1375,7 @@ const productData = {
   },
   "hero-tee-black-womens": {
     name: "Women's YouTube Short Sleeve Hero Tee Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEGAAX0284",
     price: "$17.00",
@@ -1387,7 +1387,7 @@ const productData = {
   },
   "vintage-tank": {
     name: "YouTube Men's Vintage Tank",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEGAAX0356",
     price: "$20.99",
@@ -1399,7 +1399,7 @@ const productData = {
   },
   "vintage-henley": {
     name: "YouTube Men's Vintage Henley",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEGAAX0351",
     price: "$29.99",
@@ -1411,7 +1411,7 @@ const productData = {
   },
   "trucker-hat": {
     name: "YouTube Trucker Hat",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYHPA003510",
     price: "$21.99",
@@ -1425,7 +1425,7 @@ const productData = {
   },
   "bottle-infuser": {
     name: "22 oz YouTube Bottle Infuser",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYDHJ056099",
     price: "$4.99",
@@ -1438,7 +1438,7 @@ const productData = {
   },
   "heather-cap": {
     name: "YouTube Wool Heather Cap Heather/Black",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYHPA003610",
     price: "$24.99",
@@ -1451,7 +1451,7 @@ const productData = {
   },
   "leatherette-notebook": {
     name: "YouTube Leatherette Notebook Combo",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYOLR018699",
     price: "$6.99",
@@ -1464,7 +1464,7 @@ const productData = {
   },
   "custom-decals": {
     name: "YouTube Custom Decals",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYFKQ020699",
     price: "$1.99",
@@ -1476,7 +1476,7 @@ const productData = {
   },
   "twill-cap": {
     name: "YouTube Twill Cap",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYHPB072210",
     price: "$10.99",
@@ -1489,7 +1489,7 @@ const productData = {
   },
   "sergeant-bottle": {
     name: "24 oz YouTube Sergeant Stripe Bottle",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYDHJ019399",
     price: "$7.99",
@@ -1503,7 +1503,7 @@ const productData = {
   },
   "rfid-journal": {
     name: "YouTube RFID Journal",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYOCR077399",
     price: "$19.99",
@@ -1516,7 +1516,7 @@ const productData = {
   },
   "hard-cover-journal": {
     name: "YouTube Hard Cover Journal",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYOCR077799",
     price: "$14.99",
@@ -1529,7 +1529,7 @@ const productData = {
   },
   "spiral-journal": {
     name: "YouTube Spiral Journal with Pen",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYOCR078099",
     price: "$12.99",
@@ -1542,7 +1542,7 @@ const productData = {
   },
   "luggage-tag": {
     name: "YouTube Luggage Tag",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYOBR078599",
     price: "$8.99",
@@ -1555,7 +1555,7 @@ const productData = {
   },
   "notebook-aps": {
     name: "YouTube Notebook and Pen Set",
-    maker: "Robertson Marketing",
+    maker: "Google, Robertson Marketing",
     year: "~2017",
     id: "GGOEYOLR080599",
     price: "$7.99",

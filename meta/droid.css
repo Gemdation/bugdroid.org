@@ -22,7 +22,8 @@ div.browse div.box:active span.year, div.box a:active span.price, div.box a:acti
 
 div.box {margin:auto;box-sizing:border-box;margin-top:10px;margin-bottom:10px;border:solid 1px #4F4E4F;overflow:hidden}
 div.product {margin:auto;box-sizing:border-box;height:100%;}
-div.browse a {text-decoration:none;}
+div.browse {user-select:none}
+div.browse a {text-decoration:none}
 div.browse div.box {color:white;font-weight:bold;width:95%;margin-bottom:10px;}
 div.browse div.box div.contents {box-sizing:border-box;width:100%;height:100%;padding-bottom:10px;}
 div.browse div.box p {margin-top:0;margin-bottom:5px;}
