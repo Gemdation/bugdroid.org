@@ -7,7 +7,8 @@ Bugdroid.org is a collection of (primarily) merchandise, fan games, wallpapers, 
 * Merchandise
 * * Often sourced from Google Merch Shop and Dead Zebra Shop
 * Games
-* Videos
+* Animated videos
+* General imagery
 
 ## Non-collection folders
 
