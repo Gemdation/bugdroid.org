@@ -21,20 +21,11 @@
     <p>net::ERR_FILE_NOT_FOUND</p>
     <h2>Suggestions</h2>
     <ul>
+        <li>Make sure you have a <a href="/xtra/dino">data connection</a></li>
         <li>Reload this webpage later</li>
         <li>Check the address you entered</li>
-        <li>View a cached copy of the page from Google</li>
+        <li>View a cached copy of the page from <a id="wayback-machine-link" href="#" style="display:none">Wayback Machine</a></li>
     </ul>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <details>
-        <summary>View more</summary>
-        <p>This is a joke page for the most part. In case there is an actual 404, try:</p>
-        <ul>
-            <li>Checking <a href="https://github.com/Gemdation/bugdroid.org/">this repository</a></li>
-            <li>Seeing an older snapshot on the <a id="wayback-machine-link" href="#" style="display:none">Wayback Machine</a></li>
-            <li>Contacting me at <a href="mailto:gem.html@gmail.com">gem.html@gmail.com</a></li>
-        </ul>
-    </details>
 </article>
 <br>
 <script>document.addEventListener('DOMContentLoaded', function() {const fullUrl = window.location.href;const dynamicUrlElement = document.getElementById('URI');if (dynamicUrlElement) {dynamicUrlElement.textContent = fullUrl;}const waybackLink = document.getElementById('wayback-machine-link'); if (waybackLink) {const waybackUrl = `https://web.archive.org/web/*/${fullUrl}`; waybackLink.href = waybackUrl; waybackLink.textContent = 'Wayback Machine'; waybackLink.style.display = 'inline';}});</script>

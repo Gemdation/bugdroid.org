@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 215" width="215" height="215">
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #666666 } 
+	</style>
+	<g id="dinosaur-game-seeklogo">
+		<g>
+			<path fill-rule="evenodd" class="s0" d="m186.93 64.53h-29.87v-8.18h49.68v-46.28h-10.06v-10.07h-80.82v10.07h-9.75v64.53h-10.06v9.76h-14.78v10.08h-14.78v10.07h-10.06v9.76h-18.24v-10.08h-9.75v-9.75h-10.06v-19.84h-11.32v61.07h9.75v10.08h10.06v9.75h9.75v10.08h10.06v9.76h9.75v39.66h21.38v-11.33h-9.74v-8.5h9.74v-9.76h10.07v-10.07h8.17v10.07h10.07v29.59h21.38v-11.33h-10.06v-38.09h10.06v-10.07h9.75v-14.8h10.06v-34.63h8.18v9.76h11.63v-21.4h-19.81v-18.26h39.62z"/>
+			<path fill-rule="evenodd" class="s1" d="m137.56 14.48v11.96h-11.95v-11.96z"/>
+		</g>
+	</g>
+</svg>

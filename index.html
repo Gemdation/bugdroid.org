@@ -19,6 +19,21 @@
     <meta property="og:site_name" content="Bugdroid.org">
     <link rel="stylesheet" href="meta/droid.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+        div.browse div.box#xtra header {background:#2b2b2b}
+        div.browse div.box#xtra:hover {border:solid 1px #4F4E4F}
+        div.browse div.box#xtra:hover header {color:white}
+        div.browse div.box#xtra:active {background:black}
+        div#xtra div.contents {position: relative;width: 100%;}
+        div#xtra div.xtra-buttons {margin-top:10px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 10;}
+        div#xtra div.xtra-buttons button {display: block;;font-size:large;margin:5px auto;}
+        button.din {background: linear-gradient(to bottom, #9C9C9C, #686767);color:white}
+        button.gem {background: linear-gradient(to right, #4696E3, #8D78C9, #C6667A);color:white}
+        button.yt {background: linear-gradient(to right, #ff3232, #a01414, #570c0c);color:white}
+        button.din:hover {outline:solid 2px #ffffff77;}
+        button.gem:hover {outline:solid 2px #4696E377;}
+        button.yt:hover {outline:solid 2px #ff323277;}
+    </style>
 </head>
 <body>
 
@@ -50,16 +65,14 @@
     <div class="box"><a href="stickers/"><div class="contents"><header>/stickers</header><img src="meta/subpage-stickers.png" alt="Sticker sheets"></div></a></div>
     <div class="box"><a href="toys/"><div class="contents"><header>/toys</header><img src="meta/subpage-toys.png" alt="Toys and plushie"></div></a></div>
     <div class="box"><a href="wallpapers"><div class="contents"><header>/wallpapers</header><img src="meta/subpage-wallpapers.png" alt="Android Foundry wallpapers"></div></a></div>
+    <div class="box"><a href="wallpapers"><div class="contents"><header>/wallpapers</header><img src="meta/subpage-wallpapers.png" alt="Android Foundry wallpapers"></div></a></div>
+    <div class="box" id="xtra"><div class="contents"><header>/xtra</header><div class="xtra-image"><img src="meta/subpage-blank.png" alt=""></div><div class="xtra-buttons"><a href="xtra/dino/"><button class="din">Chrome Dino</button></a><a href="xtra/gemini/"><button class="gem">Gemini</button></a><a href="xtra/youtube/"><button class="yt">YouTube</button></a></div></div></div>
 </div>
 
 
 <div id="Archives">
-    <p><b style="color:#BEBEBE">Bugdroid.org Archives</b></p>
-    <img src="meta/button-bugdroid-modern.gif" class="d" alt="Android web button">
-    <a href="dino"><img src="meta/button-dino.gif" class="i" alt="Chrome Dino web button"></a>
-    <a href="gemini"><img src="meta/button-gemini.gif" class="i" alt="Gemini web button"></a>
-    <img src="meta/button-google.gif" class="d" alt="Google web button">
-    <a href="youtube"><img src="meta/button-youtube.gif" class="i" alt="YouTube animated web button"></a>
+    <a href="https://gemdation.com/"><img src="meta/button-gemdation.com.gif" class="i" alt="Android web button"></a>
+    <a href="https://github.com/Gemdation/bugdroid.org"><img src="meta/button-bugdroid-modern.gif" class="i" alt="Android web button"></a>
 </div>
 
 </body>
