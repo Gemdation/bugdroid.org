@@ -1,0 +1,14 @@
+header {text-align:center;background:linear-gradient(to right, #4696E3, #8D78C9, #C6667A)}
+div.box, div.board img, img.d, a img.i {border-radius:10px}
+div.individual div.box#Gallery header {background:black}
+div.board img {border:solid 3px black;outline: solid 1px #4F4E4F}
+div.board img:hover {outline:solid 1px #E99D00}
+div.board img:active {border:solid 3px #E99D00}
+button:active {background:linear-gradient(to bottom, #8D78C9, #4696E3)}
+button:disabled {color:grey}
+a, mark, nav a:hover {color:#6382E1}
+::selection {background:#6382E1;color:white}
+button, img.i {color:white;background:linear-gradient(to bottom, #4696E3, #8D78C9);outline:solid 1px #4F4E4F;border-radius:5px}
+h2 {margin-left:10px}
+p {font-style:italic}
+header.buttons {background:linear-gradient(to bottom, #8D78C9, #C6667A)}

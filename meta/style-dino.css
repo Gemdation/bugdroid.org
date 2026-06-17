@@ -1,0 +1,14 @@
+@font-face {font-family:'Dino';font-display:swap;src:url('../../meta/dino.ttf') format('truetype');font-weight:normal;font-style:normal;}
+body {font-family:'Dino',sans-serif;}
+button {font-family:'Dino';color:grey;box-shadow:none;background:#ffffff;}
+button:active, img.i:active {background:#464646}
+button:disabled {color:#ACACAC}
+a, mark, nav a:hover {color:#929292}
+div.board img {border:solid 3px #ACACAC;outline:solid 1px black}
+div.board img:hover, img.i:hover {outline:solid 1px #E99D00}
+div.board img:active {border:solid 3px #E99D00}
+h2 {font-size:2em;margin-left:10px}
+header {text-align:center;background:#ACACAC;text-shadow:none;color:white;font-weight:normal}
+header, p, li {font-size:1.5em}
+p {font-style:italic}
+::selection {background:#ACACAC;color:white}
