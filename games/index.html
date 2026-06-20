@@ -21,26 +21,28 @@
     <link rel="stylesheet" href="/meta/style-droid.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <style>
-        div.box {padding:10px;padding-bottom:5px;align-items: center;}
-        div.browse div.box img {width:100px;height:auto;margin-right: 10px;float: left;}
-        div.box p {font-size:larger;font-weight:normal;text-align: left;flex-grow: 1;}
-        div.browse div.box div.contents {padding-bottom: 0;}
+        a {color:white;text-decoration:none}
+        ul {font-size:larger;max-width:600px;margin:auto}
+        a li:hover {border:solid 1px orange;}
+        a li:active {background:linear-gradient(to bottom,#FFD554,#E99D00);color:black}
+        li {border:solid 1px grey;margin:10px;padding:15px;}
+        img {width:60px;vertical-align:middle}
     </style>
+    <!--★⯪☆-->
 </head>
-<body>
+<body class="app">
 
 <nav><header><a href="/">bugdroid.org</a>/games</header></nav>
 
 <h1>Droid Games</h1>
 
-<div class="browse">
-    <div class="box"><a href="android-kitkat-challenge"><div class="contents"><table><tr><td><img src="../media/icons/kitkat-challenge.png" width="50px"></td><td><p>Android KitKat Challenge</p></td></tr></table></div></a></div>
-    <div class="box"><a href="androidify"><div class="contents"><table><tr><td><img src="../media/icons/androidify.png" width="50px"></td><td><p>Androidify</p></td></tr></table></div></a></div>
-    <div class="box"><a href="bugdroid-buddy"><div class="contents"><table><tr><td><img src="../media/icons/bugdroid-buddy.png" width="50px"></td><td><p>Bugdroid Buddy</p></td></tr></table></div></a></div>
-    <div class="box"><a href="droid-jump"><div class="contents"><table><tr><td><img src="../media/icons/droid-jump.png" width="50px"></td><td><p>Droid Jump</p></td></tr></table></div></a></div>
-    <div class="box"><a href="extreme-droid-jump"><div class="contents"><table><tr><td><img src="../media/icons/extreme-droid-jump.png" width="50px"></td><td><p>Extreme Droid Jump</p></td></tr></table></div></a></div>
-</div>
-
+<ul>
+    <a href="android-kitkat-challenge"><li><img src="/media/icons/kitkat-challenge.png"> Android KitKat Challenge</li></a>
+    <a href="androidify"><li><img src="/media/icons/androidify.png"> Androidify</li></a>
+    <a href="bugdroid-buddy"><li><img src="/media/icons/bugdroid-buddy.png"> Bugdroid Buddy</li></a>
+    <a href="droid-jump"><li><img src="/media/icons/droid-jump.png"> Droid Jump</li></a>
+    <a href="extreme-droid-jump"><li><img src="/media/icons/extreme-droid-jump.png"> Extreme Droid Jump</li></a>
+</ul>
 
 </body>
 </html>

@@ -9,7 +9,7 @@
     <meta property="og:title" content="Androidify">
     <meta property="og:description" content="Androidify is a Bugdroid avatar creator, various accessories are available to pick from.">
     <meta property="og:url" content="https://bugdroid.org/games/androidify">
-    <meta property="og:image" content="https://bugdroid.org/media/games/screenshots/androidify.png">
+    <meta property="og:image" content="https://bugdroid.org/media/icons/androidify.png">
     <meta property="og:image:alt" content="A screenshot of the Androidify avatar creator.">
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="800">
@@ -20,42 +20,78 @@
     <link rel="stylesheet" href="/meta/style-droid.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <script src="/meta/site-gallery.js" defer></script>
+    <script src="/meta/site-version.js" defer></script>
 </head>
-<body>
+<body class="app">
 
 <nav><header><a href="/">bugdroid.org</a>/<a href="../games">games</a>/androidify</header></nav>
 
-<h1>Androidify</h1>
-
 <div class="individual">
-    <div class="box" id="Gallery">
-        <img src="../media/games/screenshots/androidify-splash.png" class="slides">
-        <img src="../media/games/screenshots/androidify-editor-default.png" class="slides">
-        <img src="../media/games/screenshots/androidify-editor-google.png" class="slides">
-        <img src="../media/games/screenshots/androidify-submit-1.png" class="slides">
-        
-        <header><button onclick="prevSlide()">◀</button> <button onclick="nextSlide()">▶</button></header>
-    </div>
-
-
     <div class="texts">
+        <div class="box" id="Header">
+            <img src="../media/icons/androidify.png" alt="Androidfy Icon">            
+            <div class="details">
+                <h2>Androidfy</h2>
+                <span class="pub">Google LLC</span>
+                <div class="actions">
+                    <a href="../media/games/androidify-4.2.apk" download><button type="button">Download</button></a>                
+                    <div class="versions">
+                        <button type="button" class="ver" id="versionView">▼</button>
+                        <div class="version-list" id="versionList">
+                            <a href="../media/games/androidify-4.2.apk" download> ver 4.2</a>
+                            <a href="../media/games/androidify-4.1.apk" download> ver 4.1</a>
+                            <a href="../media/games/androidify-4.0.apk" download> ver 4.0</a>
+                            <a href="../media/games/androidify-3.0.apk" download> ver 3.0</a>
+                            <a href="../media/games/androidify-2.1.apk" download> ver 2.1</a>
+                            <a href="../media/games/androidify-2.0.apk" download> ver 2.0</a>
+                            <a href="../media/games/androidify-1.14.apk" download> ver 1.14</a>
+                            <a href="../media/games/androidify-1.13.apk" download> ver 1.13</a>
+                            <a href="../media/games/androidify-1.12.apk" download> ver 1.12</a>
+                            <a href="../media/games/androidify-1.01.apk" download> ver 1.01</a>
+                            <a href="../media/games/androidify-1.0.apk" download> ver 1.0</a>
+                        </div>
+                    </div>                
+                    <span class="rating">★★★★⯪</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" id="Screenshots">
+            <table>
+                <tr>
+                    <td><img src="../media/games/screenshots/androidify-splash.png"></td>
+                    <td><img src="../media/games/screenshots/androidify-editor-default.png"></td>
+                    <td><img src="../media/games/screenshots/androidify-editor-google.png"></td>
+                    <td><img src="../media/games/screenshots/androidify-editor-lgbt-shirt.png"></td>
+                    <td><img src="../media/games/screenshots/androidify-editor-skin-tones.png"></td>
+                    <td><img src="../media/games/screenshots/androidify-menu.png"></td>
+                    <td><img src="../media/games/screenshots/androidify-share-emote.png"></td>
+                    <td><img src="../media/games/screenshots/androidify-submit-1.png"></td>
+                    <td><img src="../media/games/screenshots/androidify-submit-2.png"></td>
+                </tr>
+            </table>
+        </div>
+
         <div class="box" id="About">
             <header>About</header>
             <p><b>Androidify</b> is a Bugdroid avatar creator, various accessories are available to pick from. It was developed by
             Google and had the feature to submit creations to the (now defunct) <a href="https://web.archive.org/web/20191224031554/https://www.androidify.com/en/#/">androidify.com</a>
             for a chance to appear in promotional material. These ended up being various <a href="/animations/">animated videos</a>.</p>
-            <br>
+            <details>
+                <summary>View original Google Play Store synopsis</summary>
+                <p>Androidify yourself!<br>Create, accessorize and share Android characters that look like you, your best friend, your Uncle Sal—anyone, really.</p>
+                <p>Create and share your animated Android characters as emoticons, animated GIFs and pictures over texts, posts or chats.</p>
+                <p>Be sure to submit your creations online, where you can share to the Androidify.com Gallery to hang with Android characters from around the world.</p>
+            </details>
         </div>
 
         <div class="box" id="Info">
             <header>Information</header>
             <ul>
-                <li><mark>ID</mark>: com.google.android.apps.androidify</li>
-                <li><mark>Developer</mark>: Google LLC</li>
-                <li><mark>Version</mark>: 4.2</li>
-                <li><mark>Version Date</mark>: July 20, 2019</li>
-                <br>
-                <li><a href="../media/games/androidify-4.2.apk" download>Download</a></li>
+                <li><mark>ID:</mark> com.google.android.apps.androidify</li>
+                <li><mark>First Publish Date:</mark> February 16, 2011</li>
+                <li><mark>Last Publish Date:</mark> January 6, 2016</li>
+                <li><mark>Latest Version:</mark> 4.2</li>
             </ul>
         </div>
     </div>

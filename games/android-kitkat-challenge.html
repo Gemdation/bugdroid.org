@@ -20,27 +20,49 @@
     <link rel="stylesheet" href="/meta/style-droid.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <script src="/meta/site-gallery.js" defer></script>
+    <script src="/meta/site-version.js" defer></script>
 </head>
-<body>
+<body class="app">
 
 <nav><header><a href="/">bugdroid.org</a>/<a href="../games">games</a>/android-kitkat-challenge</header></nav>
 
-<h1>Android KitKat Challenge</h1>
-
 <div class="individual">
-    <div class="box" id="Gallery">
-        <img src="../media/games/screenshots/android-kitkat-challenge-title-screen.png" class="slides">
-        <img src="../media/games/screenshots/android-kitkat-challenge-gameplay-swipe-cut.png" class="slides">
-        <img src="../media/games/screenshots/android-kitkat-challenge-gameplay-eat.png" class="slides">
-        <img src="../media/games/screenshots/android-kitkat-challenge-gameplay-draw-path.png" class="slides">
-        <img src="../media/games/screenshots/android-kitkat-challenge-gameplay-red.png" class="slides">
-        <img src="../media/games/screenshots/android-kitkat-challenge-gameplay-high-score.png" class="slides">
-        
-        <header><button onclick="prevSlide()">◀</button> <button onclick="nextSlide()">▶</button></header>
-    </div>
-
-
     <div class="texts">
+        <div class="box" id="Header">
+            <img src="../media/icons/kitkat-challenge.png" alt="Android KitKat Icon">            
+            <div class="details">
+                <h2>Android KitKat Challenge</h2>
+                <span class="pub">doubleleft</span>
+                <div class="actions">
+                    <a href="../media/games/android-kitkat-challenge-1.2.apk" download><button type="button">Download</button></a>                
+                    <!--                 
+                    <div class="versions">
+                        <button type="button" class="ver" id="versionView">▼</button>
+                        <div class="version-list" id="versionList">
+                            <a href="../media/games/android-kitkat-challenge-1.2.apk" download> ver 1.2</a>
+                        </div>
+                    </div>
+                    -->          
+                    <span class="rating">★★★★☆</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" id="Screenshots">
+            <table class="landscape">
+                <tr>
+                    <td><img src="../media/games/screenshots/android-kitkat-challenge-title-screen.png"></td>
+                    <td><img src="../media/games/screenshots/android-kitkat-challenge-gameplay-swipe-cut.png"></td>
+                    <td><img src="../media/games/screenshots/android-kitkat-challenge-gameplay-eat.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="../media/games/screenshots/android-kitkat-challenge-gameplay-draw-path.png"></td>
+                    <td><img src="../media/games/screenshots/android-kitkat-challenge-gameplay-red.png"></td>
+                    <td><img src="../media/games/screenshots/android-kitkat-challenge-gameplay-high-score.png"></td>
+                </tr>
+            </table>
+        </div>
+
         <div class="box" id="About">
             <header>About</header>
             <p>Android KitKat Challenge is an action game themed around the Android KitKat promotional videos and
@@ -48,30 +70,33 @@
             series.</p>
             <p>Various mini challenges such as cut a KitKat, spot the Droid with the KitKat, tap something, etc.
             And while playing the timer will get shorter over time. The game has 3 extra wallpapers and had a Google Play
-            intergration.
-            </p>
-        </div>
-
-        <div class="box" id="Info">
-            <header>Information</header>
-            <ul>
-                <li><mark>ID</mark>: com.doubleleft.androidkitkat</li>
-                <li><mark>Developer</mark>: Cubocc</li>
-                <li><mark>Version</mark>: 1.2</li>
-                <li><mark>Version Date</mark>: September 20, 2015</li>
-                <br>
-                <li><a href="../media/games/android-kitkat-challenge-1.2.apk" download>Download</a></li>
-            </ul>
-        </div>
-
-        <div class="box">
-            <p>In this game there are 3 wallpapers in the Extras menu. Here are those
+            intergration.</p>
+            <details>
+                <summary>View original Google Play Store synopsis</summary>
+                <p>Play with Android and KitKat! Be fast, show your skills and have fun with different challenges. Download the game and get cool wallpapers for your smartphone or tablet and watch the videos from Android KitKat.</p>
+                <p>Android is the operating system that powers over 1 billion smartphones and tablets. This game celebrates the launch of Android KitKat. Since these devices make our lives so sweet, each Android version is named after a dessert: Cupcake, Donut, Eclair, Froyo, Gingerbread, Honeycomb, Ice Cream Sandwich, and Jelly Bean. As everybody finds it difficult to stay away from chocolate we decided to name the new version of Android after one of our favorite chocolate treats, Kitkat!</p>
+                <p>Download the game now on your mobile or tablet, and say goodbye to the boring times!</p>
+            </details>
+            <details>
+                <summary>View wallpapers</summary>
+                            <p>In-game, there are 3 wallpapers in the Extras menu. Here are those
             wallpapers taken from the APK. <img src="/meta/emote-angel.png" class="emo" alt=""></p>
             <p>
             <img src="../media/wallpapers/android-kitkat-challenge-w1.png" width="100px">
             <img src="../media/wallpapers/android-kitkat-challenge-w2.png" width="100px">
             <img src="../media/wallpapers/android-kitkat-challenge-w3.png" width="100px">
             </p>
+            </details>
+        </div>
+
+        <div class="box" id="Info">
+            <header>Information</header>
+            <ul>
+                <li><mark>ID</mark>: com.doubleleft.androidkitkat</li>
+                <li><mark>First Publish Date:</mark> N/A</li>
+                <li><mark>Last Publish Date:</mark> September 20, 2015</li>
+                <li><mark>Latest Version:</mark> 1.2</li>
+            </ul>
         </div>
     </div>
 </div>
