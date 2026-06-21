@@ -9,7 +9,6 @@
         body {font-family:'Droid Sans',sans-serif;margin:0}
         h2 {font-size:large}
         article {width:250px;padding-left:6px}
-        summary {color:grey;list-style:none;cursor:pointer;font-weight:bold;font-style:italic}
     </style>
 </head>
 <body>
@@ -27,7 +26,7 @@
         <li>View a cached copy of the page from <a id="wayback-machine-link" href="#" style="display:none">Wayback Machine</a></li>
     </ul>
 </article>
-<br>
+
 <script>document.addEventListener('DOMContentLoaded', function() {const fullUrl = window.location.href;const dynamicUrlElement = document.getElementById('URI');if (dynamicUrlElement) {dynamicUrlElement.textContent = fullUrl;}const waybackLink = document.getElementById('wayback-machine-link'); if (waybackLink) {const waybackUrl = `https://web.archive.org/web/*/${fullUrl}`; waybackLink.href = waybackUrl; waybackLink.textContent = 'Wayback Machine'; waybackLink.style.display = 'inline';}});</script>
 
 </body>
