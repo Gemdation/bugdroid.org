@@ -44,7 +44,6 @@ div.loader {background-image: url(/meta/web-loading.gif);width:60px;max-width:80
 div.versions {position:relative;display:inline-block;}
 div.version-list {display:none;position:absolute;top:100%;left:-90px;min-width:105px;box-shadow:0px 8px 16px 0px #00000080;z-index: 100;margin-top: 2px;background: linear-gradient(#414141,#202020);}
 div.version-list a {background:linear-gradient(to bottom, #F1F1F1, #B8B8B8);color:black;padding: 5px;margin:2px;text-decoration:none;display:block;}
-div.version-list a:hover {border:solid 1px #E99D00}
 div.version-list a:active {background:linear-gradient(to bottom, #FFD554, #E99D00)}
 div.version-list.show {display:block}
 
