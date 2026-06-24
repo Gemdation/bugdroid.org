@@ -67,58 +67,61 @@ div.individual div.texts header {background:#191919;color:#BEBEBE;border-bottom:
 div.individual div.box#Extras header {margin-bottom:10px}
 div.individual div.box#Extras img {width:150px}
 
-div#Archives {padding:10px}
-div#Archives p {margin:0 auto;padding-bottom:15px}
-span.artist, span.year, .hide {color:grey}
-span.rating {color:#A4C639;font-size:1.2rem}
-span.pub {color:gray;margin-top:-23px}
-span.price {color:#A4C639}
-
 article {background:linear-gradient(#414141,#202020);border:solid 1px grey;border-radius:5px;text-align:center;margin:auto;margin-bottom:15px;padding:5px;width:100%;overflow:hidden;}
+article img.wide, article video.wide {width:100%}
+article table {margin:auto}
+
+summary {list-style-type:none;font-weight:bold;color:grey;cursor:pointer;user-select:none;}
 details {text-align:center;padding-top:0;padding-bottom:8px;font-style:italic}
 details li {list-style-type:disc;list-style-position:inside;text-align:left}
-summary {list-style-type:none;font-weight:bold;color:grey;cursor:pointer;user-select:none;}
 
 abbr {cursor:help}
 hr {margin-left:5px;margin-right:5px;border-color:grey}
 ul {list-style:none;padding-left:8px}
 ul a {font-weight:bold}
-mark {color:#FFE600;background-color:#00000000;font-weight:bold}
-mark.green {color:#A4C639}
-mark.red {color:#DF2D2D}
 figcaption {padding-top:10px;font-style:normal}
-::selection{background:#A5C639;color:white}
+mark {color:#FFE600;background-color:#00000000;font-weight:bold}
+mark.red {color:#DF2D2D}
+::selection {background:#A5C639;color:white}
 
+span.artist, span.year, h3, footer, .hide {color:grey}
+span.price, mark.green {color:#A4C639}
+span.rating {color:#A4C639;font-size:1.2rem}
+span.pub {color:gray;margin-top:-23px}
+
+/*Emojis, 88x31 buttons*/
 img.emo {width:24px;height:24px;vertical-align:middle;margin:0 2px;}
 img.i {background:linear-gradient(to bottom,#F1F1F1,#B8B8B8);padding:2px;}
 img.i:hover {cursor:pointer}
 img.i:active {background:linear-gradient(to bottom,#FFD554,#E99D00);}
 img.d {background:linear-gradient(to bottom,#535353,#636363);padding:2px}
 
+/*File Directories*/
 body.dir {background:black;color:white;font-family:"Droid Sans",sans-serif;text-align:left;padding-top:0;max-width:550px}
 body.dir h1 {padding-left:15px}
 body.dir li {justify-content:center;vertical-align:middle;border-top:solid 1px #5e5e5e;}
 body.dir img {vertical-align:middle;width:30px}
 body.dir a {text-decoration:none}
 
+/*Responsive Web*/
 @media (min-width:769px)  {
 div.browse div.box {width:40%;display:inline-block;margin:1%;}
 div.individual div.box {width:60%}
 div.row {width:40%}}
+
 @media (min-width:1200px) {
 div.browse div.box {width:25%;display:inline-block;margin:1%;}
 div.individual {box-sizing:border-box;display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:start;width:80%;margin:auto;}
 div.individual div.box#Gallery {grid-column:1/2;width:100%;max-width:600px;}
 div.individual div.texts {grid-column:2/3;display:grid;flex-direction:column;gap:10px;width:90%;}
 div.individual div.box {width:100%;margin-bottom:0;margin-top:0;}
-
 body.player div.individual {grid-template-columns: 1fr;width: 70%;}
 body.player div.individual div.box#Video {grid-column: 1 / -1;max-width: 80%;}
 body.player div.texts {grid-column:1 / -1;width: 80%;display:flex;flex-direction: row;margin:auto;margin-bottom:10px}
-
 body.app div.individual {grid-template-columns: 1fr;width: 60%;}
-body.app div.texts {width: 60%;margin:auto;margin-bottom:10px}
-}
+body.app div.texts {width: 60%;margin:auto;margin-bottom:10px}}
+
 @media (min-width:1700px) {
 div.browse div.box {width:20%;display:inline-block;margin:1%;}
-div.individual {width:60%}}
+div.individual {width:60%}
+article img.wide, article video.wide {width:50%}}
