@@ -23,8 +23,10 @@
     <style>
         a {color:white;text-decoration:none}
         ul {font-size:larger;max-width:600px;margin:auto}
-        a li:hover {border:solid 1px orange;}
-        a li:active {background:linear-gradient(to bottom,#FFD554,#E99D00);color:black}
+        a:hover li {border:solid 1px #FFD554;}
+        a:focus-visible li {border:solid 1px #EC6100;}
+        a:active li {background:linear-gradient(to bottom,#FFD554,#E99D00);color:black}
+        a:focus-visible li {background:linear-gradient(to bottom,#FFB769,#EC6100);color:black}
         li {border:solid 1px grey;margin:10px;padding:15px;}
         img {width:60px;vertical-align:middle}
     </style>

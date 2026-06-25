@@ -20,19 +20,24 @@
     <link rel="stylesheet" href="meta/style-droid.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <style>
+        div.btncont {height:fit-content;background:black;border-radius:6px;width:fit-content;margin:auto;}
+        a div.btn {padding:10px;display:inline-block;border-radius:6px;color:white}
+        a:hover div.btn {background:linear-gradient(to bottom,#FFD554,#E99D00);color:black}
+        a:focus div.btn {background:linear-gradient(to bottom, #FFB769, #EC6100);color:black;outline:none}
+        div.btn {background:black;max-height:125px;vertical-align:middle}
         div.browse div.box#xtra header {background:#2b2b2b}
         div.browse div.box#xtra:hover {border:solid 1px #4F4E4F}
         div.browse div.box#xtra:hover header {color:white}
         div.browse div.box#xtra:active {background:black}
         div#xtra div.contents {position: relative;width: 100%;}
         div#xtra div.xtra-buttons {margin-top:10px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 10;}
-        div#xtra div.xtra-buttons button {display:block;font-size:large;margin:5px auto;}
-        button.din {background: linear-gradient(to bottom, #9C9C9C, #686767);color:white}
-        button.gem {background: linear-gradient(to right, #4696E3, #8D78C9, #C6667A);color:white}
-        button.yt {background: linear-gradient(to right, #ff3232, #a01414, #570c0c);color:white}
-        button.din:hover {outline:solid 2px #ffffff77;}
-        button.gem:hover {outline:solid 2px #4696E377;}
-        button.yt:hover {outline:solid 2px #ff323277;}
+        div#xtra div.xtra-buttons button {display:block;font-size:large;margin:5px auto}
+        div.btn#dino {background: linear-gradient(to bottom, #9C9C9C, #686767);color:white}
+        div.btn#gem {background: linear-gradient(to right, #4696E3, #8D78C9, #C6667A);color:white}
+        div.btn#yt {background: linear-gradient(to right, #ff3232, #a01414, #570c0c);color:white}
+        div.btn#dino:hover, a:focus-visible div.btn#dino {outline:solid 2px #ffffff77}
+        div.btn#gem:hover, a:focus-visible div.btn#gem {outline:solid 2px #4696E377}
+        div.btn#yt:hover, a:focus-visible div.btn#yt {outline:solid 2px #ff323277}
     </style>
 </head>
 <body>
@@ -46,7 +51,7 @@
         <p>This website is dedicated to the iconic Bugdroid, mascot of Android. Here you will find figurines, wallpapers,
         merchandise, and what not. <em>All revolving around the cute green robot!</em> <img src="/meta/emote-heart.png" class="emo" alt=""></p>
         <p>Click a directory below to start exploring, use the <span style="color:white;background:linear-gradient(to bottom,#9C9C9C,#878787);text-shadow: 0px 0px 11px #0000009c;padding:2px"><b>header</b></span> to navigate back through directories.</p>
-        <a href="about"><button>About</button></a> <a href="pages/"><button>Pages</button></a> <a href="help"><button>Help</button></a>
+        <div class="btncont"><a href="about"><div class="btn"><img src="meta/btn-about.png"><br>About</div></a> <a href="pages/"><div class="btn"><img src="meta/btn-pages.png"><br>Pages</div></a> <a href="help"><div class="btn"><img src="meta/btn-help.png"><br>Help</div></a></div>
     </article>
 </div>
 
@@ -67,9 +72,8 @@
     <div class="box"><a href="stickers/"><div class="contents"><header>/stickers</header><img src="meta/subpage-stickers.png" alt="Sticker sheets"></div></a></div>
     <div class="box"><a href="toys/"><div class="contents"><header>/toys</header><img src="meta/subpage-toys.png" alt="Toys and plushie"></div></a></div>
     <div class="box"><a href="wallpapers"><div class="contents"><header>/wallpapers</header><img src="meta/subpage-wallpapers.png" alt="Android Foundry wallpapers"></div></a></div>
-    <div class="box" id="xtra"><div class="contents"><header>/xtra</header><div class="xtra-image"><img src="meta/subpage-blank.png" alt=""></div><div class="xtra-buttons"><a href="xtra/dino/"><button class="din">Chrome Dino</button></a><a href="xtra/gemini/"><button class="gem">Gemini</button></a><a href="xtra/youtube/"><button class="yt">YouTube</button></a></div></div></div>
+    <div class="box" id="xtra"><div class="contents"><header>/xtra</header><div class="xtra-image"><img src="meta/subpage-blank.png" alt=""></div><div class="xtra-buttons"><div class="btncont"><a href="xtra/dino/"><div class="btn" id="dino"><img src="meta/em-dino.svg" style="width:25px"><br>Dino</div></a> <a href="xtra/gemini/"><div class="btn" id="gem"><img src="meta/em-gemini.svg" style="width:25px"><br>Gemini</div></a> <a href="xtra/youtube/"><div class="btn" id="yt"><img src="meta/em-youtube.svg" style="width:25px"><br>YouTube</div></a></div></div></div></div>
 </div>
-
 
 <p><a href="https://gemdation.com/"><img src="meta/button-gemdation.com.gif" class="i" alt="Android web button"></a> <a href="https://github.com/Gemdation/bugdroid.org"><img src="meta/button-bugdroid-modern.gif" class="i" alt="Android web button"></a></p>
 

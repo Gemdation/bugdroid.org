@@ -8,15 +8,21 @@ header a {color:white;text-decoration:none;}
 header a:hover {color:#A4C639}
 
 button {font-family:'Droid Sans',sans-serif;background:linear-gradient(to bottom, #F1F1F1, #B8B8B8);padding:9px;color:black;cursor:pointer;border:none;user-select:none;box-shadow:0 3px 6px #00000029, 0 3px 6px #0000003B;}
-button:active {background:linear-gradient(to bottom,#FFD554,#E99D00);}
+button:active {background:linear-gradient(to bottom,#FFD554,#E99D00)}
+button:focus-visible {background:linear-gradient(to bottom, #FFB769, #EC6100);outline: none;}
 button:disabled {cursor:not-allowed;background:linear-gradient(to bottom, #535353, #636363);}
 
 a {color:#A4C639}
-div.browse div.box a {color:white;}
+a:focus-visible {color:#EC6100;outline:none}
+a:focus-visible button {background:linear-gradient(to bottom, #FFB769, #EC6100)}
+
+div.browse div.box a {color:white}
 div.browse div.box:hover {border:solid 1px #E99D00}
+div.browse div.box:focus {border:solid 1px #EC6100}
 div.browse div.box:hover header {color:#A4C639}
 div.browse div.box:active {background:linear-gradient(to bottom, #FFD554, #E99D00);color:black}
-div.browse div.box:active span.year, div.box a:active span.price, div.box a:active p {color:black}
+div.browse div.box a:focus-visible div.contents {background:linear-gradient(to bottom, #FFB769, #EC6100);color:black}
+div.browse div.box:active span.year, div.box a:active span.price, div.box a:active p, a:focus-visible span.price, a:focus-visible span.year {color:black}
 
 div.row {width:90%;margin:auto}
 div.box {margin:auto;box-sizing:border-box;margin-top:10px;margin-bottom:10px;border:solid 1px #4F4E4F;overflow:hidden}
@@ -26,7 +32,6 @@ div.box {margin:auto;box-sizing:border-box;margin-top:10px;margin-bottom:10px;bo
 div.box#Video video {width:100%;display:block}
 
 /*Used in Games*/
-
 div.box#Header {display:flex;align-items:stretch;padding:15px;padding-left:5px;gap:5px;overflow:visible}
 div.box#Header img {width:120px;height:auto;object-fit:contain}
 div.box#Header h2 {margin:0}
@@ -35,25 +40,29 @@ div.box#Header div.details {display:flex;flex-direction:column;justify-content:s
 div.box#Header div.actions {display:flex;align-items:center;gap:10px}
 
 div.box#Screenshots {overflow-x:visible;scrollbar-width:none;max-height:300px;}
+div.box#Screenshots:focus-visible {border:solid 1px #EC6100;outline:none;}
 div.box#Screenshots td {height:250px}
 div.box#Screenshots img {height:100%}
 div.box#Screenshots table.landscape td {height:140px}
 div.box#Screenshots table.landscape img {height:100%}
-
-div.loader {background-image: url(/meta/web-loading.gif);width:60px;max-width:80px;padding:15px;border-radius:4px}
+/*Used in downloads*/
+div.loader {background-image: url(/meta/web-loading.gif);width:60px;width:90px;height:25px;border-radius:4px}
 div.versions {position:relative;display:inline-block;}
-div.version-list {display:none;position:absolute;top:100%;left:-90px;min-width:105px;box-shadow:0px 8px 16px 0px #00000080;z-index: 100;margin-top: 2px;background: linear-gradient(#414141,#202020);}
+div.versions button.version-view {margin-left:-7px;}
+div.version-list {display:none;position:absolute;top:100%;left:-90px;min-width:115px;box-shadow:0px 8px 16px 0px #00000080;z-index:10;margin-top: 2px;background: linear-gradient(#414141,#202020);}
 div.version-list a {background:linear-gradient(to bottom, #F1F1F1, #B8B8B8);color:black;padding: 5px;margin:2px;text-decoration:none;display:block;}
 div.version-list a:active {background:linear-gradient(to bottom, #FFD554, #E99D00)}
+div.version-list a:focus-visible {background:linear-gradient(to bottom, #FFB769, #EC6100)}
 div.version-list.show {display:block}
+.actions.loading > *:not(.loader):not(.rating) {display: none !important}
 
 /*Used in Products*/
 div.browse {user-select:none}
 div.browse a {text-decoration:none}
 div.browse div.box {color:white;font-weight:bold;width:95%;margin-bottom:10px;}
 div.browse div.box div.contents {box-sizing:border-box;width:100%;height:100%;padding-bottom:10px;}
-div.browse div.box p {margin-top:0;margin-bottom:5px;}
-div.browse div.box img {width:100%;margin-bottom:10px;display:block}
+div.browse div.box p {margin-top:0;padding-top:10px;margin-bottom:5px;}
+div.browse div.box img {width:100%;display:block}
 div.browse div.box details {font-weight:normal;}
 div.board {margin:auto}
 div.board img {margin:auto;width:150px;margin:3px;margin-top:0px}
@@ -72,6 +81,7 @@ article img.wide, article video.wide {width:100%}
 article table {margin:auto}
 
 summary {list-style-type:none;font-weight:bold;color:grey;cursor:pointer;user-select:none;}
+summary:focus {outline:none;color:#EC6100}
 details {text-align:center;padding-top:0;padding-bottom:8px;font-style:italic}
 details li {list-style-type:disc;list-style-position:inside;text-align:left}
 
@@ -79,6 +89,8 @@ abbr {cursor:help}
 hr {margin-left:5px;margin-right:5px;border-color:grey}
 ul {list-style:none;padding-left:8px}
 ul a {font-weight:bold}
+footer a {color:grey;text-decoration:none}
+footer a:focus-visible {color:#EC6100}
 figcaption {padding-top:10px;font-style:normal}
 mark {color:#FFE600;background-color:#00000000;font-weight:bold}
 mark.red {color:#DF2D2D}
@@ -94,6 +106,7 @@ img.emo {width:24px;height:24px;vertical-align:middle;margin:0 2px;}
 img.i {background:linear-gradient(to bottom,#F1F1F1,#B8B8B8);padding:2px;}
 img.i:hover {cursor:pointer}
 img.i:active {background:linear-gradient(to bottom,#FFD554,#E99D00);}
+a:focus img.i {background:linear-gradient(to bottom, #FFB769, #EC6100)}
 img.d {background:linear-gradient(to bottom,#535353,#636363);padding:2px}
 
 /*File Directories*/
