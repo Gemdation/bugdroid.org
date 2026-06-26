@@ -3,25 +3,25 @@
 
 body {margin:0;padding-top:30px;background-color:black;color:white;text-align:center;font-family:"Droid Sans",sans-serif;}
 nav {position:fixed;z-index:1000;top:0;width:100%;}
-header {padding:2px;padding-right:0;color:white;background:linear-gradient(to bottom, #9C9C9C, #878787);background-color:#9C9C9C;width:100%;text-align:left;font-weight:bold;text-shadow:0px 0px 11px black}
+header {padding:2px;padding-right:0;color:white;background:linear-gradient(to bottom,#9C9C9C, #878787);background-color:#9C9C9C;width:100%;text-align:left;font-weight:bold;text-shadow:0px 0px 11px black}
 header a {color:white;text-decoration:none;}
 header a:hover {color:#A4C639}
 
-button {font-family:'Droid Sans',sans-serif;background:linear-gradient(to bottom, #F1F1F1, #B8B8B8);padding:9px;color:black;cursor:pointer;border:none;user-select:none;box-shadow:0 3px 6px #00000029, 0 3px 6px #0000003B;}
+button {font-family:'Droid Sans',sans-serif;background:linear-gradient(to bottom,#F1F1F1, #B8B8B8);padding:9px;color:black;cursor:pointer;border:none;user-select:none;box-shadow:0 3px 6px #00000029, 0 3px 6px #0000003B;}
 button:active {background:linear-gradient(to bottom,#FFD554,#E99D00)}
-button:focus-visible {background:linear-gradient(to bottom, #FFB769, #EC6100);outline: none;}
-button:disabled {cursor:not-allowed;background:linear-gradient(to bottom, #535353, #636363);}
+button:focus-visible {background:linear-gradient(to bottom,#FFB769, #EC6100);outline: none;}
+button:disabled {cursor:not-allowed;background:linear-gradient(to bottom,#535353, #636363);}
 
 a {color:#A4C639}
 a:focus-visible {color:#EC6100;outline:none}
-a:focus-visible button {background:linear-gradient(to bottom, #FFB769, #EC6100)}
+a:focus-visible button {background:linear-gradient(to bottom,#FFB769, #EC6100)}
 
 div.browse div.box a {color:white}
 div.browse div.box:hover {border:solid 1px #E99D00}
-div.browse div.box:focus {border:solid 1px #EC6100}
+div.browse div.box:focus-visible {border:solid 1px #EC6100}
 div.browse div.box:hover header {color:#A4C639}
-div.browse div.box:active {background:linear-gradient(to bottom, #FFD554, #E99D00);color:black}
-div.browse div.box a:focus-visible div.contents {background:linear-gradient(to bottom, #FFB769, #EC6100);color:black}
+div.browse div.box:active {background:linear-gradient(to bottom,#FFD554, #E99D00);color:black}
+div.browse div.box a:focus-visible div.contents {background:linear-gradient(to bottom,#FFB769, #EC6100);color:black}
 div.browse div.box:active span.year, div.box a:active span.price, div.box a:active p, a:focus-visible span.price, a:focus-visible span.year {color:black}
 
 div.row {width:90%;margin:auto}
@@ -45,14 +45,15 @@ div.box#Screenshots td {height:250px}
 div.box#Screenshots img {height:100%}
 div.box#Screenshots table.landscape td {height:140px}
 div.box#Screenshots table.landscape img {height:100%}
+
 /*Used in downloads*/
 div.loader {background-image: url(/meta/web-loading.gif);width:60px;width:90px;height:25px;border-radius:4px}
 div.versions {position:relative;display:inline-block;}
 div.versions button.version-view {margin-left:-7px;}
 div.version-list {display:none;position:absolute;top:100%;left:-90px;min-width:115px;box-shadow:0px 8px 16px 0px #00000080;z-index:10;margin-top: 2px;background: linear-gradient(#414141,#202020);}
-div.version-list a {background:linear-gradient(to bottom, #F1F1F1, #B8B8B8);color:black;padding: 5px;margin:2px;text-decoration:none;display:block;}
-div.version-list a:active {background:linear-gradient(to bottom, #FFD554, #E99D00)}
-div.version-list a:focus-visible {background:linear-gradient(to bottom, #FFB769, #EC6100)}
+div.version-list a {background:linear-gradient(to bottom,#F1F1F1, #B8B8B8);color:black;padding: 5px;margin:2px;text-decoration:none;display:block;}
+div.version-list a:active {background:linear-gradient(to bottom,#FFD554, #E99D00)}
+div.version-list a:focus-visible {background:linear-gradient(to bottom,#FFB769, #EC6100)}
 div.version-list.show {display:block}
 .actions.loading > *:not(.loader):not(.rating) {display: none !important}
 
@@ -81,7 +82,7 @@ article img.wide, article video.wide {width:100%}
 article table {margin:auto}
 
 summary {list-style-type:none;font-weight:bold;color:grey;cursor:pointer;user-select:none;}
-summary:focus {outline:none;color:#EC6100}
+summary:focus-visible {outline:none;color:#EC6100}
 details {text-align:center;padding-top:0;padding-bottom:8px;font-style:italic}
 details li {list-style-type:disc;list-style-position:inside;text-align:left}
 
@@ -106,14 +107,14 @@ img.emo {width:24px;height:24px;vertical-align:middle;margin:0 2px;}
 img.i {background:linear-gradient(to bottom,#F1F1F1,#B8B8B8);padding:2px;}
 img.i:hover {cursor:pointer}
 img.i:active {background:linear-gradient(to bottom,#FFD554,#E99D00);}
-a:focus img.i {background:linear-gradient(to bottom, #FFB769, #EC6100)}
+a:focus-visible img.i {background:linear-gradient(to bottom,#FFB769, #EC6100)}
 img.d {background:linear-gradient(to bottom,#535353,#636363);padding:2px}
 
 /*File Directories*/
 body.dir {background:black;color:white;font-family:"Droid Sans",sans-serif;text-align:left;padding-top:0;max-width:550px}
 body.dir h1 {padding-left:15px}
 body.dir li {justify-content:center;vertical-align:middle;border-top:solid 1px #5e5e5e;}
-body.dir img {vertical-align:middle;width:30px}
+body.dir img {vertical-align:middle;width:30px;user-select: none;-webkit-user-drag: none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;}
 body.dir a {text-decoration:none}
 
 /*Responsive Web*/

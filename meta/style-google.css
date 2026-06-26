@@ -1,0 +1,41 @@
+body {margin: 0;background-color:white;color:black;font-family: Arial, sans-serif;text-align: center;}
+
+nav {color:white;background: linear-gradient(to bottom,#2D2D2D, #2D2D2E);font-weight: bold;text-align: left;padding-left: 2px;padding-top: 5px;padding-bottom: 5px;}
+nav a {color:white;text-decoration: overline;text-decoration-color:#DC4B39;text-decoration-thickness: 2px;padding-top: 5px;padding-bottom: 5px;}
+nav a:hover {background-color: #4C4C4C;color:white;height: 100%;margin-bottom: 0;}
+
+button {background: linear-gradient(to bottom,#4d90fe, #4787ed); background-color: #4d90fe; border: 1px solid #3079ED; color: white; font-weight: bold; font-size: 11px; height: 29px; line-height: 29px; min-width: 54px; padding: 0 8px; border-radius: 2px;}
+button:hover {background: linear-gradient(to bottom,#4d90fe, #357ae8); border: 1px solid #2f5bb7;}
+button:active {background: linear-gradient(to bottom,#357ae8, #4d90fe); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);}
+button:disabled {color:grey}
+div, img.prev {border-radius:3px}
+img.prev {width:150px;border:solid 1px black;margin:3px;margin-top:0px}
+img.prev:hover {box-shadow: 0px 0px 11px 4px #4787ed;cursor:pointer}
+img.prev:active {box-shadow:none}
+
+
+div {margin:auto;width:35%;box-sizing: border-box;padding: 6px;margin-top:10px;margin-bottom:10px;border-color:#4F4E4F; border-width:1px;overflow:hidden;border-style:solid;}
+div.dir {padding: 0;border-style: solid;}
+div.dir img {width:100%}
+a div:hover {box-shadow: 0px 0px 11px 4px #4787ed}
+a div:active {box-shadow:none}
+a div:hover header {color:#4787ed}
+
+
+div#prod {width: 100%;display:none}
+::selection {background: #4d90fe}
+#prod-images {display: block}
+img.i {background: linear-gradient(to bottom,#4d90fe, #4787ed); background-color: #4d90fe; border: 1px solid #3079ED; border-radius: 2px;}
+img.i:hover {background: linear-gradient(to bottom,#4d90fe, #357ae8); border: 1px solid #2f5bb7;}
+img.i:active {background: linear-gradient(to bottom,#357ae8, #4d90fe); box-shadow: inset 0 1px 2px #00000033;}
+mark {color:green}
+.g-level {background-image: url(meta/level-google-1.png);background-size: 150px;background-repeat: no-repeat;background-position:top;padding-top: 30px;font-family: monospace;font-size: 110%;}
+
+
+/*Single*/
+@media (max-width: 768px) {body.doc div {width: 95%}}
+/* Multiple*/
+
+body.browse div {width: 95%;}
+@media (min-width: 769px) and (max-width: 1024px) {body.browse div {width: 48%; display: inline-block; margin: 1%;}}
+@media (min-width: 1025px) {body.browse div {width: 30%; display: inline-block; margin: 1%;}}

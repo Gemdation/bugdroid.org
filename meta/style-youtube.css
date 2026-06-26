@@ -1,7 +1,7 @@
-header {text-align:center;background:linear-gradient(to bottom, #505050, #000000);border-bottom:solid 1px grey}
+header {text-align:center;background:linear-gradient(to bottom,#505050, #000000);border-bottom:solid 1px grey}
 header.buttons {border-bottom:none}
 
-button, img.i {color:white;background:linear-gradient(to bottom, #505050, #101010);outline:solid 1px #4F4E4F;border-radius:5px}
+button, img.i {color:white;background:linear-gradient(to bottom,#505050, #101010);outline:solid 1px #4F4E4F;border-radius:5px}
 button:disabled {color:grey}
 
 div.box, div.board img, img.d {border-radius:5px}
@@ -9,6 +9,7 @@ div.individual div.box#Gallery header {background:black}
 div.board img {border:solid 3px black;outline: solid 1px #4F4E4F}
 div.board img:hover {outline:solid 1px #E99D00}
 div.board img:active {border:solid 3px #E99D00}
+a:focus-visible img {outline:solid 1px #EC6100}
 
 a, mark, nav a:hover {color:#CE3732}
 h2 {margin-left:10px}

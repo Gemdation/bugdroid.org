@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  background: linear-gradient(to bottom, #9c9c9c, #878787);
+  background: linear-gradient(to bottom,#9c9c9c, #878787);
   width: 100%;
   padding: 2px;
   text-align: left;
@@ -32,7 +32,7 @@ header {
   }
 
 button {
-  background: linear-gradient(to bottom, #f1f1f1, #b8b8b8);
+  background: linear-gradient(to bottom,#f1f1f1, #b8b8b8);
   padding: 5px;
   color: black;
   padding: 9px;
@@ -40,8 +40,8 @@ button {
   border:none;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-button:active {background: linear-gradient(to bottom, #ff9e00, #fba622);}
-button.open {cursor: not-allowed;background: linear-gradient(to bottom, #535353, #636363);}
+button:active {background: linear-gradient(to bottom,#ff9e00, #fba622);}
+button.open {cursor: not-allowed;background: linear-gradient(to bottom,#535353, #636363);}
 
 div {    
   box-sizing: border-box;

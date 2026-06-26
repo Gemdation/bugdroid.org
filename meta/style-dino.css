@@ -10,8 +10,9 @@ button:active, img.i:active {background:#464646}
 button:disabled {color:#ACACAC}
 
 div.board img {border:solid 3px #ACACAC;outline:solid 1px black}
-div.board img:hover, img.i:hover {outline:solid 1px #E99D00}
+div.board img:hover {outline:solid 1px #E99D00}
 div.board img:active {border:solid 3px #E99D00}
+a:focus-visible img {outline:solid 1px #EC6100}
 
 a, mark, nav a:hover {color:#929292}
 h2 {font-size:2em;margin-left:10px}
