@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Droid Maker</title>
+    <meta name="description" content="For a limited time, there was a modern Bugdroid maker to use on Android.com. **Interactive.**">
+    <meta name="theme-color" content="#A4C639">
+    <meta name="keywords" content="blog, Droid, Android, collection, archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Droid Maker">
+    <meta property="og:description" content="For a limited time, there was a modern Bugdroid maker to use on Android.com. **Interactive.**">
+    <meta property="og:url" content="https://bugdroid.org/pages/droid-maker">
+    <meta property="og:image" content="https://bugdroid.org/media/droidmaker/A04.png">
+    <meta property="og:image:alt" content="Modern green Bugdroid">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Bugdroid.org">
+    <link rel="stylesheet" href="/meta/style-droid.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+        div.box button {background:none;color:grey;font-weight:bold;padding:0;border-bottom:solid 2px grey;font-size:medium;cursor:pointer;}
+        div.box button:focus-visible {border-bottom:solid 2px #EC6100}
+        div.box button:hover {border-bottom:solid 2px #E99D00}
+        div.box button:disabled {color:#A4C639;border-bottom:solid 2px #A4C639;cursor:default;}
+        div#preview-container {position: relative;width: 100%;max-width: 400px;margin: 0 auto;aspect-ratio:1 / 1;border: solid 1px grey;background:white;}
+        div#preview-container img {position:absolute;top:0;left:0;width:100%;height:100%;display:block;object-fit: contain}
+        div#items a {display:inline-block;margin:3px;outline:none;}
+        div#items img {height:90px;border:solid 2px grey;cursor:pointer;display:block;}
+        div#items a:hover img {border:solid 2px #E99D00}
+        div#items a:focus-visible img {border:solid 2px #EC6100}
+        div#items a.selected img {border-color:#A4C639}
+        div#items img {background:white}
+        img#layer-base {z-index:1} img#layer-clothes {z-index:2} img#layer-headwear {z-index:3} img#layer-accessory {z-index:4}
+    </style>
+</head>
+<body>
+
+<nav><header><a href="/">bugdroid.org</a>/<a href="../pages/">pages</a>/droid-maker</header></nav>
+
+<div class="row">
+    <article>
+        <h1>Droid Maker</h1>
+        <p>The "Create your own Android Bot" page was a Bugdroid dress-up tool. It used transparent images to overlay accessories onto a Bugdroid with the option to download the final creation as well.</p>
+        <p>Lucky me, I saved all of the source images it used so it could be remade once again in case Google shipped it to the graveyard. Below is a working modern Bugdroid maker!</p>
+    </article>
+
+    <div id="preview-container">
+        <img id="layer-base" src="../media/droidmaker/A04.png" alt="">
+        <img id="layer-clothes" src="" alt="" style="display:none">
+        <img id="layer-headwear" src="" alt="" style="display:none">
+        <img id="layer-accessory" src="" alt="" style="display:none">
+    </div>
+
+    <p><button id="save-droid">Download</button></p>
+
+    <div class="box">
+        <p>
+            <button class="avatar-tab" data-target="base" disabled>Base</button> 
+            <button class="avatar-tab" data-target="clothes">Clothes</button> 
+            <button class="avatar-tab" data-target="headwear">Headwear</button> 
+            <button class="avatar-tab" data-target="accessory">Accessory</button>
+        </p>
+        <div id="items">
+            <div id="base" class="tab-items">
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A01.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A02.png" alt=""></a>
+                <a href="javascript:void(0)" class="selected"><img src="../media/droidmaker/A03.png" alt=""></a> 
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A04.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A05.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A06.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A07.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A08.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A09.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A10.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A11.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A12.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A13.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A14.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A15.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A16.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A17.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A18.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A19.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A20.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A21.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A22.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A23.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A24.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A25.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A26.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A27.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A28.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/A29.png" alt=""></a>
+            </div>
+
+            <div id="clothes" class="tab-items" style="display:none">
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B01.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B02.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B03.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B04.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B05.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B06.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B07.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B08.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B09.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B10.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B11.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B12.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B13.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B14.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B15.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B16.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B17.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B18.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B19.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B20.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B21.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B22.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B23.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B24.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B25.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B26.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B27.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B28.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/B29.png" alt=""></a>
+            </div>
+
+            <div id="headwear" class="tab-items" style="display:none">
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C01.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C02.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C03.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C04.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C05.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C06.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C07.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C08.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C09.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C10.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C11.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C12.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C13.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C14.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C15.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C16.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C17.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C18.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C19.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C20.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C21.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C22.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C23.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C24.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C25.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C26.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C27.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C28.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/C29.png" alt=""></a>
+            </div>
+
+            <div id="accessory" class="tab-items" style="display:none">
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D01.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D02.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D03.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D04.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D05.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D06.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D07.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D08.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D09.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D10.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D11.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D12.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D13.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D14.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D15.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D16.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D17.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D18.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D19.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D20.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D21.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D22.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D23.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D24.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D25.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D26.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D27.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D28.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D29.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../media/droidmaker/D30.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+const tabs = document.querySelectorAll('.avatar-tab');
+const contents = document.querySelectorAll('.tab-items');
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        tabs.forEach(t => t.removeAttribute('disabled'));
+        tab.setAttribute('disabled', 'true');
+
+        const target = tab.getAttribute('data-target');
+        contents.forEach(content => {
+            if (content.id === target) {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        });
+    });
+});
+
+const layers = {
+    base: document.getElementById('layer-base'),
+    clothes: document.getElementById('layer-clothes'),
+    headwear: document.getElementById('layer-headwear'),
+    accessory: document.getElementById('layer-accessory')
+};
+
+const itemsContainer = document.getElementById('items');
+const baseAnchors = document.querySelectorAll('#base a');
+baseAnchors.forEach(a => a.classList.remove('selected'));
+if(baseAnchors[3]) baseAnchors[3].classList.add('selected');
+
+itemsContainer.addEventListener('click', (e) => {
+    const targetAnchor = e.target.closest('a');
+    if (!targetAnchor || !itemsContainer.contains(targetAnchor)) return;
+
+    const selectedImg = targetAnchor.querySelector('img');
+    const categoryDiv = targetAnchor.parentElement;
+    const categoryId = categoryDiv.id;
+    const targetLayer = layers[categoryId];
+
+    if (targetAnchor.classList.contains('selected')) {
+        if (categoryId !== 'base') {
+            targetAnchor.classList.remove('selected');
+            targetLayer.src = "";
+            targetLayer.style.display = "none";
+        }
+    } else {
+        categoryDiv.querySelectorAll('a').forEach(a => a.classList.remove('selected'));
+        targetAnchor.classList.add('selected');
+        targetLayer.src = selectedImg.src;
+        targetLayer.style.display = "block";
+    }
+});
+
+document.getElementById('save-droid').addEventListener('click', () => {
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+
+    canvas.width = 500;
+    canvas.height = 500;
+
+    ctx.fillStyle = '#FFFFFF';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    const layersOrder = [layers.base, layers.clothes, layers.headwear, layers.accessory];
+    const loadedImages = [];
+
+    layersOrder.forEach(layer => {
+        if (layer && layer.style.display !== 'none' && layer.src && !layer.src.endsWith('blank.png')) {
+            loadedImages.push(layer);
+        }
+    });
+
+    let loadedCount = 0;
+    if(loadedImages.length === 0) return;
+
+    const drawCanvas = () => {
+        loadedImages.forEach(imgElement => {
+            const img = new Image();
+            img.src = imgElement.src;
+            img.onload = () => {
+                loadedCount++;
+                if (loadedCount === loadedImages.length) {
+                    loadedImages.forEach(elem => {
+                        const drawingImg = new Image();
+                        drawingImg.src = elem.src;
+                        ctx.drawImage(drawingImg, 0, 0, canvas.width, canvas.height);
+                    });
+
+                    const link = document.createElement('a');
+                    link.download = 'bugdroid.png';
+                    link.href = canvas.toDataURL('image/png');
+                    link.click();
+                }
+            };
+        });
+    };
+
+    drawCanvas();
+});
+</script>
+
+</body>
+</html>
