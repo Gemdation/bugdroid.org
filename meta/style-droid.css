@@ -77,10 +77,9 @@ div.individual div.texts header {background:#191919;color:#BEBEBE;border-bottom:
 div.individual div.box#Extras header {margin-bottom:10px}
 div.individual div.box#Extras img {width:150px}
 
-article {background:linear-gradient(#414141,#202020);border:solid 1px grey;border-radius:5px;text-align:center;margin:auto;margin-bottom:15px;width:100%;overflow:hidden;}
+article {box-sizing:border-box;padding:5px;background:linear-gradient(#414141,#202020);border:solid 1px grey;border-radius:5px;text-align:center;margin:auto;margin-bottom:15px;width:100%;overflow:hidden;}
 article img.wide, article video.wide {width:100%}
 article table {margin:auto}
-article p, img {padding-left:5px;padding-right:5px}
 
 summary {list-style-type:none;font-weight:bold;color:grey;cursor:pointer;user-select:none;}
 summary:focus-visible {outline:none;color:#EC6100}
