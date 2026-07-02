@@ -3,6 +3,7 @@ header.buttons {border-bottom:none}
 
 button, img.i {color:white;background:linear-gradient(to bottom,#505050, #101010);outline:solid 1px #4F4E4F;border-radius:5px}
 button:disabled {color:grey}
+div.drawer button, div.drawer div.box {border-bottom-left-radius:0;border-bottom-right-radius:0}
 
 div.box, div.board img, img.d {border-radius:5px}
 div.individual div.box#Gallery header {background:black}

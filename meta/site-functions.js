@@ -4,3 +4,7 @@ function showSlide(index) {slides.forEach((slide, i) => {slide.style.display = (
 function nextSlide() {currentSlide = (currentSlide + 1) % slides.length; showSlide(currentSlide);}
 function prevSlide() {currentSlide = (currentSlide - 1 + slides.length) % slides.length; showSlide(currentSlide);}
 showSlide(currentSlide);
+
+document.querySelector('.drawer button').addEventListener('click', () => {
+  document.querySelector('.drawer').classList.toggle('open');
+});
