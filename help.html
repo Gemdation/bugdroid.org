@@ -14,8 +14,9 @@
     <meta property="og:site_name" content="Bugdroid.org">
     <link rel="stylesheet" href="meta/style-droid.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <script src="/meta/site-functions.js" defer></script>
     <style>
-        details {font-style:normal;padding-right:5px}
+        details {font-style:normal}
         summary {font-weight:normal;background: linear-gradient(to bottom,#F1F1F1, #B8B8B8);padding:9px;color:black;}
         summary:active {background: linear-gradient(to bottom,#ffd554, #E99D00);}
         summary:focus-visible {background:linear-gradient(to bottom,#FFB769, #EC6100);color:black}
@@ -54,11 +55,44 @@
             downloaded at original quality.</p>
         </details>
 
+        <h2>Terminology</h2>
+        <details>
+            <summary>What is official?</summary>
+            <p>As Google is where Bugdroid originated, I consider it the be the official company of it. Google Merch Shop and Dead Zebra Shop are examples of official products.</p>
+            <p>Though "not official" should rarely be used as the design is placed under CC BY, allowing any company like FRIC or Canary Marketing to make their own Bugdroid merchandise.</p>
+            <p>The only time I would say "bootleg" is when companies try to deliberately clone merchandise. For example, Dead Zebra's Android figurines are a hot spot for fakes.</p>
+        </details>
+        <details>
+            <summary>The robot is called "Bugdroid" or "Android"?</summary>
+            <p>In Android's licensing pages, it is referred to as <a href="https://developer.android.com/distribute/marketing-tools/brand-guidelines#android_robot">"Android bot"</a>,
+            In Google's 2023 rebrand blog, it was called <a href="https://blog.google/products/android/modern-look/">"bugdroid"</a>. Sometimes people say "Andy" or simply "Android".
+            In Google's CES 2024 blog, it was called <a href="https://blog.google/products/android/google-ces-2024-android-experience/">"The Bot"</a>.</p>
+            <p>It is kinda all over the place. <img src="/meta/emote-4.0-surprised.png" class="emo" alt=""> For simplicity, "bugdroid" is used for the robot.</p>
+        </details>
+        <details id="droids">
+            <summary>Why are some Bugdroids referred to differently?</summary>
+            <img src="meta/subpage-renders.svg" width="100%">
+            <p>Here is the <b>Renders</b> page thumbnail for example. From left to right:</p>
+            <ul>
+                <li><b>"classic"</b> is the original 2008 mascot.</li>
+                <li><b>"new classic"</b> is the refreshed 2014 mascot.</li>
+                <li><b>"iconic"</b> is the vibrant 2019 mascot.</li>
+                <li><b>"modern"</b> is the latest 2023 mascot.</li>
+            </ul>
+            <p>"Iconic" was a name often given to Android merchandise with the 2019 branding, so I went with that.
+            The 2023 mascot is often in 3D but is using its 2D variant here for continuity.</p>
+        </details>
+
         <h2>Website</h2>
+        <details>
+            <summary>Is this a store?</summary>
+            <p>It is not. This is an archive of merchandise imagery mostly. Sometimes you will find a product that is still
+            up for sale, the <b>View page</b> that will link to its store page.</p>
+        </details>
         <details>
             <summary>What are those emojis?</summary>
             <p>These Bugdroid emojis were used in Android until 4.4, replaced by the Blobs. <b>1.5</b> came first as a <a href="https://android.stackexchange.com/questions/26535/where-can-i-find-a-list-of-the-default-emoticons-on-ice-cream-sandwich">emoticon-masking</a> icons.
-               When 4.0 released, a new set of icons were added but 1.5's set was not deleted, rather delgated as the LDPI with the new ones being HDPI. In 4.1, emojis were added and 4.3 was the last to use Bugdroid emojis.</p>
+               When 4.0 released, a new set of icons were added but 1.5's set was not deleted, rather delegated as the LDPI with the new ones being HDPI. In 4.1, emojis were added and 4.3 was the last to use Bugdroid emojis.</p>
             <p><b>4.3</b>
             <img src="/meta/emote-4.3-angry-pout.png" class="emo" alt="">
             <img src="/meta/emote-4.3-angry-puff.png" class="emo" alt="">
@@ -157,54 +191,19 @@
             </ul>
         </details>
         <details>
-            <summary>Is this a store?</summary>
-            <p>It is not. This is an archive of merchandise imagery mostly. Sometimes you will find a product that is still
-            up for sale, the <b>View page</b> that will link to its store page.</p>
-        </details>
-        <details>
             <summary>Can I mass download media?</summary>
             <p>Sure can! It's not my server being used to host anyway so... <img src="/meta/emote-4.0-tongueout.png" class="emo" alt=""></p>
-            <p>Check out the <a href="media/"><b>media/</b></a> and <a href="meta/"><b>meta/</b></a> folders for anything you need.</p>
-        </details>
-        <details id="droids">
-            <summary>Why are some Bugdroids referred to differently?</summary>
-            <img src="meta/subpage-renders.svg" width="100%">
-            <p>Here is the <b>Renders</b> page thumbnail for example. From left to right:</p>
-            <ul>
-                <li><b>"classic"</b> is the original 2008 mascot.</li>
-                <li><b>"new classic"</b> is the refreshed 2014 mascot.</li>
-                <li><b>"iconic"</b> is the vibrant 2019 mascot.</li>
-                <li><b>"modern"</b> is the latest 2023 mascot.</li>
-            </ul>
-            <p>"Iconic" was a name often given to Android merchandise with the 2019 branding, so I went with that.
-            The 2023 mascot is often in 3D but is using its 2D variant here for continuity.</p>
+            <p>I recommend going to the <a href="https://github.com/Gemdation/bugdroid.org/"><b>bugdroid.org repository</b></a> for media as the GitHub Pages API caps directory indexes at 1,000 entries, as seen in <a href="/media/products/">/media/products/</a> </p>
         </details>
         <details>
-            <summary>What are the extra web buttons for?</summary>
+            <summary>What are the extra buttons for?</summary>
             <p>Without creating an entire site, I wanted to archive all other Google merchandise merchandise easily.
             It is done so here for all the Googlers. <img src="/meta/emote-4.0-heart.png" class="emo" alt=""></p>
         </details>
         <details>
-            <summary>I have suggestion or fix for the website.</summary>
-            <p>On GitHub, go to my <a href="https://github.com/Gemdation/bugdroid.org/"><b>bugdroid.org</b></a> repository,
-            you can open an Issue ticket there. <img src="/meta/emote-4.0-happy.png" class="emo" alt=""></p>
+            <summary>Can I report something wrong? or can I offer a suggestion?</summary>
+            <p>You can mention any page in the repository's <a href="https://github.com/Gemdation/bugdroid.org/issues"><b>Issues</b></a> on GitHub. Those that aren't on GitHub can reach me at <a href="mailto:gem@techie.com"><b>gem@techie.com</b></a>.</p>
         </details>
-        <h2>Terminology</h2>
-        <details>
-            <summary>The robot is called "Bugdroid" or "Android"?</summary>
-            <p>In Android's licensing pages, it is referred to as <a href="https://developer.android.com/distribute/marketing-tools/brand-guidelines#android_robot">"Android bot"</a>,
-            In Google's 2023 rebrand blog, it was called <a href="https://blog.google/products/android/modern-look/">"bugdroid"</a>. Sometimes people say "Andy" or simply "Android".
-            In Google's CES 2024 blog, it was called <a href="https://blog.google/products/android/google-ces-2024-android-experience/">"The Bot"</a>.</p>
-            <p>It is kinda all over the place. <img src="/meta/emote-4.0-surprised.png" class="emo" alt=""> For simplicity, "bugdroid" is used for the robot.</p>
-        </details>
-        <details>
-            <summary>What is official?</summary>
-            <p>As Google is where Bugdroid originated, I consider it the be the official company of it. Google Merch Shop and Dead Zebra Shop are examples of official products.</p>
-            <p>Though "not official" should rarely be used as the design is placed under CC BY, allowing any company like FRIC or Canary Marketing to make their own Bugdroid merchandise.</p>
-            <p>The only time I would say "bootleg" is when companies try to deliberatly clone merchandise. For example, Dead Zebra's Android figurines are a hot spot for fakes.</p>
-        </details>
-        <hr>
-        <p>For something not on here, go to the <a href="https://github.com/Gemdation/bugdroid.org/"><b>GitHub repository</b></a> or get to me directly at <a href="mailto:gem.html@gmail.com"><b>gem.html@gmail.com</b></a>.</p>
     </article>
 </div>
 
