@@ -88,7 +88,7 @@ article {box-sizing:border-box;padding:5px;background:linear-gradient(#414141,#2
 article img.wide, article video.wide {width:100%}
 article table {margin:auto}
 
-summary {list-style-type:none;font-weight:bold;color:grey;cursor:pointer;user-select:none;}
+summary {list-style-type:none;font-weight:bold;color:grey;cursor:pointer;user-select:none}
 summary:focus-visible {outline:none;color:#EC6100}
 details {text-align:center;padding-top:0;padding-bottom:8px;font-style:italic}
 details li {list-style-type:disc;list-style-position:inside;text-align:left}
