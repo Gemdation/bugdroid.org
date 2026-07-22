@@ -4,7 +4,7 @@ Bugdroid.org is a collection of (primarily) merchandise, fan games, wallpapers, 
 
 ### Content
 
-Merchandise is the most observed content for this site. Following that is animated videos, video games, and a small amount of imagery. No media is hotlinked for perservation pruposes, attribution is given towards companies and creators.
+Merchandise is the most observed content for this site. Following that is animated videos, video games, and a small amount of imagery. No media is hotlinked for preservation purposes, attribution is given towards companies and creators.
 
 Sources have been Google Merch Shop, Dead Zebra Shop, Android Foundry, AllVinyls, FRIC, Mercari, eBay, Facebook, [r/AndroidCollectible](https://www.reddit.com/r/AndroidCollectible/) on Reddit. Mercari, eBay, and Facebook are primarily user-generated, so I don't put down each source as it is not official.
 
