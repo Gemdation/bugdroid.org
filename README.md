@@ -13,6 +13,3 @@ The bonus 'xtra archives include Chrome Dino, Gemini, and YouTube merchandise ar
 ### Interface
 
 The website's main interface is based on directories based around products (bags, cups, etc.), items that aren't fitting in go to `/accessories`. The other interface is for viewing article texts.
-
-
-© 2026 Manuel

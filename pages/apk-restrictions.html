@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>APK Restrictions</title>
+    <meta name="description" content="If you are on this website, you are very likely familiar with Android already, and have heard about Google's new APK restrictions. But I'll summarize it, just in case.">
+    <meta name="theme-color" content="#A4C639">
+    <meta name="keywords" content="blog, Droid, Android, collection, archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="APK Restrictions">
+    <meta property="og:description" content="If you are on this website, you are very likely familiar with Android already, and have heard about Google's new APK restrictions. But I'll summarize it, just in case.">
+    <meta property="og:url" content="https://bugdroid.org/pages/apk-restrictions">
+    <meta property="og:image" content="https://bugdroid.org/media/pages/apk-restrictions-icon.png">
+    <meta property="og:image:alt" content="Android package icon with multiple tear drops on it">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="800">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Bugdroid.org">
+    <link rel="stylesheet" href="/meta/style-droid.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <script src="/meta/site-functions.js" defer></script>
+    <style>dd {color:#969696} ul {text-align:left;list-style:disc;padding-left:20px}</style>
+</head>
+<body>
+
+<nav><header><a href="/">bugdroid.org</a>/<a href="../pages/">pages</a>/apk-restrictions</header></nav>
+
+<div class="row">
+    <article>
+        <h1>APK Restrictions</h1>
+        <img src="../media/pages/apk-restrictions-1.svg" style="width:75%">
+        <p>If you are on this website, you are very likely familiar with Android already, and have heard about Google's new APK restrictions. But I'll summarize it, just in case.</p>
+        <h2>New 2027 Install Process</h2>
+        <p>The restrictions are based on the package's developer, specifically their verified status with Google. Here is how the package process is, both for users and developers.</p>
+            <ul>
+                <li><b>Verified:</b> Simply install. You may still need to enable APK installing for your file explorer or web browser.</li>
+                    <dd>Developer needs to be verified, they pay a fee and may need to verify with identification. They do not need to publish the app on Google Play.</dd>
+                <li><b>Limited Distribution:</b> Get in contact with the developer to use one of the 20 spots available. </li>
+                    <dd>Developer does not need to verify an ID, or pay a fee. They setup a limited distributed app for users.</dd>
+                <li><b>Unverified:</b> Go through the <i>Advanced Flow</i> or head to <i>Bypass</i>.</li>
+                    <dd>By default, every app is unverified, even if it was previously signed. (e.g. App that was rebuilt with the APK Editor, patched with Morphe, etc.)</dd>
+            </ul>
+            <h3>Advanced Flow</h3>
+            <p>In order to combat worldwide mobile scam issues, Google has deliberately made APK installing a day-long process.</p>
+            <ul>
+                <li>User confirms no one is guiding them to install the APK.</li>
+                <li>Restart the smartphone.</li>
+                    <dd>The purpose of this is said to be to disconnect any scammer from a potential victim.</dd>
+                <li>The 24 hour timer begins.</li>
+                    <dd>The purpose of this is to waste time if the scammer is still on the line. The potential victim might see through false urgency.</dd>
+                <li>Continue to enable, and have a final verification via screen lock.</li>
+                <li>Make a choice to have APK options available for just a week, or permanently.</li>
+            </ul>
+            <h3>Bypass</h3>
+            <img src="../media/pages/apk-restrictions-2.svg" style="width:75%">
+            <p>Due to Android's open nature, you can bypass this fairly easily. Though I'd personally wait, but you can either use ADB or Shizuku to install APKs.</p>
+            <p>I don't have any guides to make, and I probably won't make one until 2027. You can find guides about ADB and Shizuku online.</p>
+
+        <h2>Issues</h2>
+        <p>As you may have already noticed, public reception to the <i>Advanced Flow</i> was very negative. I particularly have an issue with it here because of Bugdroid.org's <a href="../games/">older game library</a>, I doubt most of the games are going to be considered verified.</p>
+        <p>Part of this is the unprecedented requirement for IDs across Internet platform. And alongside that, Google has already started to tone down the release of AOSP, only during Q2 and Q4 (meaning April/May/June and October/November/December), which came across as Google 'closing' the AOSP.
+           It was disputed, thankfully, though Google has also gotten into some problems with <a href="https://www.androidauthority.com/google-not-killing-aosp-3566882/">"Cuttlefish"</a>. I did not look into anything else beside the new APK install process, so I can't tell much about it.</p>
+        <p>I do dislike the warrant for IDs in software seen in the 2020s. Though it was pretty warranted to shield potential scam victims from APK traps, just wished they took off the 24 hour timer, I bet most people would not have a problem with it.</p>
+    </article>
+</div>
+
+<div class="drawer">
+    <button>Comments</button>
+    <div class="box" id="comments">
+        <header>Comments</header>
+        <div class="giscus">
+        <script src="https://giscus.app/client.js"
+                data-repo="Gemdation/bugdroid.org"
+                data-repo-id="R_kgDONJ_bXw"
+                data-category="Comments"
+                data-category-id="DIC_kwDONJ_bX84DAS2o"
+                data-mapping="pathname"
+                data-strict="1"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="noborder_gray"
+                data-lang="en"
+                data-loading="lazy"
+                crossorigin="anonymous"
+                async>
+        </script>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

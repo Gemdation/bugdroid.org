@@ -21,7 +21,7 @@ div.browse div.box a {color:white}
 div.browse div.box:hover {border:solid 1px #E99D00}
 div.browse div.box:focus-visible {border:solid 1px #EC6100}
 div.browse div.box:hover header {color:#A4C639}
-div.browse div.box:active {background:linear-gradient(to bottom,#FFD554, #E99D00);color:black}
+div.browse div.box:active div.contents {background:linear-gradient(to bottom,#FFD554, #E99D00);color:black}
 div.browse div.box a:focus-visible div.contents {background:linear-gradient(to bottom,#FFB769, #EC6100);color:black}
 div.browse div.box:active span.year, div.box a:active span.price, div.box a:active p, a:focus-visible span.price, a:focus-visible span.year {color:black}
 
