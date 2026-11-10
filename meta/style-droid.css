@@ -102,7 +102,7 @@ footer a:focus-visible {color:#EC6100}
 figcaption {padding-top:10px;font-style:normal}
 mark {color:#FFE600;background-color:#00000000;font-weight:bold}
 mark.red {color:#DF2D2D}
-::selection {background:#A5C639;color:white}
+::selection {background:#A5C639;color:black}
 
 span.artist, span.year, h3, footer, .hide {color:grey}
 span.price, mark.green {color:#A4C639}
