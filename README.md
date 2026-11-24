@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **Files on this repository may be outdated.** As of November 11, 2026, I've moved the hosting from GitHub Pages to NameCheap Stellar due to the rising file sizes of this website, even GitHub Pages builds were starting to slow down.  
+> 
+> Moving wasn't all that bad, I don't have to deal with GitHub's rate limits on [file directory indexes](https://bugdroid.org/media/products/) anymore, and I'll be able to have my own comment section. Speaking of that, Giscus will be going away soon as well.
+
+
 # [Bugdroid.org](https://bugdroid.org)
 
 Bugdroid.org is a collection of (primarily) merchandise, fan games, wallpapers, and videos involving Bugdroid, mascot of Android. It is edited in Visual Studio Code and hosted using [GitHub Pages](https://pages.github.com/). The website is themed after early Android UI and contains a hint of humor, but only a hint!
