@@ -1,7 +1,7 @@
 > [!IMPORTANT]
-> **Files on this repository may be outdated.** As of November 11, 2026, I've moved the hosting from GitHub Pages to NameCheap Stellar due to the rising file sizes of this website, even GitHub Pages builds were starting to slow down.  
+> As of November 11, 2026, **I've moved the hosting from GitHub Pages to NameCheap Stellar** due to the rising file sizes of this website, even GitHub Pages builds were starting to slow down. Everything has now been set at the new Stellar server as of November 25, 2026. Thanks to everyone who left a star, submitted an issue, or made a comment on this repository.
 > 
-> Moving wasn't all that bad, I don't have to deal with GitHub's rate limits on [file directory indexes](https://bugdroid.org/media/products/) anymore, and I'll be able to have my own comment section. Speaking of that, Giscus will be going away soon as well.
+> **This repository will be archived to freeze activity where it is now. For newer issues and bugs, please leave a message on a page's comment section or email me at gemdation@bugdroid.org.**
 
 
 # [Bugdroid.org](https://bugdroid.org)
